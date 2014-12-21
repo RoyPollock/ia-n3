@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/dependency/* Main
+web: vendor/bin/heroku-php-apache2 src/main/webapp
