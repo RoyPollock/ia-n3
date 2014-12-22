@@ -484,6 +484,7 @@
    "AutoMediKit",
    "CH: Camouflage",
    "Infiltration",
+   "Multiterrain",
    "Shasvastii"
   ],
   "ccw": [
@@ -523,7 +524,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "38",
+    "cost": "31",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -536,7 +537,7 @@
    },
    {
     "code": "Shotgun",
-    "cost": "24",
+    "cost": "23",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -566,13 +567,13 @@
    },
    {
     "code": "Hacker",
-    "cost": "36",
+    "cost": "30",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
     "spec": [
      "Hacker",
-     "Hacking Device"
+     "EI Assault Hacking Device"
     ],
     "bsw": [
      "Combi Rifle",
@@ -583,7 +584,7 @@
    },
    {
     "code": "Observer",
-    "cost": "27",
+    "cost": "25",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -609,7 +610,7 @@
    "280617-0133",
    "280648-0355"
   ],
-  "bts": "0",
+  "bts": "3",
   "isc": "Malignos",
   "name": "Malignos",
   "bs": "12",
@@ -627,6 +628,7 @@
    "AutoMediKit",
    "CH: TO Camouflage",
    "Infiltration",
+   "Multiterrain",
    "Shasvastii"
   ],
   "ccw": [
@@ -636,28 +638,26 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "37",
+    "cost": "35",
     "codename": "Combi",
     "swc": "0",
     "cbcode": [],
     "spec": [],
     "bsw": [
      "Antipersonnel Mines",
-     "Combi Rifle",
-     "Light Shotgun"
+     "Combi Rifle"
     ],
     "ccw": [],
     "note": ""
    },
    {
     "code": "Sniper",
-    "cost": "47",
+    "cost": "42",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Antipersonnel Mines",
      "MULTI Sniper Rifle"
     ],
     "ccw": [],
@@ -665,7 +665,7 @@
    },
    {
     "code": "Monofilament",
-    "cost": "43",
+    "cost": "38",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -673,7 +673,6 @@
     ],
     "bsw": [
      "Combi Rifle",
-     "Light Shotgun",
      "Monofilament Mines"
     ],
     "ccw": [],
@@ -681,7 +680,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "37",
+    "cost": "35",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -690,33 +689,31 @@
     ],
     "bsw": [
      "Antipersonnel Mines",
-     "Combi Rifle",
-     "Light Shotgun"
+     "Combi Rifle"
     ],
     "ccw": [],
     "note": ""
    },
    {
     "code": "Hacker",
-    "cost": "49",
+    "cost": "41",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
     "spec": [
      "Hacker",
-     "Hacking Device"
+     "EI Assault Hacking Device"
     ],
     "bsw": [
      "Antipersonnel Mines",
-     "Combi Rifle",
-     "Light Shotgun"
+     "Combi Rifle"
     ],
     "ccw": [],
     "note": ""
    },
    {
     "code": "Observer",
-    "cost": "40",
+    "cost": "36",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -725,8 +722,7 @@
     ],
     "bsw": [
      "Antipersonnel Mines",
-     "Combi Rifle",
-     "Light Shotgun"
+     "Combi Rifle"
     ],
     "ccw": [],
     "note": ""
@@ -750,34 +746,47 @@
   "cube": "X",
   "type": "SK",
   "ph": "12",
-  "cc": "17",
+  "cc": "20",
   "arm": "1",
   "irr": "",
   "w": "1",
   "ava": "1",
   "bsw": [
-   "Combi Rifle",
    "Smoke Grenades"
   ],
   "spec": [
    "AutoMediKit",
    "Impersonation Plus",
    "Martial Arts L3",
+   "Kinematika L1",
+   "Multiterrain",
    "Shasvastii"
   ],
   "ccw": [
    "Monofilament CCW",
-   "Pistol"
+   "Pistol",
+   "Knife"
   ],
   "childs": [
    {
     "code": "Default",
-    "cost": "39",
+    "cost": "35",
     "codename": "",
     "swc": "1",
     "cbcode": [],
     "spec": [],
-    "bsw": [],
+    "bsw": ["Combi Rifle"],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "34",
+    "codename": "",
+    "swc": "1",
+    "cbcode": [],
+    "spec": [],
+    "bsw": ["Boarding Shotgun"],
     "ccw": [],
     "note": ""
    }
