@@ -61,7 +61,7 @@
 	}
 
 	utils.getAbsoluteBasePath=function(){
-		return window.location.hostname=='localhost'?utils.getBasePath():'http://anyplace.it/ia/';
+		return window.location.hostname=='localhost'?utils.getBasePath():'http://ia-n3.herokuapp.com/';
 	}
 
 	utils.cleanName=function(origName){
@@ -236,7 +236,7 @@
 	};
 
 	utils.wrapStorage=function(storage){
-		var confingNs='it.anyplace.ia.';
+		var confingNs='it-n3.herokuapp.com';
 		var storageWrapper={},valueConfig={};
 		storageWrapper.configure=function(key,thisConfig){
 			valueConfig[key]=thisConfig;

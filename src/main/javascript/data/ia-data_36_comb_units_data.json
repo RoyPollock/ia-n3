@@ -183,7 +183,6 @@
   "w": "2",
   "ava": "1",
   "bsw": [
-   "Nanopulser"
   ],
   "spec": [
    "G: Mnemonica",
@@ -441,7 +440,6 @@
   ],
   "childs": [
    {
-    "code": "Lieutenant",
     "cost": "137",
     "codename": "",
     "swc": "3.5",
