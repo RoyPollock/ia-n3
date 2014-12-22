@@ -805,12 +805,12 @@
   "bts": "0",
   "isc": "Daturazi Witch-Soldiers",
   "name": "Daturazi",
-  "bs": "10",
+  "bs": "11",
   "note": "",
   "cube": "X",
   "type": "WB",
   "ph": "14",
-  "cc": "18",
+  "cc": "21",
   "arm": "1",
   "irr": "",
   "w": "1",
@@ -818,7 +818,7 @@
   "bsw": [],
   "spec": [
    "CH: Mimetism",
-   "Coma",
+   "Kinematika L4",
    "Martial Arts L4",
    "Morat"
   ],
@@ -828,7 +828,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "23",
+    "cost": "21",
     "codename": "Combi",
     "swc": "0",
     "cbcode": [],
@@ -843,26 +843,8 @@
     "note": ""
    },
    {
-    "code": "Lieutenant",
-    "cost": "23",
-    "codename": "",
-    "swc": "2",
-    "cbcode": [],
-    "spec": [
-     "Lieutenant"
-    ],
-    "bsw": [
-     "Combi Rifle",
-     "Smoke Grenades"
-    ],
-    "ccw": [
-     "Shock CCW"
-    ],
-    "note": ""
-   },
-   {
     "code": "AP CCW",
-    "cost": "23",
+    "cost": "21",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -877,8 +859,8 @@
     "note": ""
    },
    {
-    "code": "EXP CCW",
-    "cost": "25",
+    "code": "DA CCW",
+    "cost": "22",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -888,7 +870,7 @@
      "Smoke Grenades"
     ],
     "ccw": [
-     "EXP CCW"
+     "DA CCW"
     ],
     "note": ""
    },
@@ -901,16 +883,17 @@
     "spec": [],
     "bsw": [
      "Chain Rifle",
+     "Grenades",
      "Smoke Grenades"
     ],
     "ccw": [
-     "Shock CCW"
+     "AP CCW"
     ],
     "note": ""
    },
    {
     "code": "Shotgun",
-    "cost": "23",
+    "cost": "20",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -941,7 +924,7 @@
     "note": ""
    }
   ],
-  "imp": "X",
+  "imp": "XX",
   "functions": []
  },
  {
@@ -954,21 +937,21 @@
   "bts": "0",
   "isc": "The Hungries: \"Gakis\"",
   "name": "Gaki",
-  "bs": "5",
+  "bs": "9",
   "note": "",
   "cube": "",
   "type": "WB",
-  "ph": "13",
-  "cc": "17",
+  "ph": "14",
+  "cc": "19",
   "arm": "0",
   "irr": "X",
   "w": "1",
   "ava": "T",
   "bsw": [],
   "spec": [
-   "Explode",
-   "Poison",
-   "V: Dogged"
+   "Explode L1",
+   "Climbing Plus",
+   "Kinematika L1"
   ],
   "ccw": [
    "AP CCW"
@@ -976,7 +959,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "6",
+    "cost": "4",
     "codename": "AP CCW",
     "swc": "0",
     "cbcode": [],
@@ -986,25 +969,25 @@
     "note": ""
    }
   ],
-  "imp": "X",
+  "imp": "XX",
   "functions": []
  },
  {
   "mov": "6-6",
   "army": "Combined Army",
-  "wip": "13",
+  "wip": "12",
   "cbcode": [
    "280606-0079"
   ],
   "bts": "0",
   "isc": "The Hungries: \"Pretas\"",
   "name": "Preta",
-  "bs": "7",
+  "bs": "9",
   "note": "",
   "cube": "",
   "type": "WB",
-  "ph": "13",
-  "cc": "17",
+  "ph": "14",
+  "cc": "19",
   "arm": "0",
   "irr": "X",
   "w": "1",
@@ -1014,26 +997,27 @@
    "Chain Rifle"
   ],
   "spec": [
-   "Poison",
+   "Climbing Plus",
+   "Kinematika L1",
    "V: Dogged"
   ],
   "ccw": [
-   "CCW"
+   "AP CCW"
   ],
   "childs": [
    {
     "code": "Default",
-    "cost": "5",
+    "cost": "7",
     "codename": "Chain",
     "swc": "0",
     "cbcode": [],
     "spec": [],
-    "bsw": [],
+    "bsw": ["Chain Rifle"],
     "ccw": [],
     "note": ""
    }
   ],
-  "imp": "X",
+  "imp": "XX",
   "functions": []
  },
  {
@@ -1061,7 +1045,8 @@
   ],
   "spec": [
    "Doctor",
-   "Engineer"
+   "Engineer",
+   "MediKit"
   ],
   "ccw": [
    "D-Charges",
@@ -1091,28 +1076,30 @@
   "cbcode": [
    "280613-0105"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "M-Drone",
   "name": "M-Drone",
   "bs": "11",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
   "w": "1",
   "ava": "2",
   "bsw": [
-   "Combi Rifle"
+   "Combi Rifle", "Sniffer"
   ],
   "spec": [
    "Forward Observer",
    "G: Remote Presence",
    "Multiterrain",
    "Repeater",
-   "Sensor"
+   "Sensor",
+   "Sat-lock",
+   "Deactivator"
   ],
   "ccw": [
    "Electric Pulse"
@@ -1120,7 +1107,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "23",
+    "cost": "17",
     "codename": "Combi",
     "swc": "0",
     "cbcode": [],
@@ -1140,14 +1127,14 @@
   "cbcode": [
    "280613-0105"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Q-Drone",
   "name": "Q-Drone",
   "bs": "11",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
@@ -1158,7 +1145,6 @@
    "360° Visor",
    "CH: Mimetism",
    "G: Remote Presence",
-   "Repeater",
    "Total Reaction"
   ],
   "ccw": [
@@ -1167,13 +1153,12 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "29",
+    "cost": "26",
     "codename": "HMG",
     "swc": "1",
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Antipersonnel Mines",
      "HMG"
     ],
     "ccw": [],
@@ -1181,29 +1166,13 @@
    },
    {
     "code": "Plasma",
-    "cost": "30",
+    "cost": "25",
     "codename": "Plasma",
     "swc": "1",
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Antipersonnel Mines",
      "Plasma Rifle"
-    ],
-    "ccw": [],
-    "note": ""
-   },
-   {
-    "code": "Monofilament",
-    "cost": "35",
-    "codename": "Mono",
-    "swc": "1",
-    "cbcode": [],
-    "spec": [
-    ],
-    "bsw": [
-     "HMG",
-     "Monofilament Mines"
     ],
     "ccw": [],
     "note": ""
@@ -1219,21 +1188,21 @@
   "cbcode": [
    "280613-0105"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "T-Drone",
   "name": "T-Drone",
   "bs": "11",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
   "w": "1",
-  "ava": "2",
+  "ava": "1",
   "bsw": [
-   "Guided Missile Launcher"
+   "Smart Missile Launcher"
   ],
   "spec": [
    "G: Remote Presence"
@@ -1244,9 +1213,9 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "34",
+    "cost": "18",
     "codename": "GML",
-    "swc": "1",
+    "swc": "1.5",
     "cbcode": [],
     "spec": [],
     "bsw": [],
@@ -1264,14 +1233,14 @@
   "cbcode": [
    "280613-0105"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "R-Drone",
   "name": "R-Drone",
   "bs": "8",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "11",
   "cc": "8",
   "arm": "0",
   "irr": "",
@@ -1281,7 +1250,6 @@
   "spec": [
    "CH: Mimetism",
    "G: Remote Presence",
-   "Multiterrain",
    "Repeater"
   ],
   "ccw": [
