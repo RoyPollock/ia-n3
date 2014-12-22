@@ -16,8 +16,8 @@
 $(function() {
 	$('.convertToPdfButton').bind('click', function() {
 		var html = $('html')[0].outerHTML;
-		html = html.replace(/chrome-extension:\/\/[a-zA-Z0-9]*/ig, 'http://anyplace.it/ia');
-		var form = $('<form target="_blank" action="http://ia-aleph.herokuapp.com/print/printFromHtml" method="POST"></form>');
+		html = html.replace(/chrome-extension:\/\/[a-zA-Z0-9]*/ig, 'http://ia-n3.herokuapp.com');
+		var form = $('<form target="_blank" action="http://ia-n3.herokuapp.com/print/printFromHtml" method="POST"></form>');
 		$('<textarea name="html" />').text(html).appendTo(form);
 		$('<textarea name="filename" />').text($('.listTitle').text()).appendTo(form);
 //		$('<textarea name="filename" />').text($('.listTitle').text()+' '+$('.armylistName').text()).appendTo(form); TODO
