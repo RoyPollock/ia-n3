@@ -13,7 +13,7 @@
     "name": "Alguacil",
     "bs": "11",
     "note": "",
-    "cube": "",
+    "cube": "X",
     "type": "LI",
     "ph": "10",
     "cc": "13",
@@ -152,6 +152,137 @@
         ],
         "bsw": [
         "Combi Rifle"
+        ],
+        "ccw": [],
+        "note": ""
+    }
+    ],
+    "imp": "",
+    "functions": []
+},
+{
+    "mov": "4-2",
+    "army": "Nomads",
+    "wip": "13",
+    "cbcode": [
+    ],
+    "bts": "6",
+    "isc": "Grenzers",
+    "name": "Grenzer",
+    "bs": "13",
+    "note": "",
+    "cube": "X",
+    "type": "MI",
+    "ph": "11",
+    "cc": "15",
+    "arm": "3",
+    "irr": "",
+    "w": "1",
+    "ava": "3",
+    "bsw": [],
+    "spec": [
+    	"V: Courage",
+	"Multispectral Visor L1"
+    ],
+    "ccw": [
+    "Knife",
+    "Breaker Pistol",
+    "Pistol"
+    ],
+    "childs": [
+    {
+        "code": "Default",
+        "cost": "25",
+        "codename": "Combi",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Combi Rifle",
+	"Light Flamethrower"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Spitfire",
+        "cost": "30",
+        "codename": "",
+        "swc": "1.5",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Spitfire"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Shotgun",
+        "cost": "23",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Boarding Shotgun"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Sniper",
+        "cost": "32",
+        "codename": "",
+        "swc": "1.5",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "MULTI Sniper Rifle"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Missile",
+        "cost": "29",
+        "codename": "",
+        "swc": "1.5",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Missile Launcher"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Observer",
+        "cost": "27",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [
+        "Forward Observer",
+        "Sensor"
+        ],
+        "bsw": [
+        "Combi Rifle", "Light Flamethrower"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Lieutenant",
+        "cost": "25",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [
+        "Lieutenant"
+        ],
+        "bsw": [
+        "Combi Rifle", "Light Flamethrower"
         ],
         "ccw": [],
         "note": ""
@@ -716,6 +847,83 @@
     ],
     "ccw": [
      "Shock CCW"
+    ],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "4-2",
+  "army": "Nomads",
+  "wip": "14",
+  "cbcode": [
+  ],
+  "bts": "3",
+  "isc": "Reverend Healers",
+  "name": "Reverend Healer",
+  "bs": "13",
+  "note": "",
+  "cube": "X",
+  "type": "MI",
+  "ph": "12",
+  "cc": "19",
+  "arm": "3",
+  "irr": "",
+  "w": "1",
+  "ava": "1",
+  "bsw": ["Nanopulser"],
+  "spec": [
+   "Religious Troop",
+   "Doctor",
+   "CH: Mimetism",
+   "MediKit"
+  ],
+  "ccw": [
+   "Pistol", "EXP CCW"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "33",
+    "codename": "Combi",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Combi Rifle"
+    ],
+    "ccw": [
+    ],
+    "note": ""
+   },
+   {
+    "code": "MULTI",
+    "cost": "37",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "MULTI Rifle"
+    ],
+    "ccw": [
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "32",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Boarding Shotgun"
+    ],
+    "ccw": [
     ],
     "note": ""
    }
