@@ -326,7 +326,7 @@
         "cbcode": [],
         "spec": [],
         "ccw": [],
-        "note": ""
+        "note": "",
         "bsw": [
         "Combi Rifle"
 	]
@@ -339,7 +339,7 @@
         "cbcode": [],
         "spec": [],
         "ccw": [],
-        "note": ""
+        "note": "",
         "bsw": [
         "Boarding Shotgun"
 	]
@@ -352,7 +352,7 @@
         "cbcode": [],
         "spec": [],
         "ccw": [],
-        "note": ""
+        "note": "",
         "bsw": [
         "Spitfire"
         ]
@@ -365,7 +365,7 @@
         "cbcode": [],
         "spec": ["EI Assault Hacking Device","Hacker"],
         "ccw": [],
-        "note": ""
+        "note": "",
         "bsw": [
         "Combi Rifle"
 	]
