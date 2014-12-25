@@ -180,7 +180,7 @@
     "arm": "1",
     "irr": "",
     "w": "1",
-    "ava": "T",
+    "ava": "4",
     "bsw": [],
     "spec": [
     "G:Autotool","V:Dogged"
@@ -325,6 +325,8 @@
         "swc": "0",
         "cbcode": [],
         "spec": [],
+        "ccw": [],
+        "note": ""
         "bsw": [
         "Combi Rifle"
 	]
@@ -336,6 +338,8 @@
         "swc": "0",
         "cbcode": [],
         "spec": [],
+        "ccw": [],
+        "note": ""
         "bsw": [
         "Boarding Shotgun"
 	]
@@ -347,6 +351,8 @@
         "swc": "1.5",
         "cbcode": [],
         "spec": [],
+        "ccw": [],
+        "note": ""
         "bsw": [
         "Spitfire"
         ]
@@ -358,6 +364,8 @@
         "swc": ".5",
         "cbcode": [],
         "spec": ["EI Assault Hacking Device","Hacker"],
+        "ccw": [],
+        "note": ""
         "bsw": [
         "Combi Rifle"
 	]
@@ -378,12 +386,13 @@
       "arm":"2",
       "w":"1",
       "ava":"",
+      "bsw":[],
+      "ccw":[],
     "spec":[
     	"V:Courage"
     ]
     }]
 },
-    
  {
   "mov": "4-4",
   "army": "Combined Army",
