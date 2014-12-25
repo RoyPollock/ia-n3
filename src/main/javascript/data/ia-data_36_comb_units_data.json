@@ -161,6 +161,229 @@
     "imp": "",
     "functions": []
 },
+{
+    "mov": "4-4",
+    "army": "Combined Army",
+    "wip": "12",
+    "cbcode": [
+    	"280665-0500"
+    ],
+    "bts": "6",
+    "isc": "Unidron Batroids",
+    "name": "Unidron",
+    "bs": "11",
+    "note": "",
+    "cube": "R",
+    "type": "LI",
+    "ph": "10",
+    "cc": "5",
+    "arm": "1",
+    "irr": "",
+    "w": "1",
+    "ava": "T",
+    "bsw": [],
+    "spec": [
+    "G:Autotool","V:Dogged"
+    ],
+    "ccw": [
+    "Electric Pulse",
+    "Pistol"
+    ],
+    "childs": [
+    {
+        "code": "Default",
+        "cost": "14",
+        "codename": "Plasma Carbine",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Plasma Carbine"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "K1 Combi",
+        "cost": "16",
+        "codename": "",
+        "swc": "0.5",
+        "cbcode": [],
+        "spec": [
+        ],
+        "bsw": [
+        "K1 Combi Rifle"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "K1+Tinbot",
+        "cost": "17",
+        "codename": "",
+        "swc": ".5",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "K1 Combi Rifle"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Missile",
+        "cost": "20",
+        "codename": "",
+        "swc": "1.5",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Missile Launcher","Light Shotgun"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Sniper",
+        "cost": "24",
+        "codename": "",
+        "swc": "1.5",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Plasma Sniper Rifle"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Observer",
+        "cost": "15",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [
+        "Forward Observer"
+        ],
+        "bsw": [
+        "Plasma Carbine"
+        ],
+        "ccw": [],
+        "note": ""
+    },
+    {
+        "code": "Spitfire",
+        "cost": "15",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [
+        ],
+        "bsw": [
+        "Spitfire"
+        ],
+        "ccw": [],
+        "note": ""
+    }
+    ],
+    "imp": "",
+    "functions": []
+},
+{
+    "mov": "4-4",
+    "army": "Combined Army",
+    "wip": "12",
+    "cbcode": [
+    	"280665-0500"
+    ],
+    "bts": "3",
+    "isc": "Fraacta Drop Unit",
+    "name": "Fraacta",
+    "bs": "12",
+    "note": "",
+    "cube": "X",
+    "type": "LI",
+    "ph": "12",
+    "cc": "14",
+    "arm": "1",
+    "irr": "",
+    "w": "1",
+    "ava": "2",
+    "bsw": ["Nanopulser"],
+    "spec": [
+    "AD:Combat Jump","V:Courage","Transmutation"
+    ],
+    "ccw": [
+    "Knife",
+    "Pistol"
+    ],
+    "childs": [
+    	{
+        "code": "Default",
+        "cost": "29",
+        "codename": "Combi",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Combi Rifle"
+	]
+    	},
+    	{
+        "code": "Shotgun",
+        "cost": "28",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Boarding Shotgun"
+	]
+    	},
+    	{
+        "code": "Spitfire",
+        "cost": "35",
+        "codename": "",
+        "swc": "1.5",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Spitfire"
+        ]
+	},
+    	{
+        "code": "Hacker",
+        "cost": "35",
+        "codename": "",
+        "swc": ".5",
+        "cbcode": [],
+        "spec": ["EI Assault Hacking Device","Hacker"],
+        "bsw": [
+        "Combi Rifle"
+	]
+	}
+    ],
+    "imp": "",
+    "functions": [],
+    "altp":[{
+      "type":"LI",
+      "isc":"Survival Form",
+      "mov":"4-2",
+      "cc":"14",
+      "bs":"12",
+      "ph":"10",
+      "wip":"12",
+      "arm":"0",
+      "bts":"6",
+      "arm":"2",
+      "w":"1",
+      "ava":"",
+    "spec":[
+    	"V:Courage"
+    ]
+    }]
+},
+    
  {
   "mov": "4-4",
   "army": "Combined Army",
