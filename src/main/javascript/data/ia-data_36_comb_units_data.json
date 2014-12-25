@@ -394,6 +394,366 @@
     }]
 },
  {
+  "mov": "6-2",
+  "army": "Combined Army",
+  "wip": "14",
+  "cbcode": [
+    	"280665-0500"
+  ],
+  "bts": "3",
+  "isc": "Umbra Legates",
+  "name": "Umbra Legate",
+  "bs": "12",
+  "note": "",
+  "cube": "X",
+  "type": "LI",
+  "ph": "13",
+  "cc": "21",
+  "arm": "1",
+  "irr": "",
+  "w": "1",
+  "ava": "2",
+  "bsw": [
+    "Flash Pulse"
+  ],
+  "spec": [
+   "Advanced Deployment L1",
+   "CH: Mimetism",
+   "Kinematika L1",
+   "Martial Arts L4",
+   "V: No Wound Incapacitation"
+  ],
+  "ccw": [
+   "DA CCW",
+   "Pistol"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "40",
+    "codename": "K1 Combi",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "K1 Combi Rifle"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Hacker",
+    "cost": "43",
+    "codename": "",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": [
+     "Hacker",
+     "Hacking Device Plus"
+    ],
+    "bsw": [
+     "Boarding Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Spitfire",
+    "cost": "41",
+    "codename": "",
+    "swc": "1.5",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Spitfire"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "LT",
+    "cost": "40",
+    "codename": "",
+    "swc": ".5",
+    "cbcode": [],
+    "spec": [
+     "Lieutenant"
+    ],
+    "bsw": [
+     "K1 Combi Rifle"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "LT Spitfire",
+    "cost": "41",
+    "codename": "",
+    "swc": "1.5",
+    "cbcode": [],
+    "spec": [
+     "Lieutenant"
+    ],
+    "bsw": [
+     "Spitfire"
+    ],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "4-2",
+  "army": "Combined Army",
+  "wip": "13",
+  "cbcode": [
+    	"280665-0500"
+  ],
+  "bts": "3",
+  "isc": "Maakrep Trackers Unit",
+  "name": "Maakrep Tracker",
+  "bs": "12",
+  "note": "",
+  "cube": "X",
+  "type": "MI",
+  "ph": "11",
+  "cc": "15",
+  "arm": "2",
+  "irr": "",
+  "w": "1",
+  "ava": "3",
+  "bsw": [
+  ],
+  "spec": [
+   "AutoMediKit",
+   "Multispectral Visor L2",
+   "Sixth Sense L1",
+   "V: Courage"
+  ],
+  "ccw": [
+   "Knife",
+   "Pistol"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "29",
+    "codename": "Combi",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Combi Rifle", "Light Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "26",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Boarding Shotgun", "Grenades"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "HMG",
+    "cost": "33",
+    "codename": "",
+    "swc": "1.5",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "HMG"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "LT",
+    "cost": "29",
+    "codename": "",
+    "swc": "1",
+    "cbcode": [],
+    "spec": [
+     "Lieutenant"
+    ],
+    "bsw": [
+     "Combi Rifle", "Light Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Sniper",
+    "cost": "33",
+    "codename": "",
+    "swc": "1.5",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "MULTI Sniper Rifle"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Sniper",
+    "cost": "34",
+    "codename": "",
+    "swc": ".5",
+    "cbcode": [],
+    "spec": ["Hacker","EI Hacking Device"],
+    "bsw": ["Combi Rifle","Light Shotgun"],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "4-2",
+  "army": "Combined Army",
+  "wip": "13",
+  "cbcode": [
+  ],
+  "bts": "3",
+  "isc": "Rodok, Morat Armed Imposition Detachment",
+  "name": "Rodok",
+  "bs": "12",
+  "note": "",
+  "cube": "X",
+  "type": "MI",
+  "ph": "12",
+  "cc": "15",
+  "arm": "2",
+  "irr": "",
+  "w": "1",
+  "ava": "3",
+  "bsw": [
+  ],
+  "spec": [
+   "CH: Mimetism",
+   "Super-Jump",
+   "Morat"
+  ],
+  "ccw": [
+   "Knife",
+   "Pistol"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "26",
+    "codename": "Combi",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Combi Rifle", "2 Light Shotguns"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Boarding Shotgun",
+    "cost": "19",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Boarding Shotgun", "Antipersonnel Mines"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "HMG",
+    "cost": "27",
+    "codename": "",
+    "swc": "1.5",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "HMG"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "LT",
+    "cost": "26",
+    "codename": "",
+    "swc": "1",
+    "cbcode": [],
+    "spec": [
+     "Lieutenant"
+    ],
+    "bsw": [
+     "Combi Rifle", "2 Light Shotguns"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Missile",
+    "cost": "28",
+    "codename": "",
+    "swc": "1.5",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Missile Laucher"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Hacker",
+    "cost": "25",
+    "codename": "",
+    "swc": ".5",
+    "cbcode": [],
+    "spec": ["Hacker","EI Assault Hacking Device"],
+    "bsw": ["Boarding Shotgun","Antipersonnel Mines"],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Paramedic",
+    "cost": "21",
+    "codename": "",
+    "swc": "",
+    "cbcode": [],
+    "spec": ["MediKit"],
+    "bsw": ["Boarding Shotgun","Antipersonnel Mines"],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
   "mov": "4-4",
   "army": "Combined Army",
   "wip": "16",
