@@ -742,7 +742,7 @@
     "code": "Paramedic",
     "cost": "21",
     "codename": "",
-    "swc": "",
+    "swc": "0",
     "cbcode": [],
     "spec": ["MediKit"],
     "bsw": ["Boarding Shotgun","Antipersonnel Mines"],
