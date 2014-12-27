@@ -1525,6 +1525,24 @@
   "template": "No"
  },
  {
+  "ammo": "DA",
+  "burst": "1",
+  "cc": "No",
+  "damage": "PH",
+  "em_vul": "No",
+  "long_dist": "24",
+  "long_mod": "-6",
+  "max_dist": "--",
+  "max_mod": "--",
+  "medium_dist": "16",
+  "medium_mod": "0",
+  "name": "Tactictal Bow",
+  "note": "Anti-materiel, Silent",
+  "short_dist": "8",
+  "short_mod": "3",
+  "template": "No"
+ },
+ {
   "ammo": "AP+Shock",
   "burst": "--",
   "cc": "Yes",
