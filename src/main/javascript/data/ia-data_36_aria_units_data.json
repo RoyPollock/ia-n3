@@ -3779,4 +3779,238 @@
             ]
         }
     ]
-}
+},
+{
+    "mov": "4-2",
+    "army": "Ariadna",
+    "wip": "12",
+    "bts": "0",
+    "isc": "USAriadna Grunts",
+    "name": "Grunt",
+    "cbcode": [],
+    "bs": "11",
+    "note": "",
+    "cube": "",
+    "type": "LI",
+    "ph": "11",
+    "cc": "13",
+    "arm": "3",
+    "irr": "",
+    "w": "1",
+    "ava": "2",
+    "imp": "",
+    "bsw": [],
+    "spec": [
+        "Shock Immunity"
+    ],
+    "ccw": [
+        "Knife",
+        "Pistol"
+    ],
+    "childs": [
+        {
+            "code": "Default",
+            "cost": "10",
+            "codename": "Rifle",
+            "cbcode": [],
+            "swc": "0",
+            "spec": [
+            ],
+            "bsw": [
+                "Rifle"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "LT",
+            "cost": "10",
+            "codename": "",
+            "cbcode": [],
+            "swc": "1",
+            "spec": [
+	     "Lieutenant"
+            ],
+            "bsw": [
+                "Rifle"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "HFT",
+            "cost": "10",
+            "codename": "",
+            "cbcode": [],
+            "swc": "0",
+            "spec": [
+            ],
+            "bsw": [
+                "Heavy Flamethrower", "Light Shotgun"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "HMG",
+            "cost": "21",
+            "codename": "",
+            "cbcode": [],
+            "swc": "1",
+            "spec": [
+            ],
+            "bsw": [
+                "HMG"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "LGL",
+            "cost": "14",
+            "codename": "",
+            "cbcode": [],
+            "swc": "1",
+            "spec": [
+            ],
+            "bsw": [
+                "Rifle", "Light GL"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "LGL LT",
+            "cost": "14",
+            "codename": "",
+            "cbcode": [],
+            "swc": "1",
+            "spec": [
+	      "Lieutenant"
+            ],
+            "bsw": [
+                "Rifle", "Light GL"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "Sniper",
+            "cost": "18",
+            "codename": "",
+   "cbcode": [],
+            "swc": ".5",
+            "spec": [
+                "Marksmanship LX"
+            ],
+            "bsw": [
+                "Sniper Rifle"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "Infiltrator",
+            "cost": "11",
+            "codename": "",
+   "cbcode": [],
+            "swc": ".5",
+            "spec": [
+                "Inferior Infiltration"
+            ],
+            "bsw": [
+                "Heavy Flamethrower",
+                "Light Shotgun"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "FO",
+            "cost": "11",
+            "codename": "",
+   "cbcode": [],
+            "swc": "0",
+            "spec": [
+                "Forward Observer"
+            ],
+            "bsw": [
+                "Rifle"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "Paramedic",
+            "cost": "12",
+            "codename": "",
+   "cbcode": [],
+            "swc": "0",
+            "spec": [
+                "MediKit"
+            ],
+            "bsw": [
+                "Rifle"
+            ],
+            "ccw": []
+        }
+    ]
+},
+{
+    "mov": "4-4",
+    "army": "Ariadna",
+    "wip": "12",
+    "bts": "0",
+    "isc": "Hardcases",
+    "name": "Hardcase",
+    "cbcode": [],
+    "bs": "11",
+    "note": "",
+    "cube": "",
+    "type": "LI",
+    "ph": "13",
+    "cc": "13",
+    "arm": "0",
+    "irr": "X",
+    "w": "1",
+    "ava": "2",
+    "imp": "",
+    "bsw": [],
+    "spec": [
+        "CH: Ambush Camouflage", "Infiltration", "Multiterrain"
+    ],
+    "ccw": [
+        "Knife",
+        "Pistol"
+    ],
+    "childs": [
+        {
+            "code": "Default",
+            "cost": "12",
+            "codename": "Shotgun",
+            "cbcode": [],
+            "swc": "0",
+            "spec": [
+            ],
+            "bsw": [
+	      "Light Shotgun", "Tactical Bow"
+            ],
+            "ccw": [
+            ]
+        },
+        {
+            "code": "Rifle",
+            "cost": "14",
+            "codename": "",
+            "cbcode": [],
+            "swc": "0",
+            "spec": [
+            ],
+            "bsw": [
+                "Rifle", "Tactical Bow"
+            ],
+            "ccw": [
+            ]
+        }
+    ]
+    }
