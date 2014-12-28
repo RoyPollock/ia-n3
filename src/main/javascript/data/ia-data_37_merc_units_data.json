@@ -114,6 +114,79 @@
  {
   "mov": "4-4",
   "army": "Mercenary",
+  "wip": "12",
+  "cbcode": [
+    "280006-0485","280004-0446"
+  ],
+  "bts": "3",
+  "isc": "Corporate Security Unit",
+  "name": "CSU",
+  "bs": "12",
+  "note": "",
+  "cube": "",
+  "type": "LI",
+  "ph": "10",
+  "cc": "14",
+  "arm": "0",
+  "irr": "",
+  "w": "1",
+  "ava": "1",
+  "bsw": [],
+  "spec": [
+   "MetaChemistry",
+   "Sixth Sense L1"
+  ],
+  "ccw": [
+   "Knife",
+   "Pistol"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "12",
+    "codename": "Rifle",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Breaker Rifle"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "11",
+    "codename": "BS",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun","Nanopulser"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Combi Rifle",
+    "cost": "12",
+    "codename": "",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Combi Rifle","Nanopulser"
+    ],
+    "ccw": [],
+    "note": ""
+   }
+   ],
+   "imp": "",
+   "functions": []
+ },
+ {
+  "mov": "4-4",
+  "army": "Mercenary",
   "wip": "13",
   "cbcode": [
    "280428-0161",
