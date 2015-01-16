@@ -148,6 +148,7 @@
             units.unitsByIsc['Order Sergeants'].childsByCode['MSV2 Spitfire'].swc='1.5';
             units.unitsByIsc['Order Sergeants'].childsByCode['TO Infiltrator'].swc='0';
             units.unitsByIsc['Order Sergeants'].childsByCode['TO Sniper'].swc='1.5';            
+            units.unitsByIsc['Crusader Brethren'].childsByCode['HMG'].swc='1.5';            
         // TODO fix this
         //        units.unitsByIsc['Trauma-Doc'].displayName=units.unitsByIsc['Trauma-Doc'].displayIsc=units.unitsByIsc['Trauma-Doc']['display_cache_isc']='Father-Doctor';
         //        units.unitsByIsc['Machinist'].displayName=units.unitsByIsc['Machinist'].displayIsc=units.unitsByIsc['Machinist']['display_cache_isc']='Father-Engineer';
