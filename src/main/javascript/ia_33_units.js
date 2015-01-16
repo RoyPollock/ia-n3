@@ -145,6 +145,8 @@ var units = ia.units = {};
             }
             if (this.get('imp') == 'F') {
                 specs.add('Frenzy');
+            } else if (this.get('imp') == 'XX') {
+                specs.add('Extremely Impetuous');
             } else if (this.get('imp') != '') {
                 specs.add('Impetuous');
             }
