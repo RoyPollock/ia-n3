@@ -2264,7 +2264,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "14",
+    "cost": "10",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2277,7 +2277,7 @@
    },
    {
     "code": "Observer",
-    "cost": "16",
+    "cost": "12",
     "codename": "FO",
     "swc": "0",
     "cbcode": [],
@@ -2291,7 +2291,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "14",
+    "cost": "10",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2772,7 +2772,7 @@
    },
    {
     "code": "Auxbot",
-    "cost": "17",
+    "cost": "13",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2861,7 +2861,7 @@
   "childs": [
    {
     "code": "Spitfire",
-    "cost": "52",
+    "cost": "46",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -2874,7 +2874,7 @@
    },
    {
     "code": "Default",
-    "cost": "49",
+    "cost": "43",
     "codename": "MULTI",
     "swc": "0",
     "cbcode": [],
@@ -3439,7 +3439,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "83",
+    "cost": "79",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3544,7 +3544,7 @@
   "childs": [
    {
     "code": "Spitfire",
-    "cost": "29",
+    "cost": "25",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -3557,7 +3557,7 @@
    },
    {
     "code": "Default",
-    "cost": "23",
+    "cost": "19",
     "codename": "HS",
     "swc": "0",
     "cbcode": [],

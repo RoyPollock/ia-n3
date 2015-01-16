@@ -19,11 +19,11 @@
     ],
     "swc": "1",
     "cbcode": [],
-    "code": "HMG",
+    "code": "Spitfire",
     "note": "",
     "ccw": [],
     "codename": "Spitfire",
-    "cost": "19",
+    "cost": "18",
     "spec": []
    },
    {
@@ -37,7 +37,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "17",
+    "cost": "16",
     "spec": []
    },
    {
@@ -50,7 +50,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "18",
+    "cost": "15",
     "spec": []
    },
    {
@@ -79,7 +79,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "15",
+    "cost": "13",
     "spec": [
      "Forward Observer"
     ]
@@ -94,7 +94,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "16",
+    "cost": "14",
     "spec": [
      "MediKit"
     ]
@@ -186,7 +186,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "32",
+    "cost": "23",
     "spec": []
    },
    {
@@ -213,7 +213,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "24",
+    "cost": "23",
     "spec": []
    },
    {
@@ -227,7 +227,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "24",
+    "cost": "22",
     "spec": [
      "MediKit"
     ]
@@ -293,7 +293,7 @@
     "army": "Tohaa",
     "cc": "14",
     "isc": "(Inactive Armour)",
-    "imp": "X",
+    "imp": "XX",
     "type": "LI",
     "ph": "11",
     "w": "1 ",
@@ -342,7 +342,7 @@
   "cbcode": [
    "280917-0480"
   ],
-  "bts": "-3",
+  "bts": "3",
   "army": "Tohaa",
   "note": "",
   "cube": "X",
@@ -397,7 +397,7 @@
     "note": "",
     "ccw": [],
     "codename": "Viral",
-    "cost": "50",
+    "cost": "49",
     "spec": []
    },
    {
@@ -410,7 +410,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "53",
+    "cost": "51",
     "spec": []
    },
    {
@@ -423,7 +423,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "46",
+    "cost": "44",
     "spec": []
    },
    {
@@ -436,7 +436,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "50",
+    "cost": "49",
     "spec": [
      "Lieutenant"
     ]
@@ -456,7 +456,7 @@
    "280901-0378",
    "280913-0449"
   ],
-  "bts": "-6",
+  "bts": "6",
   "army": "Tohaa",
   "note": "",
   "cube": "X",
@@ -528,7 +528,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "27",
+    "cost": "26",
     "spec": []
    },
    {
@@ -541,7 +541,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "25",
+    "cost": "24",
     "spec": [
      "Nullifier"
     ]
@@ -556,7 +556,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "29",
+    "cost": "26",
     "spec": []
    },
    {
@@ -586,7 +586,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "27",
+    "cost": "25",
     "spec": [
      "Forward Observer"
     ]
@@ -604,7 +604,7 @@
    "280916-0470",
    "280901-0378"
   ],
-  "bts": "-3",
+  "bts": "3",
   "army": "Tohaa",
   "note": "",
   "cube": "X",
@@ -618,7 +618,8 @@
   "ph": "12",
   "spec": [
    "CH: TO Camouflage",
-   "Infiltration"
+   "Infiltration",
+   "Multiterrain"
   ],
   "w": "1",
   "wip": "13"
@@ -689,7 +690,7 @@
  "ava": "4",
  "bs": "12",
  "bsw": [],
- "bts": "-3",
+ "bts": "3",
  "cbcode": ["280903-0382","280906-0400"],
  "cc": "15",
  "ccw": [
@@ -706,7 +707,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "combi",
-   "cost": "32",
+   "cost": "31",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -720,7 +721,7 @@
    "ccw": [],
    "code": "BS",
    "codename": "",
-   "cost": "34",
+   "cost": "32",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -733,7 +734,7 @@
    "ccw": [],
    "code": "Sniper",
    "codename": "",
-   "cost": "37",
+   "cost": "33",
    "note": "",
    "spec": [],
    "swc": "1"
@@ -746,7 +747,7 @@
    "ccw": [],
    "code": "Spitfire",
    "codename": "",
-   "cost": "38",
+   "cost": "36",
    "note": "",
    "spec": [],
    "swc": "1.5"
@@ -760,7 +761,7 @@
    "ccw": [],
    "code": "Lt",
    "codename": "",
-   "cost": "32",
+   "cost": "31",
    "note": "",
    "spec": [
     "Lieutenant"
@@ -846,7 +847,7 @@
    "ccw": [],
    "code": "HMG",
    "codename": "",
-   "cost": "40",
+   "cost": "39",
    "note": "",
    "spec": [],
    "swc": "1.5"
@@ -861,7 +862,7 @@
    ],
    "code": "BS",
    "codename": "",
-   "cost": "31",
+   "cost": "30",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -876,7 +877,7 @@
    ],
    "code": "Param",
    "codename": "",
-   "cost": "35",
+   "cost": "33",
    "note": "",
    "spec": [
     "Paramedic",
@@ -924,7 +925,7 @@
     "Nanopulser",
     "Flammenspeer (2)"
  ],
- "bts": "-9",
+ "bts": "9",
  "cbcode": ["280914-0451"],
  "cc": "18",
  "ccw": [
@@ -938,7 +939,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "",
-   "cost": "87",
+   "cost": "74",
    "note": "",
    "spec": [],
    "swc": "2"
@@ -956,7 +957,7 @@
  "spec": [
   "Symbiont Armour",
   "ECM",
-  "Companion: Chaksa Periferical"
+  "Companion: Chaksa Peripheral"
  ],
  "type": "TAG",
  "w": "3",
@@ -972,8 +973,7 @@
          "bts":"0",
          "w":"1",
          "ava":" ",
-    "bsw":[],
-    "ccw":[],
+    "bsw":["Spitfire","Nanopulser"],
     "spec":[]
  }]
 }
@@ -1001,7 +1001,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "",
-   "cost": "0",
+   "cost": "7",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1010,7 +1010,7 @@
  "cube": "",
  "imp": "",
  "irr": "",
- "isc": "Chaksa Periferical",
+ "isc": "Chaksa Peripheral",
  "mov": "6-4",
  "name": "Periferical",
  "note": "",
@@ -1032,7 +1032,7 @@
  "bsw": [
   "Zero-V Smoke Grenades"
  ],
- "bts": "-3",
+ "bts": "3",
  "cbcode": [
 	 "280905-0394"
  ],
@@ -1050,7 +1050,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "Flamer",
-   "cost": "15",
+   "cost": "16",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1064,7 +1064,7 @@
    "ccw": [],
    "code": "Swarm",
    "codename": "",
-   "cost": "18",
+   "cost": "16",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1077,7 +1077,7 @@
    "ccw": [],
    "code": "BS",
    "codename": "",
-   "cost": "21",
+   "cost": "19",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1090,14 +1090,14 @@
    "ccw": [],
    "code": "Combi",
    "codename": "",
-   "cost": "21",
+   "cost": "20",
    "note": "",
    "spec": [],
    "swc": "0"
   }
  ],
  "cube": "X",
- "imp": "X",
+ "imp": "XX",
  "irr": "",
  "isc": "Makaul",
  "mov": "4-4",
@@ -1107,6 +1107,7 @@
  "spec": [
   "i-Kohl L1",
   "Martial Arts L2",
+  "Kinematika L2",
   "Fireteam: Tohaa"
  ],
  "type": "WB",
@@ -1149,7 +1150,7 @@
  "isc": "Kumotail",
  "mov": "4-4",
  "name": "Kumotail",
- "note": "",
+ "note": "Unusually, no MediKit",
  "ph": "11",
  "spec": [
   "Doctor",
@@ -1209,13 +1210,13 @@
   },
   {
    "bsw": [
-    "Guided Heavy Rocket Launcher"
+    "Smart Rocket Launcher"
    ],
    "cbcode": [],
    "ccw": [],
-   "code": "GHRL",
+   "code": "Rocket",
    "codename": "",
-   "cost": "29",
+   "cost": "21",
    "note": "",
    "spec": [],
    "swc": "1"
@@ -1290,9 +1291,9 @@
   "Light Rocket Launcher",
   "Nanopulser"
  ],
- "bts": "-9",
+ "bts": "9",
  "cbcode": ["280915-0462"],
- "cc": "18",
+ "cc": "21",
  "ccw": [
   "Pistol",
   "CCW"
@@ -1304,10 +1305,10 @@
    "ccw": [],
    "code": "Default",
    "codename": "",
-   "cost": "47",
+   "cost": "42",
    "note": "",
    "spec": [],
-   "swc": "2"
+   "swc": "0.5"
   },
   {
    "bsw": [],
@@ -1315,16 +1316,16 @@
    "ccw": [],
    "code": "Lt",
    "codename": "",
-   "cost": "47",
+   "cost": "42",
    "note": "",
    "spec": [
     "Lieutenant"
    ],
-   "swc": "1.5"
+   "swc": "0"
   }
  ],
  "cube": "X",
- "imp": "X",
+ "imp": "XX",
  "irr": "",
  "isc": "Neema",
  "mov": "4-4",
@@ -1348,6 +1349,7 @@
          "bts":"0",
          "bs":"12",
          "ph":"12",
+	 "cc":"18",
          "w":"1",
          "ava":" ",
     "bsw":[],
@@ -1403,7 +1405,7 @@
   "Nanopulser",
   "Flash Pulse"
  ],
- "bts": "-3",
+ "bts": "3",
  "cbcode": ["280005-0447"],
  "cc": "14",
  "ccw": [
@@ -1420,7 +1422,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "Viral",
-   "cost": "35",
+   "cost": "33",
    "note": "",
    "spec": [],
    "swc": "0.5"
@@ -1433,7 +1435,7 @@
    "ccw": [],
    "code": "K1",
    "codename": "",
-   "cost": "33",
+   "cost": "32",
    "note": "",
    "spec": [],
    "swc": "0.5"
@@ -1509,7 +1511,7 @@
    "ccw": [],
    "code": "bs+em",
    "codename": "",
-   "cost": "32",
+   "cost": "31",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1536,7 +1538,7 @@
    "ccw": [],
    "code": "fo",
    "codename": "",
-   "cost": "35",
+   "cost": "33",
    "note": "",
    "spec": [
     "Forward Observer"
