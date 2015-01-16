@@ -1565,6 +1565,7 @@
   ],
   "spec": [
    "Doctor",
+   "MediKit",
    "V: Courage"
   ],
   "ccw": [
@@ -1588,6 +1589,7 @@
   "functions": []
  },
  {
+  "sharedAva":"Furries",
   "mov": "6-4",
   "army": "Ariadna",
   "wip": "12",
@@ -1602,7 +1604,7 @@
   "cube": "",
   "type": "WB",
   "ph": "16",
-  "cc": "18",
+  "cc": "21",
   "arm": "3",
   "irr": "X",
   "w": "2",
@@ -1623,7 +1625,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "22",
+    "cost": "23",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1633,7 +1635,7 @@
     "note": ""
    }
   ],
-  "imp": "X",
+  "imp": "XX",
   "functions": []
  },
  {
@@ -1662,7 +1664,8 @@
   ],
   "spec": [
    "Shock Immunity",
-   "V: Dogged"
+   "V: Dogged",
+   "Not Hackable"
   ],
   "ccw": [
    "CCW",
@@ -1671,7 +1674,7 @@
   "childs": [
    {
     "code": "Lieutenant",
-    "cost": "30",
+    "cost": "29",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1688,7 +1691,7 @@
    },
    {
     "code": "T2 Shotgun",
-    "cost": "28",
+    "cost": "25",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1702,7 +1705,7 @@
    },
    {
     "code": "HMG",
-    "cost": "40",
+    "cost": "34",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -1715,7 +1718,7 @@
    },
    {
     "code": "T2",
-    "cost": "36",
+    "cost": "33",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1730,7 +1733,7 @@
    },
    {
     "code": "Default",
-    "cost": "30",
+    "cost": "29",
     "codename": "Rifle",
     "swc": "0",
     "cbcode": [],
@@ -1764,7 +1767,7 @@
   "cube": "",
   "type": "WB",
   "ph": "14",
-  "cc": "18",
+  "cc": "21",
   "arm": "3",
   "irr": "",
   "w": "2",
@@ -1775,6 +1778,7 @@
   "spec": [
    "Berserk",
    "Climbing Plus",
+   "Kinematika L1",
    "Natural Born Warrior"
   ],
   "ccw": [
@@ -1784,7 +1788,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "38",
+    "cost": "37",
     "codename": "Mk12",
     "swc": "0",
     "cbcode": [],
@@ -1797,7 +1801,7 @@
    },
    {
     "code": "Shotgun",
-    "cost": "37",
+    "cost": "32",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1810,7 +1814,7 @@
    },
    {
     "code": "T2 Rifle",
-    "cost": "37",
+    "cost": "33",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1849,16 +1853,17 @@
   "bsw": [],
   "spec": [
    "Shock Immunity",
-   "V: Dogged"
+   "V: Dogged",
+   "Not Hackable"
   ],
   "ccw": [
-   "CCW",
+   "Knife",
    "Pistol"
   ],
   "childs": [
    {
     "code": "Lieutenant HMG",
-    "cost": "48",
+    "cost": "42",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -1873,7 +1878,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "38",
+    "cost": "32",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1889,7 +1894,7 @@
    },
    {
     "code": "HMG",
-    "cost": "48",
+    "cost": "42",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -1902,7 +1907,7 @@
    },
    {
     "code": "Default",
-    "cost": "38",
+    "cost": "32",
     "codename": "T2 Rifle",
     "swc": "0",
     "cbcode": [],
@@ -1920,7 +1925,6 @@
   "functions": []
  },
  {
-  "sharedAva":"Ariadna Militia",
   "mov": "4-4",
   "army": "Ariadna",
   "wip": "12",
@@ -1968,7 +1972,7 @@
    },
    {
     "code": "Paramedic",
-    "cost": "13",
+    "cost": "10",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1984,7 +1988,7 @@
    },
    {
     "code": "Camo LGL",
-    "cost": "14",
+    "cost": "13",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2019,7 +2023,7 @@
    },
    {
     "code": "LGL",
-    "cost": "11",
+    "cost": "10",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2033,7 +2037,7 @@
    },
    {
     "code": "HMG",
-    "cost": "20",
+    "cost": "19",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2099,6 +2103,7 @@
   "spec": [
    "CH: Camouflage",
    "Infiltration",
+   "Multiterrain",
    "Sixth Sense L1"
   ],
   "ccw": [
@@ -2108,7 +2113,7 @@
   "childs": [
    {
     "code": "Observer",
-    "cost": "22",
+    "cost": "20",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2158,7 +2163,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "31",
+    "cost": "26",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2223,7 +2228,7 @@
   "childs": [
    {
     "code": "Mul Control",
-    "cost": "18",
+    "cost": "14",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2238,7 +2243,7 @@
    },
    {
     "code": "Akrylat K",
-    "cost": "19",
+    "cost": "14",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2251,7 +2256,7 @@
    },
    {
     "code": "Default",
-    "cost": "18",
+    "cost": "13",
     "codename": "Engineer",
     "swc": "0",
     "cbcode": [],
@@ -2281,7 +2286,7 @@
   "cube": "",
   "type": "LI",
   "ph": "13",
-  "cc": "17",
+  "cc": "19",
   "arm": "0",
   "irr": "I",
   "w": "1",
@@ -2299,7 +2304,7 @@
   "childs": [
    {
     "code": "T2 Sniper",
-    "cost": "29",
+    "cost": "21",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2312,7 +2317,7 @@
    },
    {
     "code": "Default",
-    "cost": "25",
+    "cost": "20",
     "codename": "Sniper",
     "swc": "0.5",
     "cbcode": [],
@@ -2360,7 +2365,7 @@
   "childs": [
    {
     "code": "Sniper",
-    "cost": "24",
+    "cost": "21",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2387,7 +2392,7 @@
    },
    {
     "code": "ADHL",
-    "cost": "19",
+    "cost": "18",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2419,7 +2424,6 @@
   "functions": []
  },
  {
-  "sharedAva":"Ariadna Militia",
   "mov": "4-4",
   "army": "Ariadna",
   "wip": "12",
@@ -2467,7 +2471,7 @@
    },
    {
     "code": "Paramedic",
-    "cost": "13",
+    "cost": "10",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2483,7 +2487,7 @@
    },
    {
     "code": "Camo LGL",
-    "cost": "16",
+    "cost": "15",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2535,7 +2539,7 @@
    },
    {
     "code": "LGL",
-    "cost": "13",
+    "cost": "12",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2549,7 +2553,7 @@
    },
    {
     "code": "HMG",
-    "cost": "20",
+    "cost": "19",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2578,7 +2582,7 @@
   "functions": []
  },
  {
-  "mov": "4-2",
+  "mov": "4-4",
   "army": "Ariadna",
   "wip": "12",
   "cbcode": [
@@ -2591,7 +2595,7 @@
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "9",
   "cc": "8",
   "arm": "2",
   "irr": "",
@@ -2608,7 +2612,7 @@
   "childs": [
    {
     "code": "Uragan",
-    "cost": "19",
+    "cost": "18",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2621,7 +2625,7 @@
    },
    {
     "code": "Katyusha",
-    "cost": "18",
+    "cost": "11",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2664,7 +2668,7 @@
   "cube": "X",
   "type": "WB",
   "ph": "14",
-  "cc": "19",
+  "cc": "22",
   "arm": "3",
   "irr": "",
   "w": "1",
@@ -2678,6 +2682,7 @@
    "Berserk",
    "Inspiring Leadership",
    "V: No Wound Incapacitation",
+   "Kinematika L1",
    "Personality"
   ],
   "ccw": [
@@ -2687,7 +2692,7 @@
   "childs": [
    {
     "code": "Lieutenant",
-    "cost": "38",
+    "cost": "35",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2700,7 +2705,7 @@
    },
    {
     "code": "Default",
-    "cost": "38",
+    "cost": "35",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2764,7 +2769,7 @@
    },
    {
     "code": "Paramedic",
-    "cost": "24",
+    "cost": "22",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2783,7 +2788,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "28",
+    "cost": "25",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2800,7 +2805,7 @@
    },
    {
     "code": "HMG",
-    "cost": "31",
+    "cost": "30",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2817,7 +2822,7 @@
    },
    {
     "code": "Observer",
-    "cost": "23",
+    "cost": "21",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2835,7 +2840,7 @@
    },
    {
     "code": "LGL",
-    "cost": "21",
+    "cost": "20",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2851,7 +2856,7 @@
    },
    {
     "code": "E/Mauler",
-    "cost": "26",
+    "cost": "21",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2914,6 +2919,7 @@
    "AD: Airborne Infiltration",
    "Shock Immunity",
    "Multiterrain",
+   "Not Hackable",
    "Companion: Duroc, Mirage-5",
    "Personality"
   ],
@@ -2924,7 +2930,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "75",
+    "cost": "37",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -2952,13 +2958,13 @@
   "cube": "",
   "type": "WB",
   "ph": "16",
-  "cc": "19",
+  "cc": "20",
   "arm": "3",
   "irr": "X",
   "w": "2",
   "ava": "1",
   "bsw": [
-   "2 Chain Rifles",
+   "Chain Rifle (2)",
    "Grenades",
    "Smoke Grenades"
   ],
@@ -2976,7 +2982,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "0",
+    "cost": "32",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2986,7 +2992,7 @@
     "note": ""
    }
   ],
-  "imp": "X",
+  "imp": "XX",
   "functions": []
  },
  {
@@ -3114,6 +3120,7 @@
    "Smoke Grenades"
   ],
   "ava": "2",
+  "sharedAva":"Furries",
   "irr": "X",
   "arm": "3",
   "cbcode": [
@@ -3193,7 +3200,7 @@
    ],
    "code": "Sniper",
    "codename": "",
-   "cost": "27",
+   "cost": "25",
    "note": "",
    "spec": [],
    "swc": "1"
@@ -3208,7 +3215,7 @@
    ],
    "code": "HRL",
    "codename": "",
-   "cost": "34",
+   "cost": "25",
    "note": "",
    "spec": [],
    "swc": "1.5"
@@ -3223,7 +3230,7 @@
    ],
    "code": "FO",
    "codename": "",
-   "cost": "27",
+   "cost": "25",
    "note": "",
    "spec": [
     "Forward Observer"
@@ -3240,7 +3247,7 @@
    ],
    "code": "Param",
    "codename": "",
-   "cost": "28",
+   "cost": "26",
    "note": "",
    "spec": [
     "Medikit"
@@ -3306,7 +3313,7 @@
    ],
    "code": "Default",
    "codename": "Smg",
-   "cost": "23",
+   "cost": "22",
    "note": "",
    "spec": [
    ],
@@ -3322,7 +3329,7 @@
    ],
    "code": "Molotok",
    "codename": "",
-   "cost": "27",
+   "cost": "30",
    "note": "",
    "spec": [
    ],
@@ -3338,7 +3345,7 @@
    ],
    "code": "ML",
    "codename": "",
-   "cost": "42",
+   "cost": "31",
    "note": "",
    "spec": [
    ],
@@ -3385,7 +3392,7 @@
    ],
    "code": "Marksman",
    "codename": "",
-   "cost": "24",
+   "cost": "23",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -3416,7 +3423,7 @@
    ],
    "code": "Molotok",
    "codename": "",
-   "cost": "22",
+   "cost": "26",
    "note": "",
    "spec": [],
    "swc": "1.5"
@@ -3431,7 +3438,7 @@
    ],
    "code": "ML",
    "codename": "",
-   "cost": "37",
+   "cost": "27",
    "note": "",
    "spec": [],
    "swc": "1.5"
@@ -3446,7 +3453,7 @@
    ],
    "code": "Lt",
    "codename": "",
-   "cost": "24",
+   "cost": "23",
    "note": "",
    "spec": [
     "Lieutenant"
@@ -3494,7 +3501,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "",
-   "cost": "25",
+   "cost": "28",
    "note": "",
    "spec": [],
    "swc": "1"
@@ -3505,7 +3512,7 @@
    "ccw": [],
    "code": "Inf",
    "codename": "",
-   "cost": "27",
+   "cost": "31",
    "note": "",
    "spec": [
     "Inferior Infiltration"
@@ -3518,7 +3525,7 @@
    "ccw": [],
    "code": "Lt",
    "codename": "",
-   "cost": "25",
+   "cost": "28",
    "note": "",
    "spec": [
     "Lieutenant"
@@ -3575,8 +3582,7 @@
    "spec": [
     "CH: Camouflage",
     "Infiltration",
-    "Kinematika L1",
-    "Multiterrain"
+    "Multispectral Visor L1"
    ],
    "swc": "0"
   },
@@ -3591,7 +3597,7 @@
    ],
    "code": "SupInf",
    "codename": "",
-   "cost": "25",
+   "cost": "27",
    "note": "",
    "spec": [
     "CH: Limited Camouflage",
@@ -3610,7 +3616,9 @@
  "note": "",
  "ph": "13",
  "spec": [
-  "Martial Arts L2"
+  "Martial Arts L2",
+  "Kinematika L1",
+  "Multiterrain"
  ],
  "type": "SK",
  "w": "1",
@@ -3624,13 +3632,13 @@
  "bs": "12",
  "bsw": [
   "Flash Pulse",
-  "D-Charges",
   "E\/Mauler"
  ],
  "bts": "0",
  "cbcode": ["280001-0441"],
  "cc": "13",
  "ccw": [
+  "D-Charges",
   "Knife"
  ],
  "childs": [
@@ -3674,7 +3682,8 @@
  "note": "Special Spec-Op",
  "ph": "11",
  "spec": [
-  "Hacker (Defensive Hacker Dev.)",
+  "Hacker",
+  "Defensive Hacking Device",
   "V: Courage"
  ],
  "type": "LI",
