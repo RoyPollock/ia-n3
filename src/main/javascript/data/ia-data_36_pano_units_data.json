@@ -170,7 +170,7 @@
    "280222-0120",
    "280224-0135"
   ],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Kamau",
   "name": "Kamau",
   "bs": "13",
@@ -207,7 +207,7 @@
    },
    {
     "code": "HMG",
-    "cost": "25",
+    "cost": "24",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -220,7 +220,7 @@
    },
    {
     "code": "Hacker",
-    "cost": "28",
+    "cost": "24",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -236,7 +236,7 @@
    },
    {
     "code": "Grenadier",
-    "cost": "23",
+    "cost": "22",
     "codename": "LGL",
     "swc": "1",
     "cbcode": [],
@@ -252,7 +252,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "32",
+    "cost": "27",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -282,7 +282,7 @@
    },
    {
     "code": "Paramedic",
-    "cost": "20",
+    "cost": "18",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -334,7 +334,7 @@
   "childs": [
    {
     "code": "HMG Lt",
-    "cost": "27",
+    "cost": "26",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -349,7 +349,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "34",
+    "cost": "28",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -365,7 +365,7 @@
    },
    {
     "code": "Shotgun",
-    "cost": "18",
+    "cost": "17",
     "codename": "BS",
     "swc": "0",
     "cbcode": [],
@@ -392,7 +392,7 @@
    },
    {
     "code": "HMG",
-    "cost": "27",
+    "cost": "26",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -405,13 +405,13 @@
    },
    {
     "code": "Hacker",
-    "cost": "34",
+    "cost": "28",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
     "spec": [
      "Hacker",
-     "Hacking Device"
+     "Assault Hacking Device"
     ],
     "bsw": [
      "Combi Rifle",
@@ -438,7 +438,7 @@
    },
    {
     "code": "Paramedic",
-    "cost": "26",
+    "cost": "24",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1471,7 +1471,7 @@
   "cbcode": [
    "280254-0338"
   ],
-  "bts": "-9",
+  "bts": "9",
   "isc": "Jotums",
   "name": "Jotum",
   "bs": "15",
@@ -1498,7 +1498,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "104",
+    "cost": "103",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -1509,7 +1509,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "104",
+    "cost": "103",
     "codename": "",
     "swc": "3",
     "cbcode": [],
@@ -2065,7 +2065,7 @@
    },
    {
     "code": "Grenadier",
-    "cost": "15",
+    "cost": "14",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2079,7 +2079,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "17",
+    "cost": "16",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2092,9 +2092,9 @@
    },
    {
     "code": "Observer",
-    "cost": "13",
+    "cost": "11",
     "codename": "",
-    "swc": "1",
+    "swc": "0.5",
     "cbcode": [],
     "spec": [
      "Forward Observer"
@@ -2107,7 +2107,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "27",
+    "cost": "22",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2122,7 +2122,7 @@
    },
    {
     "code": "Hacker",
-    "cost": "23",
+    "cost": "19",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2156,7 +2156,7 @@
    },
    {
     "code": "Paramedic",
-    "cost": "14",
+    "cost": "12",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2195,14 +2195,14 @@
   "cbcode": [
    "280225-0138"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Auxbot",
   "name": "Auxbot",
   "bs": "10",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
@@ -2220,24 +2220,11 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "0",
+    "cost": "4",
     "codename": "",
     "swc": "0",
     "cbcode": [],
     "spec": [],
-    "bsw": [],
-    "ccw": [],
-    "note": ""
-   },
-   {
-    "code": "Observer",
-    "cost": "0",
-    "codename": "",
-    "swc": "0",
-    "cbcode": [],
-    "spec": [
-     "Forward Observer"
-    ],
     "bsw": [],
     "ccw": [],
     "note": ""
@@ -2290,13 +2277,13 @@
    },
    {
     "code": "Observer",
-    "cost": "20",
+    "cost": "16",
     "codename": "FO",
     "swc": "0",
     "cbcode": [],
     "spec": [
      "Forward Observer",
-     "Companion: Auxbot-Observer"
+     "Companion: Auxbot"
     ],
     "bsw": [],
     "ccw": [],
@@ -2365,7 +2352,7 @@
    },
    {
     "code": "Hacker",
-    "cost": "36",
+    "cost": "32",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2381,7 +2368,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "38",
+    "cost": "32",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2394,7 +2381,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "31",
+    "cost": "30",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2410,7 +2397,7 @@
   "functions": []
  },
  {
-  "mov": "4-2",
+  "mov": "4-4",
   "army": "Panoceania",
   "wip": "13",
   "cbcode": [
@@ -2418,7 +2405,7 @@
    "280226-0143",
    "280264-0415"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Knights Of Santiago",
   "name": "Santiago",
   "bs": "14",
@@ -2426,7 +2413,7 @@
   "cube": "X",
   "type": "HI",
   "ph": "13",
-  "cc": "18",
+  "cc": "20",
   "arm": "4",
   "irr": "",
   "w": "2",
@@ -2445,7 +2432,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "51",
+    "cost": "45",
     "codename": "Spitfire",
     "swc": "1.5",
     "cbcode": [],
@@ -2460,7 +2447,7 @@
    },
    {
     "code": "Shotgun",
-    "cost": "44",
+    "cost": "38",
     "codename": "BS",
     "swc": "0",
     "cbcode": [],
@@ -2473,8 +2460,8 @@
     "note": ""
    },
    {
-    "code": "Combi",
-    "cost": "44",
+    "code": "DA",
+    "cost": "40",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2488,7 +2475,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "51",
+    "cost": "45",
     "codename": "Lt",
     "swc": "1",
     "cbcode": [],
@@ -2513,14 +2500,14 @@
   "cbcode": [
    "280254-0352"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Mulebots",
   "name": "Mulebot",
   "bs": "11",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "2",
   "irr": "",
@@ -2588,14 +2575,14 @@
   "cbcode": [
    "280228-0154"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Palbots",
   "name": "Palbot",
   "bs": "8",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
@@ -2626,13 +2613,13 @@
   "functions": []
  },
  {
-  "mov": "4-2",
+  "mov": "4-4",
   "army": "Panoceania",
   "wip": "14",
   "cbcode": [
    "280255-0347"
   ],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Father-Officer Gabriele De Fersen",
   "name": "De Fersen",
   "bs": "14",
@@ -2640,7 +2627,7 @@
   "cube": "X",
   "type": "HI",
   "ph": "14",
-  "cc": "17",
+  "cc": "22",
   "arm": "4",
   "irr": "",
   "w": "2",
@@ -2662,7 +2649,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "65",
+    "cost": "60",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -2673,7 +2660,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "65",
+    "cost": "60",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -2720,7 +2707,7 @@
   "childs": [
    {
     "code": "TO Sniper",
-    "cost": "39",
+    "cost": "33",
     "codename": "",
     "swc": "2.5",
     "cbcode": [],
@@ -2736,7 +2723,7 @@
    },
    {
     "code": "TO Infiltrator",
-    "cost": "29",
+    "cost": "27",
     "codename": "TO FO",
     "swc": "1",
     "cbcode": [],
@@ -2754,7 +2741,7 @@
    },
    {
     "code": "MSV2 Spitfire",
-    "cost": "25",
+    "cost": "24",
     "codename": "",
     "swc": "2.5",
     "cbcode": [],
@@ -2769,7 +2756,7 @@
    },
    {
     "code": "Hacker",
-    "cost": "25",
+    "cost": "21",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2800,7 +2787,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "20",
+    "cost": "19",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2813,7 +2800,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "27",
+    "cost": "21",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2848,7 +2835,7 @@
   "cbcode": [
    "280248-0296"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Guarda de Assalto",
   "name": "Guarda de Assalto",
   "bs": "15",
@@ -2856,7 +2843,7 @@
   "cube": "X",
   "type": "HI",
   "ph": "14",
-  "cc": "15",
+  "cc": "17",
   "arm": "3",
   "irr": "",
   "w": "2",
@@ -2874,7 +2861,7 @@
   "childs": [
    {
     "code": "Spitfire",
-    "cost": "50",
+    "cost": "52",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -2887,9 +2874,9 @@
    },
    {
     "code": "Default",
-    "cost": "51",
+    "cost": "49",
     "codename": "MULTI",
-    "swc": "0.5",
+    "swc": "0",
     "cbcode": [],
     "spec": [],
     "bsw": [
@@ -2909,14 +2896,14 @@
   "cbcode": [
    "280248-0296"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Auxbot GdA",
   "name": "Auxbot GdA",
   "bs": "10",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
@@ -2935,7 +2922,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "0",
+    "cost": "6",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2949,13 +2936,13 @@
   "functions": []
  },
  {
-  "mov": "4-2",
+  "mov": "4-4",
   "army": "Panoceania",
   "wip": "13",
   "cbcode": [
    "280240-0241"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Knights of Montesa",
   "name": "Knight of Montesa",
   "bs": "14",
@@ -2963,7 +2950,7 @@
   "cube": "X",
   "type": "HI",
   "ph": "13",
-  "cc": "16",
+  "cc": "19",
   "arm": "4",
   "irr": "",
   "w": "2",
@@ -2980,7 +2967,7 @@
   "childs": [
    {
     "code": "Lieutenant",
-    "cost": "46",
+    "cost": "45",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2995,7 +2982,7 @@
    },
    {
     "code": "Grenadier",
-    "cost": "51",
+    "cost": "49",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -3009,7 +2996,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "53",
+    "cost": "51",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3022,7 +3009,7 @@
    },
    {
     "code": "Default",
-    "cost": "46",
+    "cost": "45",
     "codename": "Combi",
     "swc": "0",
     "cbcode": [],
@@ -3038,13 +3025,13 @@
   "functions": []
  },
  {
-  "mov": "4-2",
+  "mov": "4-4",
   "army": "Panoceania",
   "wip": "14",
   "cbcode": [
    "280257-0361"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Knights of the Holy Sepulchre",
   "name": "Knight of the Holy Sepulchre",
   "bs": "14",
@@ -3052,7 +3039,7 @@
   "cube": "X",
   "type": "HI",
   "ph": "14",
-  "cc": "17",
+  "cc": "20",
   "arm": "4",
   "irr": "",
   "w": "2",
@@ -3070,7 +3057,7 @@
   "childs": [
    {
     "code": "Spitfire Lt",
-    "cost": "58",
+    "cost": "54",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3085,7 +3072,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "58",
+    "cost": "54",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3098,7 +3085,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "52",
+    "cost": "49",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3114,7 +3101,7 @@
    },
    {
     "code": "Default",
-    "cost": "52",
+    "cost": "49",
     "codename": "Combi",
     "swc": "0",
     "cbcode": [],
@@ -3138,7 +3125,7 @@
    "280245-0277",
    "280253-0333"
   ],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Teutonic Knights",
   "name": "Teutonic Knight",
   "bs": "14",
@@ -3146,7 +3133,7 @@
   "cube": "",
   "type": "HI",
   "ph": "14",
-  "cc": "18",
+  "cc": "21",
   "arm": "3",
   "irr": "",
   "w": "2",
@@ -3164,7 +3151,7 @@
   "childs": [
    {
     "code": "Lieutenant",
-    "cost": "42",
+    "cost": "34",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -3182,7 +3169,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "46",
+    "cost": "37",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3197,7 +3184,7 @@
    },
    {
     "code": "EXP CCW",
-    "cost": "44",
+    "cost": "36",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3213,7 +3200,7 @@
    },
    {
     "code": "Default",
-    "cost": "42",
+    "cost": "34",
     "codename": "Combi",
     "swc": "0",
     "cbcode": [],
@@ -3238,7 +3225,7 @@
   "cbcode": [
    "280247-0288"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Magister Knights",
   "name": "Magister Knight",
   "bs": "12",
@@ -3246,7 +3233,7 @@
   "cube": "X",
   "type": "HI",
   "ph": "14",
-  "cc": "18",
+  "cc": "21",
   "arm": "3",
   "irr": "",
   "imp": "X",
@@ -3264,22 +3251,22 @@
   "childs": [
    {
     "code": "Missile",
-    "cost": "49",
+    "cost": "32",
     "codename": "",
-    "swc": "1.5",
+    "swc": "2",
     "cbcode": [],
     "spec": [],
     "bsw": [
      "Missile Launcher"
     ],
     "ccw": [
-     "AP CCW"
+     "DA CCW"
     ],
     "note": ""
    },
    {
     "code": "Shotgun",
-    "cost": "31",
+    "cost": "24",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3294,29 +3281,15 @@
     "note": ""
    },
    {
-    "code": "DA CCW",
-    "cost": "27",
-    "codename": "",
-    "swc": "0",
-    "cbcode": [],
-    "spec": [],
-    "bsw": [
-     "Panzerfaust"
-    ],
-    "ccw": [
-     "DA CCW"
-    ],
-    "note": ""
-   },
-   {
     "code": "EXP CCW",
-    "cost": "29",
+    "cost": "25",
     "codename": "",
     "swc": "0",
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Panzerfaust"
+     "Panzerfaust",
+     "Light Shotgun"
     ],
     "ccw": [
      "EXP CCW"
@@ -3325,13 +3298,14 @@
    },
    {
     "code": "Default",
-    "cost": "27",
+    "cost": "23",
     "codename": "AP CCW",
     "swc": "0",
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Panzerfaust"
+     "Panzerfaust",
+     "Light Shotgun"
     ],
     "ccw": [
      "AP CCW"
@@ -3346,7 +3320,7 @@
   "army": "Panoceania",
   "wip": "12",
   "cbcode": [],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Clausewitz Uhlans",
   "name": "Uhlan",
   "bs": "15",
@@ -3372,7 +3346,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "100",
+    "cost": "96",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3390,7 +3364,7 @@
   "army": "Panoceania",
   "wip": "12",
   "cbcode": [],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Tikbalangs, Armoured Chasseurs of Acontecimento",
   "name": "Tikbalang",
   "bs": "14",
@@ -3419,7 +3393,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "80",
+    "cost": "78",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3437,7 +3411,7 @@
   "army": "Panoceania",
   "wip": "12",
   "cbcode": [],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Seraphs",
   "name": "Seraph",
   "bs": "14",
@@ -3465,7 +3439,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "85",
+    "cost": "83",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3485,14 +3459,14 @@
   "cbcode": [
    "280234-0195"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Armbots: Bulleteers",
   "name": "Bulleteer",
   "bs": "12",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "1",
   "irr": "",
@@ -3510,7 +3484,7 @@
   "childs": [
    {
     "code": "Spitfire",
-    "cost": "29",
+    "cost": "25",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -3523,7 +3497,7 @@
    },
    {
     "code": "Default",
-    "cost": "25",
+    "cost": "19",
     "codename": "HS",
     "swc": "0",
     "cbcode": [],
@@ -3545,14 +3519,14 @@
   "cbcode": [
    "280242-0255"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Armbots: Peacemakers",
   "name": "Peacemaker",
   "bs": "12",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "1",
   "irr": "",
@@ -3561,7 +3535,6 @@
   "bsw": [],
   "spec": [
    "Mechanized Deployment",
-   "G: Remote Presence",
    "Repeater",
    "Companion: Auxbot"
   ],
@@ -3571,7 +3544,7 @@
   "childs": [
    {
     "code": "Spitfire",
-    "cost": "35",
+    "cost": "29",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -3584,7 +3557,7 @@
    },
    {
     "code": "Default",
-    "cost": "31",
+    "cost": "23",
     "codename": "HS",
     "swc": "0",
     "cbcode": [],
@@ -3634,7 +3607,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "37",
+    "cost": "36",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3652,7 +3625,7 @@
   "army": "Panoceania",
   "wip": "13",
   "cbcode": [],
-  "bts": "-9",
+  "bts": "9",
   "isc": "Toni Macayana, Tikbalangs Lieutenant",
   "name": "Macayana",
   "bs": "15",
@@ -3684,7 +3657,7 @@
   "childs": [
    {
     "code": "Lieutenant",
-    "cost": "89",
+    "cost": "85",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3697,7 +3670,7 @@
    },
    {
     "code": "Default",
-    "cost": "89",
+    "cost": "85",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3711,13 +3684,13 @@
   "functions": []
  },
  {
-  "mov": "4-4",
+  "mov": "6-2",
   "army": "Panoceania",
   "wip": "15",
   "cbcode": [
    "280233-0188"
   ],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Joan of Arc 2.0 (Mobility Armor)",
   "name": "Joan of Arc 2.0",
   "bs": "15",
@@ -3725,7 +3698,7 @@
   "cube": "X",
   "type": "HI",
   "ph": "14",
-  "cc": "18",
+  "cc": "23",
   "arm": "3",
   "irr": "",
   "w": "2",
@@ -3739,6 +3712,8 @@
    "Inspiring Leadership",
    "Religious Troop",
    "V: No Wound Incapacitation",
+   "Multiterrain",
+   "Kinematika L1",
    "Personality"
   ],
   "ccw": [
@@ -3747,7 +3722,7 @@
   "childs": [
    {
     "code": "Lieutenant",
-    "cost": "57",
+    "cost": "51",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -3762,7 +3737,7 @@
    },
    {
     "code": "EXP CCW",
-    "cost": "59",
+    "cost": "53",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3775,7 +3750,7 @@
    },
    {
     "code": "Default",
-    "cost": "57",
+    "cost": "51",
     "codename": "AP CCW",
     "swc": "2",
     "cbcode": [],
@@ -3836,7 +3811,7 @@
  "ava": "2",
  "bs": "13",
  "bsw": [],
- "bts": "-3",
+ "bts": "3",
  "cbcode": ["280259-0380","280261-0395"],
  "cc": "15",
  "ccw": [
@@ -3865,10 +3840,10 @@
    "ccw": [],
    "code": "HMG",
    "codename": "",
-   "cost": "35",
+   "cost": "34",
    "note": "",
    "spec": [],
-   "swc": "1.5"
+   "swc": "2"
   },
   {
    "bsw": [
@@ -3878,7 +3853,7 @@
    "ccw": [],
    "code": "BS",
    "codename": "",
-   "cost": "26",
+   "cost": "25",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -3892,7 +3867,7 @@
    "ccw": [],
    "code": "MULTI",
    "codename": "",
-   "cost": "35",
+   "cost": "31",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -3936,7 +3911,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "",
-   "cost": "24",
+   "cost": "23",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -3947,7 +3922,7 @@
    "ccw": [],
    "code": "Lt",
    "codename": "",
-   "cost": "24",
+   "cost": "23",
    "note": "",
    "spec": [
     "Lieutenant"
@@ -3982,7 +3957,7 @@
   "Combi Rifle",
   "Light Shotgun"
  ],
- "bts": "-3",
+ "bts": "3",
  "cbcode": ["280002-0442"],
  "cc": "13",
  "ccw": [

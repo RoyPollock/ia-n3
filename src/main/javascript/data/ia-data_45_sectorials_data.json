@@ -132,6 +132,11 @@
     "isc": "Hassassin Farzans"
    },
    {
+    "ava": "5",
+    "isc": "Hassassin Govads",
+    "linkable": true
+   },
+   {
     "ava": "6",
     "isc": "Hassassin Muyibs",
     "linkable": true
@@ -212,6 +217,11 @@
    {
     "ava": "T",
     "isc": "Morat Vanguard Infantry",
+    "linkable": true
+   },
+   {
+    "ava": "5",
+    "isc": "Rodok, Morat Armed Imposition Detachment",
     "linkable": true
    },
    {
@@ -515,6 +525,11 @@
    },
    {
     "ava": "5",
+    "isc": "Zhanying Imperial Agents",
+    "linkable": true
+   },
+   {
+    "ava": "5",
     "isc": "Imperial Agents, Crane Rank",
     "linkable": true
    },
@@ -748,6 +763,11 @@
    {
     "ava": "4",
     "isc": "Reverend Moiras",
+    "linkable": true
+   },
+   {
+    "ava": "3",
+    "isc": "Reverend Healers",
     "linkable": true
    },
    {
@@ -1223,6 +1243,10 @@
     "ava": "4",
     "isc": "Knights Hospitaller",
     "linkable": true
+   },
+   {
+    "ava": "3",
+    "isc": "Father-Knights"
    },
    {
     "ava": "4",
