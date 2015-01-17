@@ -747,7 +747,7 @@
   "childs": [
    {
     "code": "T2",
-    "cost": "49",
+    "cost": "38",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -755,10 +755,10 @@
      "X Visor"
     ],
     "bsw": [
-     "T2 Rifle"
+     "T2 Rifle","Light Flamethrower"
     ],
     "ccw": [],
-    "note": "Not sure if this is coming in HS"
+    "note": ""
    },
    {
     "code": "Default",
