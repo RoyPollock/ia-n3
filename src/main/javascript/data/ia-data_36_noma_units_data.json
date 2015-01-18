@@ -337,7 +337,7 @@
    },
    {
     "code": "HMG",
-    "cost": "28",
+    "cost": "27",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -350,7 +350,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "33",
+    "cost": "27",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -363,7 +363,7 @@
    },
    {
     "code": "Hacker",
-    "cost": "32",
+    "cost": "31",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -380,7 +380,7 @@
    },
    {
     "code": "Paramedic",
-    "cost": "27",
+    "cost": "25",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1142,7 +1142,7 @@
    "280509-0058",
    "280511-0062"
   ],
-  "bts": "-9",
+  "bts": "9",
   "isc": "Szalamandra",
   "name": "Szalamandra",
   "bs": "14",
@@ -2207,7 +2207,7 @@
   "cube": "",
   "type": "SK",
   "ph": "13",
-  "cc": "17",
+  "cc": "22",
   "arm": "1",
   "irr": "",
   "w": "1",
@@ -2221,6 +2221,7 @@
    "Martial Arts L3",
    "CH: Camouflage",
    "Superior Infiltration",
+   "Multiterrain",
    "Personality"
   ],
   "ccw": [
@@ -2230,7 +2231,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "36",
+    "cost": "35",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2250,7 +2251,7 @@
   "cbcode": [
       "280565-0438"
   ],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Iguana Squadron",
   "name": "Iguana",
   "bs": "14",
@@ -2276,7 +2277,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "73",
+    "cost": "71",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -2289,7 +2290,7 @@
   "imp": "",
   "functions": [],
   "altp":[{
-  "mov": "4-2",
+  "mov": "4-4",
   "army": "Nomads",
   "wip": "13",
   "cbcode": [],
@@ -2319,11 +2320,11 @@
   "mov": "6-4",
   "army": "Nomads",
   "wip": "13",
-  "cc": "8",
+  "cc": "3",
   "cbcode": [
    "280534-0210"
   ],
-  "bts": "-6",
+  "bts": "6",
   "bs": "12",
   "isc": "Lunokhod Sputniks",
   "name": "Lunokhod",
@@ -2337,13 +2338,13 @@
   "cube": "R",
   "type": "REM",
   "imp": "",
-  "ph": "8",
+  "ph": "10",
   "arm": "3",
   "irr": "",
   "w": "1",
   "ava": "1",
   "bsw": [
-   "Boarding Shotgun"
+   "Heavy Shotgun"
   ],
   "ccw": [
    "Electric Pulse"
@@ -2351,7 +2352,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "29",
+    "cost": "26",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2364,8 +2365,8 @@
     "note": ""
    },
    {
-    "code": "Adhl",
-    "cost": "26",
+    "code": "AK",
+    "cost": "23",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2409,7 +2410,7 @@
    "280543-0270",
    "280558-0386"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Moderators from Bakunin",
   "name": "Moderator",
   "bs": "10",
@@ -2461,7 +2462,7 @@
    },
    {
     "code": "Paramedic",
-    "cost": "13",
+    "cost": "11",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2477,7 +2478,7 @@
    },
    {
     "code": "Hacker",
-    "cost": "21",
+    "cost": "17",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2507,7 +2508,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "23",
+    "cost": "17",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2520,7 +2521,7 @@
    },
    {
     "code": "Grenadier",
-    "cost": "14",
+    "cost": "13",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2534,7 +2535,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "16",
+    "cost": "15",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2567,9 +2568,10 @@
    "CH: Mimetism",
    "Infiltration",
    "Repeater",
-   "V: Courage"
+   "V: Courage",
+   "Multiterrain"
   ],
-  "cube": "",
+  "cube": "X",
   "type": "SK",
   "imp": "",
   "ph": "11",
@@ -2618,7 +2620,7 @@
    },
    {
     "code": "Observer",
-    "cost": "24",
+    "cost": "22",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2633,7 +2635,7 @@
    },
    {
     "code": "Shotgun",
-    "cost": "21",
+    "cost": "20",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2660,7 +2662,7 @@
   "name": "Prowler",
   "bs": "12",
   "note": "",
-  "cube": "",
+  "cube": "X",
   "type": "MI",
   "ph": "12",
   "cc": "14",
@@ -2697,7 +2699,7 @@
    },
    {
     "code": "Shotgun",
-    "cost": "32",
+    "cost": "31",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2713,7 +2715,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "37",
+    "cost": "36",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -2738,7 +2740,7 @@
    "280547-0302",
    "280551-0340"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Reverend Custodiers",
   "name": "Reverend Custodier",
   "bs": "12",
@@ -2765,7 +2767,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "38",
+    "cost": "34",
     "codename": "Marker",
     "swc": "0.5",
     "cbcode": [],
@@ -2779,7 +2781,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "38",
+    "cost": "34",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2795,7 +2797,7 @@
    },
    {
     "code": "Combi",
-    "cost": "36",
+    "cost": "32",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2808,7 +2810,7 @@
    },
    {
     "code": "Shotgun",
-    "cost": "36",
+    "cost": "31",
     "codename": "BS",
     "swc": "0.5",
     "cbcode": [],
@@ -2830,14 +2832,14 @@
   "cbcode": [
    "280538-0231"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Salyut Zonds",
   "name": "Salyut",
   "bs": "11",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "2",
   "irr": "",
@@ -2932,7 +2934,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "34",
+    "cost": "33",
     "codename": "HMG",
     "swc": "2",
     "cbcode": [],
@@ -2945,7 +2947,7 @@
    },
    {
     "code": "Spitfire",
-    "cost": "32",
+    "cost": "31",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2958,7 +2960,7 @@
    },
    {
     "code": "Sniper",
-    "cost": "39",
+    "cost": "33",
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
@@ -2971,7 +2973,7 @@
    },
    {
     "code": "Mk12",
-    "cost": "29",
+    "cost": "30",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3001,7 +3003,7 @@
   "name": "Tomcat",
   "bs": "12",
   "note": "",
-  "cube": "",
+  "cube": "X",
   "type": "LI",
   "ph": "11",
   "cc": "13",
@@ -3025,7 +3027,7 @@
     "code": "Default",
     "cost": "19",
     "codename": "Combi",
-    "swc": "1",
+    "swc": ".5",
     "cbcode": [],
     "spec": [],
     "bsw": [
@@ -3037,7 +3039,7 @@
    },
    {
     "code": "Engineer+zond",
-    "cost": "28",
+    "cost": "22",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3054,7 +3056,7 @@
    },
    {
     "code": "Doctor+zond",
-    "cost": "28",
+    "cost": "22",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3113,7 +3115,7 @@
    },
    {
     "code": "E/Mitter",
-    "cost": "19",
+    "cost": "20",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3136,15 +3138,15 @@
   "cbcode": [
    "280529-0181"
   ],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Tsyklon Sputniks",
   "name": "Tsyklon",
   "bs": "12",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
-  "cc": "8",
+  "ph": "10",
+  "cc": "3",
   "arm": "3",
   "irr": "",
   "w": "1",
@@ -3162,7 +3164,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "37",
+    "cost": "33",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -3176,9 +3178,9 @@
    },
    {
     "code": "Feuerbach",
-    "cost": "38",
+    "cost": "31",
     "codename": "",
-    "swc": "1.5",
+    "swc": "1",
     "cbcode": [],
     "spec": [],
     "bsw": [
@@ -3198,14 +3200,14 @@
   "cbcode": [
    "280533-0202"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Zondbots",
   "name": "Zondbot",
   "bs": "8",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
@@ -3244,14 +3246,14 @@
    "280568-0463",
    "280569-0488"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Zondcats",
   "name": "Zondcat",
   "bs": "8",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
@@ -3270,7 +3272,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "0",
+    "cost": "4",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3299,7 +3301,7 @@
   "cube": "X",
   "type": "WB",
   "ph": "13",
-  "cc": "18",
+  "cc": "21",
   "arm": "1",
   "irr": "X",
   "w": "1",
@@ -3312,6 +3314,7 @@
   "spec": [
    "Climbing Plus",
    "i-Kohl L1",
+   "Kinematika L1",
    "Natural Born Warrior",
    "Total Immunity"
   ],
@@ -3321,7 +3324,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "21",
+    "cost": "20",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3331,7 +3334,7 @@
     "note": ""
    }
   ],
-  "imp": "X",
+  "imp": "XX",
   "functions": []
  },
  {
@@ -3349,7 +3352,7 @@
   "cube": "R",
   "type": "WB",
   "ph": "13",
-  "cc": "17",
+  "cc": "19",
   "arm": "0",
   "irr": "X",
   "w": "1",
@@ -3359,6 +3362,7 @@
    "G: Synchronized",
    "Total Immunity",
    "Climbing Plus",
+   "Kinematika L1",
    "Hyper-Dynamics L3"
   ],
   "ccw": [
@@ -3377,7 +3381,7 @@
     "note": ""
    }
   ],
-  "imp": "X",
+  "imp": "XX",
   "functions": []
  },
  {
@@ -3395,7 +3399,7 @@
   "cube": "X",
   "type": "MI",
   "ph": "13",
-  "cc": "15",
+  "cc": "16",
   "arm": "3",
   "irr": "",
   "w": "1",
@@ -3418,7 +3422,7 @@
   "childs": [
    {
     "code": "Lieutenant",
-    "cost": "52",
+    "cost": "44",
     "codename": "",
     "swc": "-1",
     "cbcode": [],
@@ -3431,7 +3435,7 @@
    },
    {
     "code": "Default",
-    "cost": "52",
+    "cost": "44",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3456,7 +3460,7 @@
   "name": "Carlota Kowalsky",
   "bs": "13",
   "note": "",
-  "cube": "",
+  "cube": "X",
   "type": "LI",
   "ph": "11",
   "cc": "14",
@@ -3483,7 +3487,7 @@
   "childs": [
    {
     "code": "Moriarty",
-    "cost": "37",
+    "cost": "30",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3516,14 +3520,14 @@
   "cbcode": [
    "280545-0285"
   ],
-  "bts": "-6",
+  "bts": "6",
   "isc": "Moriarty",
   "name": "Moriarty",
   "bs": "8",
   "note": "",
   "cube": "R",
   "type": "REM",
-  "ph": "8",
+  "ph": "10",
   "cc": "8",
   "arm": "0",
   "irr": "",
@@ -3541,7 +3545,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "0",
+    "cost": "4",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3562,7 +3566,7 @@
    "280555-0359",
    "280559-0391"
   ],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Riot Grrls",
   "name": "Riot Grrl",
   "bs": "12",
@@ -3587,7 +3591,7 @@
   "childs": [
    {
     "code": "Spitfire",
-    "cost": "36",
+    "cost": "35",
     "codename": "",
     "swc": "2",
     "cbcode": [],
@@ -3600,7 +3604,7 @@
    },
    {
     "code": "Multi",
-    "cost": "37",
+    "cost": "33",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3614,7 +3618,7 @@
    },
    {
     "code": "Shotgun",
-    "cost": "29",
+    "cost": "28",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3628,7 +3632,7 @@
    },
    {
     "code": "Default",
-    "cost": "31",
+    "cost": "30",
     "codename": "Combi",
     "swc": "0",
     "cbcode": [],
@@ -3717,7 +3721,7 @@
      "Pistol"
     ],
     "codename": "",
-    "cost": "19",
+    "cost": "18",
     "spec": [
      "Deployable Repeater"
     ]
@@ -3734,7 +3738,7 @@
      "Assault Pistol"
     ],
     "codename": "",
-    "cost": "31",
+    "cost": "20",
     "spec": []
    },
    {
@@ -3749,7 +3753,7 @@
      "Pistol"
     ],
     "codename": "",
-    "cost": "25",
+    "cost": "24",
     "spec": []
    },
    {
@@ -3766,7 +3770,7 @@
      "Pistol"
     ],
     "codename": "",
-    "cost": "31",
+    "cost": "27",
     "spec": [
      "Hacker",
      "Hacking Device"
@@ -3840,7 +3844,7 @@
   "cbcode": [
    "280557-0376","280560-0398"
   ],
-  "bts": "-6",
+  "bts": "6",
   "army": "Nomads",
   "note": "",
   "cube": "X",
@@ -3867,7 +3871,7 @@
  "bsw": [
   "Chain Colt"
  ],
- "bts": "-3",
+ "bts": "3",
  "cbcode": ["280567-0460"],
  "cc": "15",
  "ccw": [],
@@ -3881,7 +3885,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "Combi",
-   "cost": "54",
+   "cost": "53",
    "note": "",
    "spec": [],
    "swc": "1"
@@ -3958,7 +3962,7 @@
   "Panzerfaust",
   "Smoke Grenades"
  ],
- "bts": "-3",
+ "bts": "3",
  "cbcode": ["280003-0443"],
  "cc": "14",
  "ccw": [
