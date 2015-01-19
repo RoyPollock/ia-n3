@@ -13,8 +13,8 @@
     "note": "",
     "cube": "",
     "type": "WB",
-    "ph": "13",
-    "cc": "17",
+    "ph": "14",
+    "cc": "19",
     "arm": "0",
     "irr": "X",
     "w": "1",
@@ -23,33 +23,16 @@
     "Smoke Grenades"
     ],
     "spec": [
-    "Booty",
-    "AD: Combat Jump"
+    "Booty L1",
+    "AD: Inferior Combat Jump"
     ],
     "ccw": [
     "Pistol"
     ],
     "childs": [
     {
-        "code": "Lieutenant",
-        "cost": "11",
-        "codename": "",
-        "swc": "3",
-        "cbcode": [],
-        "spec": [
-        "Lieutenant"
-        ],
-        "bsw": [
-        "Chain Rifle"
-        ],
-        "ccw": [
-        "Shock CCW"
-        ],
-        "note": ""
-    },
-    {
         "code": "Rifle",
-        "cost": "17",
+        "cost": "14",
         "codename": "",
         "swc": "0",
         "cbcode": [],
@@ -64,7 +47,7 @@
     },
     {
         "code": "Shotgun",
-        "cost": "19",
+        "cost": "16",
         "codename": "BS",
         "swc": "0",
         "cbcode": [],
@@ -79,7 +62,7 @@
     },
     {
         "code": "AP CCW",
-        "cost": "11",
+        "cost": "8",
         "codename": "",
         "swc": "0",
         "cbcode": [],
@@ -94,7 +77,7 @@
     },
     {
         "code": "Default",
-        "cost": "11",
+        "cost": "8",
         "codename": "Shock CCW",
         "swc": "0",
         "cbcode": [],
@@ -106,9 +89,24 @@
         "Shock CCW"
         ],
         "note": ""
+    },
+    {
+        "code": "DA CCW",
+        "cost": "9",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Chain Rifle"
+        ],
+        "ccw": [
+        "DA CCW"
+        ],
+	"note": ""
     }
     ],
-    "imp": "X",
+    "imp": "XX",
     "functions": []
 },
  {
@@ -555,7 +553,7 @@
   "cube": "X",
   "type": "SK",
   "ph": "13",
-  "cc": "18",
+  "cc": "24",
   "arm": "1",
   "irr": "",
   "w": "1",
@@ -567,16 +565,19 @@
   "spec": [
    "Martial Arts L4",
    "CH: TO Camouflage",
-   "Infiltration"
+   "Infiltration",
+   "Kinematika L1",
+   "Multiterrain"
   ],
   "ccw": [
    "Pistol",
-   "EXP CCW"
+   "EXP CCW",
+   "Knife"
   ],
   "childs": [
    {
     "code": "Default",
-    "cost": "41",
+    "cost": "39",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -596,7 +597,7 @@
   "cbcode": [
    "280702-0110"
   ],
-  "bts": "0",
+  "bts": "3",
   "isc": "Miyamoto Mushashi",
   "name": "Miyamoto Mushashi",
   "bs": "9",
@@ -604,27 +605,29 @@
   "cube": "X",
   "type": "WB",
   "ph": "14",
-  "cc": "22",
+  "cc": "25",
   "arm": "1",
   "irr": "X",
   "w": "1",
   "ava": "1",
   "bsw": [
-   "Chain Rifle"
+   "Chain Rifle", "Flash Pulse"
   ],
   "spec": [
    "Martial Arts L5",
-   "CC with 2 Weapons",
+   "Dual Wield",
+   "Kinematika L2",
    "V: No Wound Incapacitation"
   ],
   "ccw": [
    "AP CCW",
-   "EXP CCW"
+   "EXP CCW",
+   "Pistol"
   ],
   "childs": [
    {
     "code": "Default",
-    "cost": "26",
+    "cost": "24",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1017,7 +1020,7 @@
    "codename": "",
    "cost": "21",
    "note": "",
-   "spec": ["Kinematika L1","Martial Arts L4", "V:NWI"],
+   "spec": ["Kinematika L1","Martial Arts L4", "V: No Wound Incapacitation"],
    "swc": "0"
   }
  ],
@@ -1216,12 +1219,66 @@
  "wip": "13"
 },
 {
+ "arm": "0",
+ "army": "Mercenary",
+ "ava": "1",
+ "bs": "11",
+ "bsw": ["Boarding Shotgun"],
+ "bts": "3",
+ "cbcode": [],
+ "cc": "13",
+ "ccw": [
+  "Pistol",
+  "Knife"
+ ],
+ "childs": [
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "Hacker",
+   "cost": "19",
+   "note": "",
+   "spec": ["Hacker","Hacking Device"],
+   "swc": "1"
+  },
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Defensive Hacker",
+   "codename": "",
+   "cost": "17",
+   "note": "",
+   "spec": [],
+   "swc": "0.5"
+  }
+ ],
+ "cube": "X",
+ "imp": "",
+ "irr": "",
+ "isc": "Wardrivers",
+ "mov": "4-4",
+ "name": "Wardriver",
+ "note": "Generic Ariadna may take in ITS",
+ "ph": "10",
+ "spec": [
+  "Sixth Sense L1"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "13"
+},
+{
  "arm": "1",
  "army": "Mercenary",
  "ava": "3",
  "bs": "12",
  "bsw": [],
- "bts": "-3",
+ "bts": "3",
  "cbcode": ["280712-0461"],
  "cc": "14",
  "ccw": [
@@ -1250,10 +1307,36 @@
    "ccw": [],
    "code": "BS",
    "codename": "",
-   "cost": "14",
+   "cost": "13",
    "note": "",
    "spec": [],
    "swc": "0"
+  },
+  {
+   "bsw": [
+    "Sniper Rifle"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Sniper",
+   "codename": "",
+   "cost": "19",
+   "note": "",
+   "spec": [],
+   "swc": "0.5"
+  },
+  {
+   "bsw": [
+    "Spitfire"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Spitfire",
+   "codename": "",
+   "cost": "20",
+   "note": "",
+   "spec": [],
+   "swc": "1"
   }
  ],
  "cube": "X",
@@ -1265,7 +1348,7 @@
  "note": "",
  "ph": "10",
  "spec": [
-  "Booty L2"
+  "Booty L2", "Stealth"
  ],
  "type": "LI",
  "w": "1",
@@ -1342,7 +1425,7 @@
   "Light Flamethrower",
   "Panzerfaust"
  ],
- "bts": "-6",
+ "bts": "6",
  "cbcode": ["280711-0425"],
  "cc": "16",
  "ccw": [
@@ -1371,7 +1454,7 @@
  "ph": "16",
  "spec": [
   "V: Courage",
-  "Ejection System",
+  "ED:Escape System",
   "ECM"
  ],
  "type": "TAG",
@@ -1382,7 +1465,7 @@
   "army": "Mercenary",
   "wip": "13",
   "cbcode": [],
-  "bts": "-3",
+  "bts": "3",
   "isc": "Operator",
   "name": "Operator",
   "bs": "12",

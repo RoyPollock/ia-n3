@@ -2939,10 +2939,6 @@
   ],
   "imp": "",
   "functions": [
-   {
-    "func": "if(units.sectorialName!='Japanese Sectorial Army'){ delete this.childsByCode['Chain Comm']; delete this.childsByCode['Chain Comm + Shotgun']; }",
-    "bind": "postLoad"
-   }
   ]
  },
  {
@@ -3074,7 +3070,7 @@
   "bsw": [],
   "spec": [
    "CH: Mimetism",
-   "Motorcycle", "Kinematika L2"
+   "Motorcycle", "Kinematika L2",
    "V: Courage"
   ],
   "ccw": [
@@ -3158,9 +3154,6 @@
   ],
   "imp": "XX",
   "functions": [
-    {
-    "func": "if(units.sectorialName!='Japanese Sectorial Army'){ delete this.childsByCode['Lieutenant']; }",
-    }
     ]
  },
  {
