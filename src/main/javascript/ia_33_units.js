@@ -25,6 +25,7 @@ var units = ia.units = {};
     }
     addFlagIcon('irregular');
     addFlagIcon('impetuous');
+    addFlagIcon('ex_impetuous');
     addFlagIcon('frenzy');
     addFlagIcon('regular');
     addFlagIcon('cube');
@@ -519,6 +520,8 @@ var units = ia.units = {};
             }
             if (unit.get('imp') == 'F') {
                 target.append(flagIcons.frenzy);
+            } else if (unit.get('imp') == 'XX') {
+                target.append(flagIcons.ex_impetuous);
             } else if (unit.get('imp') != '') {
                 target.append(flagIcons.impetuous);
             }
