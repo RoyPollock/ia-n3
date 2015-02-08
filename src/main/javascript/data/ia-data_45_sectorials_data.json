@@ -177,7 +177,7 @@
     "isc": "Hussein Al-Djabel"
    },
    {
-    "ava": "2",
+    "ava": "1",
     "isc": "Rafiq Remote"
    },
    {
@@ -440,7 +440,7 @@
     "linkable": true
    },
    {
-    "ava": "4",
+    "ava": "6",
     "isc": "Highlander Caterans"
    },
    {
@@ -458,8 +458,9 @@
     "linkable": true
    },
    {
-    "ava": "3",
-    "isc": "Caledonian Mormaers"
+    "ava": "5",
+    "isc": "Caledonian Mormaers",
+    "linkable": true
    },
    {
     "ava": "4",
@@ -472,19 +473,14 @@
    },
    {
     "ava": "T",
-    "isc": "45th Highlanders",
-    "linkable": true
-   },
-   {
-    "ava": "3",
-    "isc": "2nd Irregular Cameronians Reg."
+    "isc": "45th Highlanders"
    },
    {
     "ava": "2",
     "isc": "Traktor Mul, Artillery and Support Regiment"
    },
    {
-    "ava": "2",
+    "ava": "3",
     "isc": "112, Emergency Service"
    },
    {
@@ -540,7 +536,7 @@
    },
    {
     "ava": "4",
-    "isc": "Hsien",
+    "isc": "Hsien Warriors",
     "linkable": true
    },
    {
@@ -562,7 +558,7 @@
     "linkable": true
    },
    {
-    "ava": "2",
+    "ava": "1",
     "isc": "Dakini Tacbots"
    },
    {
@@ -1065,7 +1061,7 @@
     "isc": "Clipper Dronbot"
    },
    {
-    "ava": "3",
+    "ava": "2",
     "isc": "Fugazi Dronbot"
    },
    {
@@ -1372,7 +1368,7 @@
     "isc": "Zouaves"
    },
    {
-    "ava": "4",
+    "ava": "5",
     "isc": "Moblots",
     "linkable": true
    },
@@ -1395,6 +1391,7 @@
    {
     "ava": "1",
     "isc": "Alguaciles"
+    "notes": "Hacker only"
    },
    {
     "ava": "1",

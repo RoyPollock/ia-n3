@@ -176,12 +176,15 @@ var weapons=ia.weapons={};
             });
             if(upperBar){
                 var mod=Number(args.weapon[upperBar+"_mod"]);
-                if((hasX2visor && (upperBar=="long"||upperBar=="max"))||(upperBar=="long"&&hasXvisor)){
-                    mod=Math.max(mod,0);
-                }
-                if(upperBar=="max"&&hasXvisor){
-                    mod=Math.max(mod,-3);
-                }
+		if(hasX2visor) {
+		    mod=Math.max(mod,0);
+		}
+		if(hasXvisor && mod == -3) {
+		    mod=0;
+		}
+		if(hasXvisor && mod == -6) {
+		    mod=-3;
+		}
                 var val=baseValue+mod;
                 mods.push(val);
             }else{
