@@ -1020,12 +1020,12 @@
    "Martial Arts L2"
   ],
   "ccw": [
-   "Pistol", "Knife", "AP CCW"
+    "Knife", "AP CCW"
   ],
   "childs": [
    {
-    "code": "SMG",
-    "cost": "23",
+    "code": "Grenades",
+    "cost": "22",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -1037,7 +1037,23 @@
     "ccw": [
      "Assault Pistol"
     ],
-    "note": "Assume this is HS"
+    "note": ""
+   },
+   {
+    "code": "Chain",
+    "cost": "21",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Chain Rifle",
+     "Light Shotgun"
+    ],
+    "ccw": [
+     "Pistol"
+    ],
+    "note": ""
    },
    {
     "code": "Default",
@@ -1050,6 +1066,7 @@
      "Rifle"
     ],
     "ccw": [
+     "Pistol"
     ],
     "note": ""
    },
@@ -1066,6 +1083,7 @@
      "Rifle"
     ],
     "ccw": [
+     "Pistol"
     ],
     "note": ""
    },
@@ -1082,6 +1100,7 @@
      "Rifle"
     ],
     "ccw": [
+     "Pistol"
     ],
     "note": ""
    },
@@ -1096,6 +1115,7 @@
      "Sniper Rifle"
     ],
     "ccw": [
+     "Pistol"
     ],
     "note": ""
    },
@@ -1110,6 +1130,7 @@
      "Boarding Shotgun"
     ],
     "ccw": [
+     "Pistol"
     ],
     "note": ""
    }
