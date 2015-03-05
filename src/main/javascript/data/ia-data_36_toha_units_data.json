@@ -1590,4 +1590,156 @@
    }
   ]
 }
+,
+{
+ "arm": "1",
+ "army": "Tohaa",
+ "ava": "4",
+ "bs": "12",
+ "bsw": [
+ ],
+ "bts": "3",
+ "cbcode": ["280914-0451"],
+ "cc": "15",
+ "ccw": [
+  "Pistol","Knife"
+ ],
+ "childs": [
+  {
+   "bsw": [
+     "Combi Rifle", "Mines"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "Combi",
+   "cost": "30",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Viral Combi Rifle"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Viral",
+   "codename": "",
+   "cost": "35",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Boarding Shotgun", "Contender"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "BS",
+   "codename": "",
+   "cost": "31",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Contender (2)"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Dual C",
+   "codename": "",
+   "cost": "32",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Spitfire"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Spitfire",
+   "codename": "",
+   "cost": "35",
+   "note": "",
+   "spec": [],
+   "swc": "2"
+  },
+  {
+   "bsw": [
+     "Combi Rifle", "Mines"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "LT",
+   "codename": "",
+   "cost": "30",
+   "note": "",
+   "spec": ["Lieutenant"],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Viral Combi Rifle"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Viral LT",
+   "codename": "",
+   "cost": "35",
+   "note": "",
+   "spec": ["Lieutenant"],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Spitfire"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Spitfire LT",
+   "codename": "",
+   "cost": "35",
+   "note": "",
+   "spec": ["Lieutenant"],
+   "swc": "2"
+  }
+ ],
+ "cube": "X",
+ "imp": "",
+ "irr": "",
+ "isc": "Rasail Boarding Team",
+ "mov": "4-4",
+ "name": "Rasail",
+ "note": "",
+ "ph": "11",
+ "wtype":"w",
+ "spec": [
+  "Symbiont Armour",
+  "Nanoscreen",
+  "V: Courage",
+  "Companion: Chaksa Peripheral"
+ ],
+ "type": "LI",
+ "w": "2",
+ "wip": "13",
+ "altp":[{
+         "isc":"(Inactive Armour)",
+         "type":"LI",
+         "mov":"4-4",
+         "ph":"11",
+         "bs":"12",
+         "cc":"15",
+         "arm":"0",
+         "bts":"0",
+         "w":"1",
+         "ava":" ",
+    "spec":[]
+ }]
+}
 

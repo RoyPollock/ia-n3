@@ -2179,9 +2179,9 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "0",
+    "cost": "19",
     "codename": "Combi",
-    "swc": "19",
+    "swc": "0",
     "cbcode": [],
     "spec": [],
     "bsw": [],

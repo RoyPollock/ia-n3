@@ -1308,7 +1308,7 @@
      "Rifle"
     ],
     "ccw": [],
-    "note": "What's the difference between a 'wegi and a large pizza?"
+    "note": ""
    },
    {
     "code": "Shotgun",
@@ -1321,7 +1321,7 @@
      "Boarding Shotgun"
     ],
     "ccw": [],
-    "note": "A large pizza can feed a family of 5"
+    "note": ""
    },
    {
     "code": "Chain",
@@ -1334,7 +1334,7 @@
      "Chain Rifle"
     ],
     "ccw": [],
-    "note": "(Old Edinburgher Joke)"
+    "note": ""
    }
   ],
   "imp": "XX",
