@@ -627,6 +627,70 @@
  {
   "childs": [
    {
+    "bsw": [
+     "Boarding Shotgun"
+    ],
+    "swc": "0",
+    "cbcode": [],
+    "code": "Default",
+    "note": "",
+    "ccw": [],
+    "codename": "BS",
+    "cost": "25",
+    "spec": []
+   },
+   {
+    "bsw": [
+     "Combi Rifle",
+     "Nanopulser"
+    ],
+    "swc": "0",
+    "cbcode": [],
+    "code": "Combi",
+    "note": "",
+    "ccw": [],
+    "codename": "",
+    "cost": "26",
+    "spec": []
+   }
+  ],
+  "ccw": [
+   "Pistol",
+   "AP CCW"
+  ],
+  "bsw": ["Flash Grenades"],
+  "ava": "2",
+  "irr": "",
+  "arm": "0",
+  "cbcode": [
+   "280916-0470",
+   "280901-0378"
+  ],
+  "bts": "3",
+  "army": "Tohaa",
+  "note": "",
+  "cube": "X",
+  "bs": "11",
+  "cc": "20",
+  "imp": "F",
+  "name": "Clipsos",
+  "isc": "Clipsos Infiltrators",
+  "mov": "4-4",
+  "type": "SK",
+  "ph": "13",
+  "spec": [
+   "CH: Camouflage",
+   "Infiltration",
+   "Kinematika L1",
+   "Martial Arts L3",
+   "Multiterrain"
+  ],
+  "w": "1",
+  "wip": "13"
+ },
+ {
+  "childs": [
+   {
     "bsw": [],
     "swc": "0",
     "cbcode": [],
@@ -1216,7 +1280,7 @@
    "ccw": [],
    "code": "Rocket",
    "codename": "",
-   "cost": "21",
+   "cost": "15",
    "note": "",
    "spec": [],
    "swc": "1"

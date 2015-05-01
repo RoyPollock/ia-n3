@@ -1717,7 +1717,7 @@
    },
    {
     "code": "BS",
-    "cost": "30",
+    "cost": "29",
     "codename": "BS",
     "swc": "0",
     "cbcode": [],
@@ -3190,7 +3190,7 @@
    },
    {
     "code": "HRL",
-    "cost": "22",
+    "cost": "23",
     "codename": "",
     "swc": "1",
     "cbcode": [],

@@ -423,7 +423,7 @@
    },
    {
     "code": "Hacker",
-    "cost": "42",
+    "cost": "40",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -2205,6 +2205,79 @@
 }
 ,
 {
+ "arm": "2",
+ "army": "Aleph",
+ "ava": "1",
+ "bs": "14",
+ "bsw": ["Nanopulser"],
+ "bts": "6",
+ "cbcode": ["280829-0383"],
+ "cc": "18",
+ "ccw": [
+  "Pistol",
+  "Knife"
+ ],
+ "childs": [
+  {
+   "bsw": [
+    "Feuerbach"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "XVisor",
+   "cost": "38",
+   "note": "",
+   "spec": [
+    "X Visor"
+   ],
+   "swc": "1.5"
+  },
+  {
+   "bsw": [
+    "K1 Sniper Rifle"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Sniper",
+   "codename": "",
+   "cost": "42",
+   "note": "",
+   "spec": ["Multispectral Visor L2"],
+   "swc": "1.5"
+  },
+  {
+   "bsw": [
+    "Feuerbach"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "MSV",
+   "codename": "",
+   "cost": "41",
+   "note": "",
+   "spec": ["Multispectral Visor L2"],
+   "swc": "2"
+  }
+ ],
+ "cube": "2",
+ "imp": "",
+ "irr": "",
+ "isc": "Teucer, Agema Warrant Officer",
+ "mov": "4-2",
+ "name": "Teucer",
+ "note": "",
+ "ph": "11",
+ "spec": [
+  "V: No Wound Incapacitation",
+  "Marksmanship LX"
+ ],
+ "type": "MI",
+ "w": "1",
+ "wip": "14"
+}
+,
+{
  "arm": "3",
  "army": "Aleph",
  "ava": "1",
@@ -2810,7 +2883,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "Inf",
-   "cost": "26",
+   "cost": "27",
    "note": "",
    "spec": [
     "Infiltration"
@@ -2825,7 +2898,7 @@
    "ccw": [],
    "code": "LRL",
    "codename": "",
-   "cost": "29",
+   "cost": "30",
    "note": "",
    "spec": [
     "Fireteam: Enomotarchos"
