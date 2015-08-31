@@ -1212,6 +1212,134 @@
  {
   "mov": "4-4",
   "army": "Nomads",
+  "wip": "12",
+  "cbcode": [
+  ],
+  "bts": "3",
+  "isc": "Corregidor Bandits",
+  "name": "Bandit",
+  "bs": "12",
+  "note": "",
+  "cube": "X",
+  "type": "SK",
+  "ph": "13",
+  "cc": "21",
+  "arm": "1",
+  "irr": "X",
+  "w": "1",
+  "ava": "2",
+  "bsw": [],
+  "spec": [
+   "CH: Camouflage",
+   "Infiltration",
+   "Martial Arts L2",
+   "Scavenger",
+   "Multiterrain"
+  ],
+  "ccw": [
+   "DA CCW",
+   "Pistol"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "27",
+    "codename": "Combi",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Combi Rifle",
+     "Antipersonnel Mines"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Repeater",
+    "cost": "28",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+     "Deployable Repeater"
+    ],
+    "bsw": [
+     "Combi Rifle",
+     "Antipersonnel Mines"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "BS",
+    "cost": "26",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/Mauler"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Hacker",
+    "cost": "28",
+    "codename": "",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": [
+     "Hacker",
+     "Assault Hacking Device"
+    ],
+    "bsw": [
+     "Light Shotgun",
+     "Adhesive Launcher"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "ADHL",
+    "cost": "22",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Light Shotgun",
+     "Adhesive Launcher"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "FO",
+    "cost": "23",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+     "Forward Observer"
+    ],
+    "bsw": [
+     "Light Shotgun",
+     "Adhesive Launcher"
+    ],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "4-4",
+  "army": "Nomads",
   "wip": "13",
   "cbcode": [
    "280521-0129",
@@ -1509,6 +1637,87 @@
    }
   ],
   "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "4-4",
+  "army": "Nomads",
+  "wip": "12",
+  "cbcode": [
+  ],
+  "bts": "0",
+  "isc": "Corregidor Jaguars",
+  "name": "Jaguar",
+  "bs": "11",
+  "note": "",
+  "cube": "",
+  "type": "WB",
+  "ph": "13",
+  "cc": "21",
+  "arm": "1",
+  "irr": "",
+  "w": "1",
+  "ava": "4",
+  "bsw": [],
+  "spec": [
+   "Martial Arts L2",
+   "V:Dogged"
+  ],
+  "ccw": ["Pistol"],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "10",
+    "codename": "Chain",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Chain Rifle",
+     "Smoke Grenades"
+    ],
+    "ccw": [
+     "DA CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "13",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Light Shotgun",
+     "Smoke Grenades"
+    ],
+    "ccw": [
+     "E/M CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "ADHL",
+    "cost": "13",
+    "codename": "",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Adhesive Launcher",
+     "Panzerfaust"
+    ],
+    "ccw": [
+     "DA CCW"
+    ],
+    "note": ""
+   }
+  ],
+  "imp": "F",
   "functions": []
  },
  {

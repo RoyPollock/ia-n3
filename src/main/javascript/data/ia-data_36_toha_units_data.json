@@ -628,6 +628,71 @@
   "childs": [
    {
     "bsw": [
+     "Combi Rifle",
+     "Nanopulser",
+     "Flash Grenades"
+    ],
+    "swc": "0",
+    "cbcode": [],
+    "code": "Default",
+    "note": "",
+    "ccw": [],
+    "codename": "Combi",
+    "cost": "26",
+    "spec": []
+   },
+   {
+    "bsw": [
+     "Boarding Shotgun",
+     "Flash Grenades"
+    ],
+    "swc": "0",
+    "cbcode": [],
+    "code": "BS",
+    "note": "",
+    "ccw": [],
+    "codename": "",
+    "cost": "25",
+    "spec": [
+    ]
+   }
+  ],
+  "ccw": [
+   "Pistol",
+   "AP CC Weapon"
+  ],
+  "bsw": [],
+  "ava": "2",
+  "irr": "",
+  "arm": "0",
+  "cbcode": [
+  ],
+  "bts": "3",
+  "army": "Tohaa",
+  "note": "",
+  "cube": "X",
+  "bs": "11",
+  "cc": "20",
+  "imp": "F",
+  "name": "Igao",
+  "isc": "Igao Unit",
+  "mov": "4-4",
+  "type": "SK",
+  "ph": "13",
+  "spec": [
+   "CH: Camouflage",
+   "Infiltration",
+   "Kinematika L1",
+   "Martial Arts L3",
+   "Multiterrain"
+  ],
+  "w": "1",
+  "wip": "13"
+ },
+ {
+  "childs": [
+   {
+    "bsw": [
      "Boarding Shotgun"
     ],
     "swc": "0",
@@ -1114,7 +1179,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "Flamer",
-   "cost": "16",
+   "cost": "13",
    "note": "",
    "spec": [],
    "swc": "0"

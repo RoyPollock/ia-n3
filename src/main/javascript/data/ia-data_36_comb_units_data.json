@@ -174,7 +174,7 @@
     "bs": "11",
     "note": "",
     "cube": "R",
-    "type": "LI",
+    "type": "REM",
     "ph": "10",
     "cc": "5",
     "arm": "1",
@@ -611,13 +611,13 @@
     "note": ""
    },
    {
-    "code": "Sniper",
+    "code": "Hacker",
     "cost": "34",
     "codename": "",
-    "swc": ".5",
+    "swc": "0.5",
     "cbcode": [],
     "spec": ["Hacker","EI Hacking Device"],
-    "bsw": ["Combi Rifle","Light Shotgun"],
+    "bsw": ["Grenades","Boarding Shotgun"],
     "ccw": [],
     "note": ""
    }
