@@ -148,6 +148,98 @@
   "childs": [
    {
     "bsw": [
+     "Light Shotgun",
+     "Flash Pulse",
+     "SymbioMates (2)"
+    ],
+    "swc": "0.5",
+    "cbcode": [],
+    "code": "Default",
+    "note": "",
+    "ccw": [],
+    "codename": "ShotgunCoC",
+    "cost": "21",
+    "spec": ["Chain of Command"]
+   },
+   {
+    "bsw": [
+     "Combi Rifle",
+     "Flash Pulse",
+     "SymbioMates (2)"
+    ],
+    "swc": "0.5",
+    "cbcode": [],
+    "code": "CombiCoC",
+    "note": "",
+    "ccw": [],
+    "codename": "",
+    "cost": "26",
+    "spec": ["Chain of Command"]
+   },
+   {
+    "bsw": [
+     "Light Shotgun",
+     "Flash Pulse",
+     "SymbioBombs (2)"
+    ],
+    "swc": "0",
+    "cbcode": [],
+    "code": "Shotgun",
+    "note": "",
+    "ccw": [],
+    "codename": "",
+    "cost": "15",
+    "spec": []
+   },
+   {
+    "bsw": [
+     "Combi Rifle",
+     "Flash Pulse",
+     "SymbioBombs (2)"
+    ],
+    "swc": "0",
+    "cbcode": [],
+    "code": "Combi",
+    "note": "",
+    "ccw": [],
+    "codename": "",
+    "cost": "20",
+    "spec": []
+   }
+  ],
+  "ccw": [
+   "Pistol",
+   "Electric Pulse"
+  ],
+  "bsw": [],
+  "ava": "T",
+  "irr": "",
+  "arm": "1",
+  "cbcode": [
+   "280901-0378"
+  ],
+  "bts": "0",
+  "army": "Tohaa",
+  "note": "",
+  "cube": "X",
+  "bs": "11",
+  "cc": "13",
+  "imp": "",
+  "name": "Kamael",
+  "isc": "Kamael Light Infantry",
+  "mov": "4-4",
+  "type": "LI",
+  "ph": "11",
+  "spec": [
+   "Fireteam: Tohaa"
+  ],
+  "w": "1",
+  "wip": "13"
+ },
+ {
+  "childs": [
+   {
+    "bsw": [
      "Combi Rifle",
      "Swarm Grenades"
     ],

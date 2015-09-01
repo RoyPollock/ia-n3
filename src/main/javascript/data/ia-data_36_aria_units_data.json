@@ -1453,7 +1453,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "0",
+    "cost": "5",
     "codename": "AP CCW",
     "swc": "0",
     "cbcode": [],
@@ -1502,7 +1502,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "34",
+    "cost": "10",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -3183,6 +3183,166 @@
    }
   ]
  },
+{
+ "arm": "3",
+ "army": "Ariadna",
+ "ava": "3",
+ "bs": "12",
+ "bsw": [],
+ "bts": "0",
+ "cbcode": [],
+ "cc": "14",
+ "ccw": [
+  "Knife"
+ ],
+ "childs": [
+  {
+   "bsw": [
+    "Rifle", "Heavy Flamethrower"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Heavy Pistol"
+   ],
+   "code": "Default",
+   "codename": "Rifle",
+   "cost": "21",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+    "Molotok"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Heavy Pistol"
+   ],
+   "code": "Molotok",
+   "codename": "",
+   "cost": "28",
+   "note": "",
+   "spec": [],
+   "swc": "1.5"
+  },
+  {
+   "bsw": [
+    "Heavy Rocket Launcher"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Assault Pistol"
+   ],
+   "code": "HRL",
+   "codename": "",
+   "cost": "26",
+   "note": "",
+   "spec": ["Multispectral Visor L1"],
+   "swc": "1.5"
+  },
+  {
+   "bsw": [
+    "Sniper"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Heavy Pistol"
+   ],
+   "code": "Sniper",
+   "codename": "",
+   "cost": "29",
+   "note": "",
+   "spec": ["Multispectral Visor L1"],
+   "swc": "0.5"
+  },
+  {
+   "bsw": [
+    "Boarding Shotgun"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Heavy Pistol"
+   ],
+   "code": "BS",
+   "codename": "",
+   "cost": "22",
+   "note": "",
+   "spec": [
+    ""
+   ],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+    "Rifle", "Heavy Flamethrower"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Heavy Pistol"
+   ],
+   "code": "Param",
+   "codename": "",
+   "cost": "23",
+   "note": "",
+   "spec": [
+    "Medikit"
+   ],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+    "Rifle", "Heavy Flamethrower"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Heavy Pistol"
+   ],
+   "code": "Lt",
+   "codename": "",
+   "cost": "21",
+   "note": "",
+   "spec": [
+    "Lieutenant"
+   ],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+    "Rifle", "Heavy Flamethrower"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Heavy Pistol"
+   ],
+   "code": "Haris",
+   "codename": "",
+   "cost": "22",
+   "note": "",
+   "spec": [
+    "Fireteam: Haris L1"
+   ],
+   "swc": "1"
+  }
+ ],
+ "cube": "",
+ "imp": "",
+ "irr": "",
+ "isc": "Marauder",
+ "mov": "4-4",
+ "name": "Marauders, 5307th Ranger Unit",
+ "note": "",
+ "ph": "12",
+ "spec": [
+  "Forward Deployment L1",
+  "Jungle Terrain",
+  "Stealth",
+  "V: Dogged"
+ ],
+ "type": "MI",
+ "w": "1",
+ "wip": "13"
+},
 {
  "arm": "2",
  "army": "Ariadna",

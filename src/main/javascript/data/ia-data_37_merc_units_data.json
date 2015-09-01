@@ -1416,6 +1416,81 @@
 }
 ,
 {
+ "arm": "2",
+ "army": "Mercenary",
+ "ava": "1",
+ "bs": "13",
+ "bsw": [
+  "MULTI Sniper",
+  "Nanopulser"
+ ],
+ "bts": "0",
+ "cbcode": [],
+ "cc": "18",
+ "ccw": [
+  "Breaker Pistol (2)",
+  "Shock CCW",
+  "Knife"
+ ],
+ "childs": [
+  {
+   "bsw": ["Antipersonnel Mines"],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "Minelayer",
+   "cost": "42",
+   "note": "",
+   "spec": ["Minelayer"],
+   "swc": "1.5"
+  },
+  {
+   "bsw": [],
+   "cbcode": [],
+   "ccw": [],
+   "code": "MSV",
+   "codename": "",
+   "cost": "45",
+   "note": "",
+   "spec": ["MSV L1"],
+   "swc": "1.5"
+  }
+ ],
+ "cube": "X",
+ "imp": "",
+ "irr": "",
+ "isc": "Armand",
+ "mov": "4-2",
+ "name": "Armand Le Meut",
+ "note": "",
+ "ph": "12",
+ "spec": [
+  "Forward Deployment L1",
+  "ODD",
+  "Symbiont Armor"
+ ],
+ "type": "MI",
+ "w": "1",
+ "wip": "13",
+ "altp":[{
+  "mov": "4-4",
+  "army": "Mercenary",
+  "wip": "13",
+  "cbcode": [],
+  "bts": "0",
+  "isc": "Armand",
+  "name": "Armand (Inactive Armor)",
+  "bs": "13",
+  "note": "",
+  "cube": "X",
+  "arm": "0",
+  "w": "1",
+  "ava": " ",
+  "spec": [],
+ }]
+}
+,
+{
  "arm": "6",
  "army": "Mercenary",
  "ava": "1",
