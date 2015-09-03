@@ -723,6 +723,53 @@
  {
   "mov": "6-4",
   "army": "Aleph",
+  "wip": "11",
+  "cbcode": [
+   "280804-0229",
+   "280805-0233",
+   "280825-0356"
+  ],
+  "bts": "3",
+  "isc": "Devabot Repeater",
+  "name": "Devabot Repeater",
+  "bs": "10",
+  "note": "",
+  "cube": "R",
+  "type": "REM",
+  "ph": "10",
+  "cc": "8",
+  "arm": "0",
+  "irr": "",
+  "w": "1",
+  "ava": "C",
+  "bsw": [
+   "Heavy Flamethrower"
+  ],
+  "spec": [
+   "G: Synchronized", "Repeater"
+  ],
+  "ccw": [
+   "Electric Pulse"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "7",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "6-4",
+  "army": "Aleph",
   "wip": "13",
   "cbcode": [
    "280802-0222",
@@ -2275,6 +2322,148 @@
  "type": "MI",
  "w": "1",
  "wip": "14"
+}
+,
+{
+ "arm": "2",
+ "army": "Aleph",
+ "ava": "1",
+ "bs": "12",
+ "bsw": ["Boarding Shotgun","Nanopulser"],
+ "bts": "3",
+ "cbcode": [],
+ "cc": "17",
+ "ccw": [
+  "Pistol",
+  "E/M CCW"
+ ],
+ "childs": [
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "Devabot1",
+   "cost": "25",
+   "note": "",
+   "spec": [
+    "Hacker","Hacking Device", "Companion: Devabot Repeater"
+   ],
+   "swc": "0.5"
+  },
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Devabot2",
+   "codename": "",
+   "cost": "22",
+   "note": "",
+   "spec": ["Hacker","Hacking Device","Companion: Devabot Repeater (2)"],
+   "swc": "0.5"
+  },
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "AssaultDevabot1",
+   "codename": "",
+   "cost": "23",
+   "note": "",
+   "spec": [
+    "Hacker","Assault Hacking Device", "Companion: Devabot Repeater"
+   ],
+   "swc": "0.5"
+  },
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "AssaultDevabot2",
+   "codename": "",
+   "cost": "22",
+   "note": "",
+   "spec": ["Hacker","Assault Hacking Device","Companion: Devabot Repeater (2)"],
+   "swc": "0.5"
+   }
+ ],
+ "cube": "2",
+ "imp": "",
+ "irr": "",
+ "isc": "Drakios, Steel Phalanx's NCO",
+ "mov": "4-4",
+ "name": "Drakios",
+ "note": "",
+ "ph": "13",
+ "spec": [
+  "V: No Wound Incapacitation",
+  "Martial Arts L2"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "13"
+}
+,
+{
+ "arm": "2",
+ "army": "Aleph",
+ "ava": "1",
+ "bs": "12",
+ "bsw": ["Combi Rifle","Heavy Flamethrower","Blitzen"],
+ "bts": "0",
+ "cbcode": [],
+ "cc": "20",
+ "ccw": [
+  "Pistol",
+  "AP CCW"
+ ],
+ "childs": [
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "Devabot1",
+   "cost": "30",
+   "note": "",
+   "spec": [
+    "Companion: Devabot"
+   ],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Devabot2",
+   "codename": "",
+   "cost": "29",
+   "note": "",
+   "spec": ["Companion: Devabot (2)"],
+   "swc": "0"
+  }
+ ],
+ "cube": "2",
+ "imp": "",
+ "irr": "",
+ "isc": "Drakios, Steel Phalanx's NCO",
+ "mov": "4-4",
+ "name": "Drakios",
+ "note": "",
+ "ph": "13",
+ "spec": [
+  "V: No Wound Incapacitation",
+  "Martial Arts L2"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "13"
 }
 ,
 {
