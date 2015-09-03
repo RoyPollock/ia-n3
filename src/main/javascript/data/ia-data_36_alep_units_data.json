@@ -548,6 +548,52 @@
  {
   "mov": "4-4",
   "army": "Aleph",
+  "wip": "14",
+  "cbcode": [
+  ],
+  "bts": "3",
+  "isc": "Acmon, Sergeant of Dactyls",
+  "name": "Acmon",
+  "bs": "13",
+  "note": "",
+  "cube":"2",
+  "type": "LI",
+  "ph": "11",
+  "cc": "16",
+  "arm": "1",
+  "irr": "",
+  "w": "1",
+  "ava": "1",
+  "bsw": [
+   "Combi Rifle", "Panzerfaust", "Nimbus Grenades"
+  ],
+  "spec": [
+   "V: Dogged", "Fireteam: Enomotarchos"
+  ],
+  "ccw": [
+   "Knife",
+   "Breaker Pistol (2)"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "27",
+    "codename": "Acmon",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+    ],
+    "ccw": ["D-Charges"],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "4-4",
+  "army": "Aleph",
   "wip": "15",
   "cbcode": [
    "280804-0229",
@@ -2394,9 +2440,9 @@
  "cube": "2",
  "imp": "",
  "irr": "",
- "isc": "Drakios, Steel Phalanx's NCO",
+ "isc": "Scylla, Steel Phalanx's NCO",
  "mov": "4-4",
- "name": "Drakios",
+ "name": "Scylla",
  "note": "",
  "ph": "13",
  "spec": [
