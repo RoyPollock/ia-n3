@@ -4203,4 +4203,210 @@
             ]
         }
     ]
-    }
+},
+{
+ "altp":[{
+     "isc":"(Dismounted)",
+     "mov":"4-2",
+     "ava":" ",
+    "bsw":[],
+    "ccw":[],
+    "spec":["Multispectral Visor L1"]
+ }],
+  "mov": "8-6",
+  "army": "Ariadna",
+  "wip": "13",
+  "cbcode": [
+  ],
+  "bts": "0",
+  "isc": "Mavericks",
+  "name": "Maverick",
+  "bs": "12",
+  "note": "",
+  "cube": "",
+  "type": "MI",
+  "ph": "12",
+  "cc": "14",
+  "arm": "3",
+  "irr": "",
+  "w": "1",
+  "ava": "2",
+  "bsw": ["Smoke Light Grenade Launcher"],
+  "spec": [
+   "Multispectral Visor L1",
+   "Motorcycle", "Kinematika L2"
+  ],
+  "ccw": [
+   "Pistol",
+   "Knife"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "21",
+    "codename": "BS",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Molotok",
+    "cost": "29",
+    "codename": "",
+    "swc": "2",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Molotok"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "SMG",
+    "cost": "22",
+    "codename": "",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Submachine Gun", "Light Rocket Launcher"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "FO",
+    "cost": "19",
+    "codename": "",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": [
+     "Forward Observer"
+    ],
+    "bsw": [
+     "Rifle"
+    ],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "X",
+  "functions": [
+    ]
+ },
+ {
+  "mov": "6-6",
+  "army": "Ariadna",
+  "wip": "13",
+  "cbcode": [
+  ],
+  "bts": "0",
+  "sharedAva":"Furries",
+  "isc": "K-9 Antipode",
+  "name": "K-9",
+  "bs": "0",
+  "note": "",
+  "cube": "",
+  "type": "WB",
+  "ph": "15",
+  "cc": "20",
+  "arm": "0",
+  "irr": "X",
+  "w": "1",
+  "ava": "1",
+  "bsw": [],
+  "spec": [
+   "CH: Mimetism",
+   "Aquatic Terrain",
+   "Kinematika L2",
+   "Sensor",
+   "Super-Jump",
+   "G: Synchronized"
+  ],
+  "ccw": [
+   "AP CCW"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "7",
+    "codename": "K-9",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "XX",
+  "functions": []
+ },
+ {
+  "mov": "6-4",
+  "army": "Ariadna",
+  "wip": "12",
+  "cbcode": [
+  ],
+  "bts": "0",
+  "isc": "Devil Dog Teams",
+  "name": "Devil Dog",
+  "bs": "10",
+  "note": "",
+  "cube": "",
+  "type": "WB",
+  "ph": "16",
+  "cc": "21",
+  "arm": "4",
+  "irr": "X",
+  "w": "1",
+  "ava": "1",
+  "bsw": [
+   "Smoke Grenades"
+  ],
+  "spec": [
+   "Companion : K-9 Antipode",
+   "Aquatic Terrain",
+   "Super-Jump",
+   "Total Immunity",
+   "V: Courage"
+  ],
+  "ccw": ["AP CCW"],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "23",
+    "codename": "Chain",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Chain Rifle"
+    ],
+    "ccw": ["AP Heavy Pistol"],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "32",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Heavy Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "XX",
+  "functions": []
+ }
+ 	
