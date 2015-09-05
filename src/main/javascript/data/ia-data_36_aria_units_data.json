@@ -4231,7 +4231,7 @@
   "irr": "",
   "w": "1",
   "ava": "2",
-  "bsw": ["Smoke Light Grenade Launcher"],
+  "bsw": ["Smoke LGL"],
   "spec": [
    "Multispectral Visor L1",
    "Motorcycle", "Kinematika L2"
@@ -4307,7 +4307,6 @@
   "cbcode": [
   ],
   "bts": "0",
-  "sharedAva":"Furries",
   "isc": "K-9 Antipode",
   "name": "K-9",
   "bs": "0",
@@ -4319,7 +4318,7 @@
   "arm": "0",
   "irr": "X",
   "w": "1",
-  "ava": "1",
+  "ava": "",
   "bsw": [],
   "spec": [
    "CH: Mimetism",
@@ -4367,6 +4366,7 @@
   "irr": "X",
   "w": "1",
   "ava": "1",
+  "sharedAva":"Furries",
   "bsw": [
    "Smoke Grenades"
   ],
