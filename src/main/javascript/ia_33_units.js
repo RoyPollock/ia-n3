@@ -677,7 +677,7 @@ var units = ia.units = {};
             if (!mercenary) {
                 if (!forMercenaryCompany) {
                     shouldLoad = function(unit) {
-                        return unit.army == factionName;
+                        return unit.army == factionName || unit.itsMerc || (units.itsHumanMerc && factionName != "Combined Army" && factionName != "Tohaa");
                     };
                 } else {
                     shouldLoad = function(unit) {

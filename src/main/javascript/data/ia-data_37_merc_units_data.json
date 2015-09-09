@@ -1175,7 +1175,8 @@
 {
  "arm": "0",
  "army": "Mercenary",
- "ava": "2",
+ "ava": "1",
+ "itsHumanMerc": "X",
  "bs": "9",
  "bsw": [
   "Flash Pulse"
@@ -1220,7 +1221,7 @@
 },
 {
  "arm": "0",
- "army": "Mercenary",
+ "army": "Ariadna",
  "ava": "1",
  "bs": "11",
  "bsw": ["Boarding Shotgun"],
@@ -1275,7 +1276,8 @@
 {
  "arm": "1",
  "army": "Mercenary",
- "ava": "3",
+ "ava": "1",
+ "itsHumanMerc": "X",
  "bs": "12",
  "bsw": [],
  "bts": "3",
@@ -1358,6 +1360,7 @@
  "arm": "1",
  "army": "Mercenary",
  "ava": "1",
+ "itsHumanMerc": "X",
  "bs": "12",
  "bsw": [
   "Nanopulser"
@@ -1421,7 +1424,7 @@
  "ava": "1",
  "bs": "13",
  "bsw": [
-  "MULTI Sniper",
+  "MULTI Sniper Rifle",
   "Nanopulser"
  ],
  "bts": "0",
@@ -1462,6 +1465,7 @@
  "isc": "Armand",
  "mov": "4-2",
  "name": "Armand Le Meut",
+ "itsMerc": "1",
  "note": "",
  "ph": "12",
  "spec": [
@@ -1478,7 +1482,7 @@
   "wip": "13",
   "cbcode": [],
   "bts": "0",
-  "isc": "Armand",
+  "isc": "Armand (Inactive Armor)",
   "name": "Armand (Inactive Armor)",
   "bs": "13",
   "note": "",
