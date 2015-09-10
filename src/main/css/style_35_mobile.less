@@ -169,10 +169,33 @@
     &.unitDetailMode {
         #modelInfoContainer{
             display: block;
+	    .modelInfoAttrs , .modelInfoSpecs {
+	    	font-size: @fontSize2;
+	    }
+	    .modelInfoHead {
+	    	display: none;
+	    }
         }
         #weaponsButton , #weaponsInfo {  
-            .showIfNotHidden;            
+            display: block;
+	    font-size: @fontSize1;
         }
+        #armyList{
+            display: block;
+            position: relative;
+            .listInfo {
+                display: none;
+            }         
+            .modelCost , .pointsCount{
+                width: 40px;
+            }
+            .modelSwc , .swcCount {
+                width: 35px;                
+            }
+            .swcCostSep , .sep {
+                width: 10px;                
+            }
+	}
     }
     
     #mainMenu > * {

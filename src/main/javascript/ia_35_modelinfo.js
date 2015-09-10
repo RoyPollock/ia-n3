@@ -128,22 +128,6 @@
 	function buildModelInfo(model){
 		var modelInfo=$('<div  class="modelInfo showDefault"/>').attr('title',messages.get('common.clickToHide'));
 		var head=$('<div class="modelInfoHead" />').appendTo(modelInfo);
-		var icon=$('<div class="modelInfoIcon" />').appendTo(head).attr('title',messages.get('modelinfo.showImages')).bind('click',function(){
-			showImages(model);
-			return false;
-		});
-		$.each(model.parent.cbImages.icon,function(index,url){
-			$('<img />').attr('src',url).hide().appendTo(icon);
-		});
-		$('img:first-child',icon).show();
-		if(model.parent.cbImages.icon.length==0){
-			$('<img />').attr('src',"images/missing_logo_big.png").appendTo(icon);
-		}		
-		//        if(model.parent.cbImages.icon.length>1){
-		icon.cycle({
-			//                fit:true
-			});
-		//        }
 		var namesDiv=$('<div class="modelInfoNames" />').appendTo(head);
 		$('<div class="modelInfoName" />').text(model.getDisplay('name')).appendTo(namesDiv);
 		$('<div class="modelInfoCode" />').text(model.getDisplay('codename')).appendTo(namesDiv);
