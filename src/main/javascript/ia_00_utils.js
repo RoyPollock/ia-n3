@@ -155,42 +155,8 @@
 				},
 				ajaxConfig:config.ajaxConfig
 			});
-		//			$.ajax($.extend({
-		//				type: 'POST',
-		//				url: utils.getAbsoluteBasePath()+'/ia.php?action=getTinyUrl',
-		//				data: JSON.stringify({
-		//					"longUrl": config.url
-		//				}),
-		//				success: function(data){
-		//					if(data && data.id){
-		//						log('getTinyUrl success : ',data);
-		//						config.success(data.id);
-		//					}else{                
-		//						log('getTinyUrl error : ',data);
-		//						utils.remoteServiceAvailable=false;
-		//						config.error(data);
-		//					}     
-		//				},
-		//				error: function(){
-		//					log('getTinyUrl error');
-		//					utils.remoteServiceAvailable=false;
-		//					config.error();
-		//				},
-		//				dataType: 'json'
-		//			},config.ajaxConfig||{}));
 		}
 	};
-
-	(function(){
-		var baseUrlDx="http://www.infinitythegame.com/infinity/wp-content/themes/test/img/lateralDER/";
-		var max=18;
-    
-		utils.getBackgroundImageDx=function(){
-			var i=Math.floor(Math.random()*max)+1;
-			var imageUrl=baseUrlDx+i+".png";
-			return imageUrl;
-		}
-	})();
 
 	utils.encodeData=function(data,config){
 		var str=JSON.stringify(data);

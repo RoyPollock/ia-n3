@@ -17,7 +17,7 @@
     
     log('loading 26: main');
 	
-    var bgDxUrl=utils.getBackgroundImageDx();
+    var bgDxUrl="bg4.png";
     $('#rootContainer #overly1').css({
         'background-image':"url('"+bgDxUrl+"')",
         'background-position':$(document).height()>600?"right 300px":"right -0",
