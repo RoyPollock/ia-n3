@@ -216,25 +216,24 @@
   "irr": "",
   "arm": "1",
   "cbcode": [
-   "280901-0378"
   ],
-  "bts": "0",
+  "bts": "3",
   "army": "Tohaa",
   "note": "",
   "cube": "X",
   "bs": "11",
-  "cc": "13",
+  "cc": "14",
   "imp": "",
-  "name": "Kamael",
-  "isc": "Kamael Light Infantry",
+  "name": "Kaeltar",
+  "isc": "Kaeltar Specialists",
   "mov": "4-4",
   "type": "LI",
   "ph": "11",
   "spec": [
-   "Fireteam: Tohaa"
+   "Corahtar Discipline L1"
   ],
   "w": "1",
-  "wip": "13"
+  "wip": "14"
  },
  {
   "childs": [
@@ -728,7 +727,7 @@
     "cbcode": [],
     "code": "Default",
     "note": "",
-    "ccw": [],
+    "ccw": ["DA CCW Weapon"],
     "codename": "Combi",
     "cost": "26",
     "spec": []
@@ -742,7 +741,7 @@
     "cbcode": [],
     "code": "BS",
     "note": "",
-    "ccw": [],
+    "ccw": ["AP CCW Weapon"],
     "codename": "",
     "cost": "25",
     "spec": [
@@ -750,8 +749,7 @@
    }
   ],
   "ccw": [
-   "Pistol",
-   "AP CC Weapon"
+   "Pistol"
   ],
   "bsw": [],
   "ava": "2",
@@ -1246,6 +1244,51 @@
 }
 ,
 {
+ "arm": "0",
+ "army": "Tohaa",
+ "ava": "4",
+ "bs": "11",
+ "bsw": [
+  "Heavy Flamethrower"
+ ],
+ "bts": "0",
+ "cbcode": ["280914-0451"],
+ "cc": "12",
+ "ccw": [
+  "Pistol",
+  "Knife"
+ ],
+ "childs": [
+  {
+   "bsw": [],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "",
+   "cost": "4",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  }
+ ],
+ "cube": "",
+ "imp": "",
+ "irr": "",
+ "isc": "Chaksa Peripheral R",
+ "mov": "6-4",
+ "name": "Peripheral",
+ "note": "",
+ "ph": "12",
+ "spec": [
+  "CH: Mimetism",
+  "G: Synchronized"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "13"
+}
+,
+{
  "arm": "1",
  "army": "Tohaa",
  "ava": "6",
@@ -1257,7 +1300,7 @@
  "cbcode": [
 	 "280905-0394"
  ],
- "cc": "19",
+ "cc": "22",
  "ccw": [
   "Pistol",
   "Viral CCW"
@@ -1391,7 +1434,7 @@
  "bsw": [],
  "bts": "0",
  "cbcode": ["280908-0414"],
- "cc": "14",
+ "cc": "16",
  "ccw": [
   "Pistol",
   "CCW"
@@ -1834,7 +1877,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "Combi",
-   "cost": "30",
+   "cost": "33",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1847,7 +1890,7 @@
    "ccw": [],
    "code": "Viral",
    "codename": "",
-   "cost": "35",
+   "cost": "38",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1860,7 +1903,7 @@
    "ccw": [],
    "code": "BS",
    "codename": "",
-   "cost": "31",
+   "cost": "34",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1873,7 +1916,7 @@
    "ccw": [],
    "code": "Dual C",
    "codename": "",
-   "cost": "32",
+   "cost": "35",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1886,7 +1929,7 @@
    "ccw": [],
    "code": "Spitfire",
    "codename": "",
-   "cost": "35",
+   "cost": "38",
    "note": "",
    "spec": [],
    "swc": "2"
@@ -1899,7 +1942,7 @@
    "ccw": [],
    "code": "LT",
    "codename": "",
-   "cost": "30",
+   "cost": "33",
    "note": "",
    "spec": ["Lieutenant"],
    "swc": "0"
@@ -1912,7 +1955,7 @@
    "ccw": [],
    "code": "Viral LT",
    "codename": "",
-   "cost": "35",
+   "cost": "38",
    "note": "",
    "spec": ["Lieutenant"],
    "swc": "0"
@@ -1925,7 +1968,7 @@
    "ccw": [],
    "code": "Spitfire LT",
    "codename": "",
-   "cost": "35",
+   "cost": "38",
    "note": "",
    "spec": ["Lieutenant"],
    "swc": "2"
@@ -1961,6 +2004,93 @@
          "w":"1",
          "ava":" ",
     "spec":[]
+ }]
+}
+,
+{
+ "arm": "2",
+ "army": "Tohaa",
+ "ava": "2",
+ "bs": "12",
+ "bsw": [
+ ],
+ "bts": "3",
+ "cbcode": [],
+ "cc": "13",
+ "ccw": [
+  "Pistol","Knife","D-Charges"
+ ],
+ "childs": [
+  {
+   "bsw": [
+     "K1 Combi Rifle", "Nullifier"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "Nullifier",
+   "cost": "29",
+   "note": "",
+   "spec": ["Engineer"],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "K1 Combi Rifle", "Antipersonnel Mines"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Minelayer",
+   "codename": "",
+   "cost": "25",
+   "note": "",
+   "spec": ["Minelayer"],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Boarding Shotgun", "Panzerfaust"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "BS",
+   "codename": "",
+   "cost": "24",
+   "note": "",
+   "spec": [],
+   "swc": "0.5"
+  }
+ ],
+ "cube": "X",
+ "imp": "",
+ "irr": "",
+ "isc": "Kosuil Assault Pioneers",
+ "mov": "4-4",
+ "name": "Kosuil",
+ "note": "",
+ "ph": "11",
+ "wtype":"w",
+ "spec": [
+  "Symbiont Armour",
+  "Bioimmunity",
+  "Fireteam: Tohaa"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "14",
+ "altp":[{
+         "isc":"(Inactive Armour)",
+         "type":"LI",
+         "mov":"4-4",
+         "ph":"11",
+         "bs":"12",
+         "cc":"13",
+	 "wip": "13",
+         "arm":"0",
+         "bts":"0",
+         "w":"1",
+         "ava":" ",
+    "spec":["Fireteam: Tohaa"]
  }]
 }
 

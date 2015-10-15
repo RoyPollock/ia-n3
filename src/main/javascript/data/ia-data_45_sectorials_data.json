@@ -992,6 +992,15 @@
     "isc": "Daktaris"
    },
    {
+    "ava": "3",
+    "isc": "Corregidor Bandits"
+   },
+   {
+    "ava": "5",
+    "isc": "Corregidor Jaguars",
+    "linkable": true
+   },
+   {
     "ava": "1",
     "isc": "Vortex Spec-Ops"
    }
