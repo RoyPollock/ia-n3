@@ -132,10 +132,10 @@
 		$('<div class="modelInfoName" />').text(model.getDisplay('name')).appendTo(namesDiv);
 		$('<div class="modelInfoCode" />').text(model.getDisplay('codename')).appendTo(namesDiv);
 		//        var modelInfoAltName= $('<div class="modelInfoAltName" />').appendTo(namesDiv);
-		var left=$('<div class="modelInfoLeft" />').appendTo(head);
-		$('<div class="modelInfoCost" />').text(model.cost).appendTo(left);
-		$('<div class="modelInfoType" />').text(model.parent.type).appendTo(left);
-		$('<div class="modelInfoSwc" />').text(model.swc).appendTo(left);
+		//var left=$('<div class="modelInfoLeft" />').appendTo(head);
+		//$('<div class="modelInfoCost" />').text(model.cost).appendTo(left);
+		//$('<div class="modelInfoType" />').text(model.parent.type).appendTo(left);
+		//$('<div class="modelInfoSwc" />').text(model.swc).appendTo(left);
 		var statsTable=$('<table class="modelInfoAttrs" />').appendTo(modelInfo);
 		//        var stats=["mov","cc","bs","ph","wip","arm","bts","w","ava"];
 		var stats=["mov","cc","bs","ph","wip","arm","bts","w"];
