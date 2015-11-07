@@ -3414,22 +3414,24 @@
   "bts": "6",
   "isc": "Seraphs",
   "name": "Seraph",
-  "bs": "14",
+  "bs": "15",
   "note": "",
   "cube": "R",
   "type": "TAG",
   "ph": "16",
-  "cc": "19",
+  "cc": "20",
   "arm": "7",
   "irr": "",
   "w": "3",
   "ava": "1",
   "bsw": [
-   "Spitfire"
+   "Spitfire", "Nanopulser"
   ],
   "spec": [
    "G: Remote Presence",
    "Religious Troop",
+   "Super-Jump",
+   "Kinematika L1",
    "ECM",
    "Companion: Auxbot"
   ],
@@ -3439,7 +3441,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "79",
+    "cost": "78",
     "codename": "",
     "swc": "2",
     "cbcode": [],

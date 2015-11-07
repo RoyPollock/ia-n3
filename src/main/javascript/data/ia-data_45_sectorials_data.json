@@ -506,6 +506,67 @@
   ]
  },
  {
+  "army": "Ariadna",
+  "name": "USAriadna Ranger Force",
+  "units": [
+   {
+    "ava": "2",
+    "isc": "112, Emergency Service"
+   },
+   {
+    "ava": "1",
+    "isc": "Dozers, Field Engineers"
+   },
+   {
+    "ava": "1",
+    "isc": "Van Zant"
+   },
+   {
+    "ava": "T",
+    "isc": "USAriadna Grunts",
+    "linkable": true
+   },
+   {
+    "ava": "5",
+    "isc": "Marauder",
+    "linkable": true
+   },
+   {
+    "ava": "5",
+    "isc": "Mavericks"
+   },
+   {
+    "ava": "5",
+    "isc": "Minutemen",
+    "linkable": true
+   },
+   {
+    "ava": "2",
+    "isc": "Traktor Mul, Artillery and Support Regiment"
+   },
+   {
+    "ava": "4",
+    "isc": "Foxtrot"
+   },
+   {
+    "ava": "3",
+    "isc": "Hardcases"
+   },
+   {
+    "ava": "3",
+    "isc": "Devil Dog Teams"
+   },
+   {
+    "ava": "3",
+    "isc": "K-9 Antipode"
+   },
+   {
+    "ava": "1",
+    "isc": "Intel Spec-Ops"
+   }
+  ]
+ },
+ {
   "army": "Yu Jing",
   "name": "Imperial Service",
   "units": [
