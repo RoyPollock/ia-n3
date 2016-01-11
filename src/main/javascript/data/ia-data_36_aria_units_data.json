@@ -145,6 +145,118 @@
  {
   "mov": "4-4",
   "army": "Ariadna",
+  "wip": "13",
+  "cbcode": [
+  ],
+  "bts": "0",
+  "isc": "6th Airborne Rangers Reg.",
+  "name": "Airborne Ranger",
+  "bs": "12",
+  "note": "",
+  "cube": "",
+  "type": "LI",
+  "ph": "12",
+  "cc": "22",
+  "arm": "1",
+  "irr": "",
+  "w": "1",
+  "ava": "4",
+  "bsw": [],
+  "spec": ["Martial Arts L2","AD: Parachutist", "Kinematika L1", "Jungle Terrain"],
+  "ccw": [
+   "Knife",
+   "AP CC Weapon"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "20",
+    "codename": "SMG",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Submachine Gun"
+    ],
+    "ccw": ["Pistol"],
+    "note": ""
+   },
+   {
+    "code": "Lieutenant",
+    "cost": "20",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+     "Lieutenant"
+    ],
+    "bsw": [
+     "Submachine Gun"
+    ],
+    "ccw": ["Pistol"],
+    "note": ""
+   },
+   {
+    "code": "FO",
+    "cost": "21",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+     "Forward Observer"
+    ],
+    "bsw": [
+     "Submachine Gun"
+    ],
+    "ccw": ["Pistol"],
+    "note": ""
+   },
+   {
+    "code": "Molotok",
+    "cost": "32",
+    "codename": "",
+    "swc": "1.5",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Molotok"
+    ],
+    "ccw": ["Pistol"],
+    "note": ""
+   },
+   {
+    "code": "BS",
+    "cost": "24",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun"
+    ],
+    "ccw": ["Pistol"],
+    "note": ""
+   },
+   {
+    "code": "Rifle",
+    "cost": "25",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Rifle"
+    ],
+    "ccw": ["Assault Pistol"],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "4-4",
+  "army": "Ariadna",
   "wip": "14",
   "cbcode": [
    "280113-0059",
@@ -3020,24 +3132,24 @@
   "childs": [
    {
     "bsw": [],
-    "swc": "1",
+    "swc": "0",
     "cbcode": [],
     "code": "Default",
     "note": "",
     "ccw": [],
     "codename": "AP Rifle",
-    "cost": "37",
+    "cost": "38",
     "spec": []
    },
    {
     "bsw": [],
-    "swc": "1",
+    "swc": "0",
     "cbcode": [],
     "code": "XO",
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "38",
+    "cost": "39",
     "spec": [
      "Executive Order"
     ]
@@ -3048,8 +3160,7 @@
    "AP CCW"
   ],
   "bsw": [
-   "AP Rifle",
-   "Light Shotgun"
+   "AP Rifle"
   ],
   "ava": "1",
   "irr": "",
@@ -4326,6 +4437,7 @@
    "Kinematika L2",
    "Sensor",
    "Super-Jump",
+   "Companion of: Devil Dog", 
    "G: Synchronized"
   ],
   "ccw": [

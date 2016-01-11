@@ -1154,7 +1154,7 @@
   "functions": []
  },
  {
-  "mov": "4-2",
+  "mov": "4-4",
   "army": "Haqqislam",
   "wip": "14",
   "cbcode": [
@@ -2690,13 +2690,13 @@
    },
    {
     "code": "HMG",
-    "cost": "36",
+    "cost": "41",
     "codename": "",
     "swc": "2",
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "HMG"
+     "AP HMG"
     ],
     "ccw": [
     ],

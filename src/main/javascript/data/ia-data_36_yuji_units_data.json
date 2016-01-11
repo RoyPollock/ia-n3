@@ -2471,7 +2471,6 @@
   "w": "2",
   "ava": "1",
   "bsw": [
-   "E/M Grenades"
   ],
   "spec": [
    "Berserk",
@@ -2490,7 +2489,8 @@
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Chain Rifle"
+     "Chain Rifle",
+     "E/M Grenades"
     ],
     "ccw": [
      "E/M CCW"
@@ -2499,16 +2499,48 @@
    },
    {
     "code": "DA CCW",
-    "cost": "25",
+    "cost": "26",
     "codename": "",
     "swc": "0",
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Chain Rifle"
+     "Chain Rifle",
+     "E/M Grenades"
     ],
     "ccw": [
      "DA CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Combi",
+    "cost": "34",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Combi Rifle",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "E/M CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Spitfire",
+    "cost": "38",
+    "codename": "",
+    "swc": "2",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Spitfire"
+    ],
+    "ccw": [
+     "E/M CCW"
     ],
     "note": ""
    },
@@ -2520,7 +2552,248 @@
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Boarding Shotgun"
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
+    ],
+    "ccw": [
+     "AP CCW"
+    ],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "33",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Boarding Shotgun",
+     "E/M Grenades"
     ],
     "ccw": [
      "AP CCW"
@@ -2537,7 +2810,8 @@
      "Lieutenant"
     ],
     "bsw": [
-     "Chain Rifle"
+     "Chain Rifle",
+     "E/M Grenades"
     ],
     "ccw": [
      "E/M CCW"

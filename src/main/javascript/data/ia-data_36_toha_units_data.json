@@ -1246,6 +1246,98 @@
 {
  "arm": "0",
  "army": "Tohaa",
+ "ava": "",
+ "bs": "8",
+ "bsw": [
+  "Nanopulser"
+ ],
+ "bts": "3",
+ "cbcode": [],
+ "cc": "22",
+ "ccw": [
+  "Viral CCW"
+ ],
+ "childs": [
+  {
+   "bsw": [],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "",
+   "cost": "8",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  }
+ ],
+ "cube": "",
+ "imp": "",
+ "irr": "",
+ "isc": "Surda SymbioBeast",
+ "mov": "6-4",
+ "name": "Surda",
+ "note": "",
+ "ph": "15",
+ "spec": [
+  "Hyper-Dynamics L1",
+  "Kinematika L2",
+  "Super-Jump",
+  "V:Dogged",
+  "G: Synchronized"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "10"
+}
+,
+{
+ "arm": "0",
+ "army": "Tohaa",
+ "ava": "",
+ "bs": "11",
+ "bsw": [
+  "Nanopulser", "Contender (2)"
+ ],
+ "bts": "3",
+ "cbcode": [],
+ "cc": "14",
+ "ccw": [
+  "CCW"
+ ],
+ "childs": [
+  {
+   "bsw": [],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "",
+   "cost": "13",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  }
+ ],
+ "cube": "",
+ "imp": "",
+ "irr": "",
+ "isc": "Mutan SymbioBeast",
+ "mov": "6-4",
+ "name": "Mutan",
+ "note": "",
+ "ph": "14",
+ "spec": [
+  "Super-Jump",
+  "V:Dogged",
+  "G: Synchronized"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "12"
+}
+,
+{
+ "arm": "0",
+ "army": "Tohaa",
  "ava": "4",
  "bs": "11",
  "bsw": [
@@ -2091,6 +2183,99 @@
          "w":"1",
          "ava":" ",
     "spec":["Fireteam: Tohaa"]
+ }]
+}
+,
+{
+ "arm": "1",
+ "army": "Tohaa",
+ "ava": "2",
+ "bs": "11",
+ "bsw": [
+ ],
+ "bts": "3",
+ "cbcode": [],
+ "cc": "14",
+ "ccw": [
+  "Pistol","Electric Pulse"
+ ],
+ "childs": [
+  {
+   "bsw": [
+     "Submachine Gun", "Smoke Grenades"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "P+Surda",
+   "cost": "12",
+   "note": "",
+   "spec": ["Companion: Surda SymbioBeast"],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Submachine Gun", "Smoke Grenades"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "DoubleSurda",
+   "codename": "",
+   "cost": "12",
+   "note": "",
+   "spec": ["Companion: Surda SymbioBeast (2)"],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Combi Rifle", "Nanopulser"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Combi",
+   "codename": "",
+   "cost": "17",
+   "note": "",
+   "spec": ["Companion: Mutan SymbioBeast"],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+     "Light Shotgun", "Nanopulser"
+   ],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Shotgun",
+   "codename": "",
+   "cost": "12",
+   "note": "",
+   "spec": ["Companion: Mutan SymbioBeast"],
+   "swc": "0"
+  }
+ ],
+ "cube": "X",
+ "imp": "",
+ "irr": "",
+ "isc": "Kerial Preceptors",
+ "mov": "6-4",
+ "name": "Kerail",
+ "note": "",
+ "ph": "11",
+ "wtype":"w",
+ "spec": [
+  "Symbiont Armour"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "13",
+ "altp":[{
+         "isc":"(Inactive Armour)",
+         "type":"LI",
+         "mov":"4-4",
+         "ph":"10",
+         "arm":"0",
+         "bts":"0",
+         "w":"1",
  }]
 }
 

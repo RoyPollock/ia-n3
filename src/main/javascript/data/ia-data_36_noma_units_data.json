@@ -1617,23 +1617,6 @@
     ],
     "ccw": [],
     "note": ""
-   },
-   {
-    "code": "Lieutenant",
-    "cost": "33",
-    "codename": "",
-    "swc": "2",
-    "cbcode": [],
-    "spec": [
-     "Lieutenant"
-    ],
-    "bsw": [
-     "Combi Rifle",
-     "Light Shotgun",
-     "Antipersonnel Mines"
-    ],
-    "ccw": [],
-    "note": ""
    }
   ],
   "imp": "",
