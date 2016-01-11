@@ -1246,7 +1246,7 @@
 {
  "arm": "0",
  "army": "Tohaa",
- "ava": "",
+ "ava": "4",
  "bs": "8",
  "bsw": [
   "Nanopulser"
@@ -1283,6 +1283,7 @@
   "Kinematika L2",
   "Super-Jump",
   "V:Dogged",
+  "Companion of: Kerail",
   "G: Synchronized"
  ],
  "type": "LI",
@@ -1293,7 +1294,7 @@
 {
  "arm": "0",
  "army": "Tohaa",
- "ava": "",
+ "ava": "2",
  "bs": "11",
  "bsw": [
   "Nanopulser", "Contender (2)"
@@ -1328,6 +1329,7 @@
  "spec": [
   "Super-Jump",
   "V:Dogged",
+  "Companion of: Kerail",
   "G: Synchronized"
  ],
  "type": "LI",
