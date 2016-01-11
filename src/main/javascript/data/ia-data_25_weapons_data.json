@@ -1291,6 +1291,24 @@
   "template": "No"
  },
  {
+  "ammo": "AP",
+  "burst": "2",
+  "cc": "Yes",
+  "damage": "14",
+  "em_vul": "No",
+  "long_dist": "24",
+  "long_mod": "-6",
+  "max_dist": "--",
+  "max_mod": "--",
+  "medium_dist": "16",
+  "medium_mod": "0",
+  "name": "AP Heavy Pistol",
+  "note": "",
+  "short_dist": "8",
+  "short_mod": "3",
+  "template": "No"
+ },
+ {
   "ammo": "N",
   "burst": "2",
   "cc": "Yes",

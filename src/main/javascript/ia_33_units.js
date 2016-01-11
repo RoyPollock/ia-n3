@@ -309,12 +309,10 @@ var units = ia.units = {};
             });
             unit.childsByCode[child.code] = child;
             loadAttrs(child, unit);
-            child.isSynchronizedUnit = child.spec['G: Synchronized'] || child.spec['Antipode'];
-            child.shouldSkipModelCount = child.isSynchronizedUnit || child.spec['G: Servant'];
         });
+        unit.shouldSkipModelCount = unit.spec['G: Synchronized'] || unit.spec['Antipode']; 
         unit.defaultChild = unit.childsByCode['Default'];
         if (unit.defaultChild) {
-            unit.shouldSkipModelCount = unit.defaultChild.shouldSkipModelCount;
             unit.isPseudoUnit = (Number(unit.ava) == 0) || ((Number(unit.defaultChild.cost) == 0 && Number(unit.defaultChild.swc) == 0));
         } else {
             log('missing default child in unit : ', originalUnit);
@@ -459,7 +457,7 @@ var units = ia.units = {};
         $('#unitMenu .unitButton').remove();
         unitButtonDataByIsc = {};
         $.each(unitsByIsc, function(unitIsc, unit) {
-            if (!unit.defaultChild) { //only profile
+            if (!unit.defaultChild || unit.shouldSkipModelCount) { //only profile
                 return; //skip button
             }
             var unitButton = buildButtonForUnit(unitIsc);
