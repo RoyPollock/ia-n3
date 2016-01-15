@@ -1249,7 +1249,7 @@
  "ava": "4",
  "bs": "8",
  "bsw": [
-  "Nanopulser"
+  "Pulzar"
  ],
  "bts": "3",
  "cbcode": [],
@@ -1283,7 +1283,6 @@
   "Kinematika L2",
   "Super-Jump",
   "V:Dogged",
-  "Companion of: Kerail",
   "G: Synchronized"
  ],
  "type": "LI",
@@ -1297,7 +1296,7 @@
  "ava": "2",
  "bs": "11",
  "bsw": [
-  "Nanopulser", "Contender (2)"
+  "Pulzar", "Contender (2)"
  ],
  "bts": "3",
  "cbcode": [],
@@ -1329,7 +1328,6 @@
  "spec": [
   "Super-Jump",
   "V:Dogged",
-  "Companion of: Kerail",
   "G: Synchronized"
  ],
  "type": "LI",

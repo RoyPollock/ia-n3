@@ -1236,6 +1236,24 @@
   "template": "Small Teardrop"
  },
  {
+  "ammo": "Nanotech",
+  "burst": "1",
+  "cc": "No",
+  "damage": "13",
+  "em_vul": "Yes",
+  "long_dist": "--",
+  "long_mod": "--",
+  "max_dist": "--",
+  "max_mod": "--",
+  "medium_dist": "--",
+  "medium_mod": "--",
+  "name": "Pulzar",
+  "note": "",
+  "short_dist": "--",
+  "short_mod": "--",
+  "template": "Large Teardrop"
+ },
+ {
   "ammo": "AP",
   "burst": "2",
   "cc": "No",
