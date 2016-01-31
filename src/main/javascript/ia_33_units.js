@@ -298,6 +298,8 @@ var units = ia.units = {};
         loadAttrs(unit);
         prepareCbImages(unit);
         unit.childsByCode = {};
+        unit.isSynchronizedUnit = unit.spec['G: Synchronized'] || unit.spec['Antipode'];
+	unit.shouldSkipModelCount = unit.isSynchronizedUnit || unit.spec['G: Servant'];
         $.each(unit.childs, function(i, originalChild) {
             //			var child=$.extend(true,{},originalChild,{
             var child = $.extend($.extend(true, {}, originalChild), commonMethods, {
@@ -309,8 +311,10 @@ var units = ia.units = {};
             });
             unit.childsByCode[child.code] = child;
             loadAttrs(child, unit);
+	    // REVIEW: Probably not a per-child characteristic
+	    child.shouldSkipModelCount = unit.shouldSkipModelCount;
+	    child.isSynchronizedUnit = unit.isSynchronizedUnit;
         });
-        unit.shouldSkipModelCount = unit.spec['G: Synchronized'] || unit.spec['Antipode']; 
         unit.defaultChild = unit.childsByCode['Default'];
         if (unit.defaultChild) {
             unit.isPseudoUnit = (Number(unit.ava) == 0) || ((Number(unit.defaultChild.cost) == 0 && Number(unit.defaultChild.swc) == 0));
@@ -457,7 +461,7 @@ var units = ia.units = {};
         $('#unitMenu .unitButton').remove();
         unitButtonDataByIsc = {};
         $.each(unitsByIsc, function(unitIsc, unit) {
-            if (!unit.defaultChild || unit.shouldSkipModelCount) { //only profile
+            if (!unit.defaultChild || unit.isSynchronizedUnit) { //only profile
                 return; //skip button
             }
             var unitButton = buildButtonForUnit(unitIsc);
