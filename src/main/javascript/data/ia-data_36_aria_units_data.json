@@ -4318,6 +4318,99 @@
 {
  "altp":[{
      "isc":"(Dismounted)",
+     "mov":"4-4",
+     "ava":" ",
+    "bsw":["Smoke Grenades"],
+    "ccw":[],
+    "spec":["Sixth Sense L2", "V: Courage"]
+ }],
+  "mov": "8-4",
+  "army": "Ariadna",
+  "wip": "13",
+  "cbcode": [
+  ],
+  "bts": "0",
+  "isc": "Desperadoes",
+  "name": "Desperado",
+  "bs": "11",
+  "note": "",
+  "cube": "",
+  "type": "WB",
+  "ph": "12",
+  "cc": "18",
+  "arm": "1",
+  "irr": "X",
+  "w": "1",
+  "ava": "2",
+  "bsw": ["Smoke LGL","Smoke Grenades"],
+  "spec": [
+   "Sixth Sense L2", "V: Courage",
+   "Motorcycle", "Kinematika L1"
+  ],
+  "ccw": [
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "11",
+    "codename": "Chain",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Chain Rifle"
+    ],
+    "ccw": ["Heavy Pistol (2)", "AP CCW"],
+    "note": ""
+   },
+   {
+    "code": "Assault",
+    "cost": "13",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Chain Rifle"
+    ],
+    "ccw": ["Assault Pistol (2)", "CCW"],
+    "note": ""
+   },
+   {
+    "code": "SMG",
+    "cost": "13",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Submachine Gun"
+    ],
+    "ccw": ["Heavy Pistol (2)", "CCW"],
+    "note": ""
+   },
+   {
+    "code": "BS",
+    "cost": "18",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+    ],
+    "bsw": [
+     "Boarding Shotgun"
+    ],
+    "ccw": ["Heavy Pistol (2)", "CCW"],
+    "note": ""
+   }
+  ],
+  "imp": "XX",
+  "functions": [
+    ]
+},
+{
+ "altp":[{
+     "isc":"(Dismounted)",
      "mov":"4-2",
      "ava":" ",
     "bsw":[],

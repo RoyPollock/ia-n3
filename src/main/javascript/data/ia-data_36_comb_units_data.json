@@ -4273,31 +4273,45 @@
  "ava": "2",
  "bs": "11",
  "bsw": [
-  "Combi Rifle",
-  "Smoke LGL"
  ],
  "bts": "0",
  "cbcode": [],
  "cc": "21",
  "ccw": [
-  "Pistol",
-  "Shock CCW"
+  "Pistol"
  ],
  "childs": [
   {
-   "bsw": [],
+   "bsw": [
+  	"Combi Rifle",
+  	"Smoke LGL"
+  	],
    "cbcode": [],
    "ccw": [],
    "code": "Default",
+   "codename": "Combi",
+   "cost": "20",
+   "note": "",
+   "spec": ["Shock CCW"],
+   "swc": "0"
+  },
+  {
+   "bsw": [
+  	"Vulkan Shotgun",
+  	"Smoke Grenades"
+  	],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Vulkan",
    "codename": "",
    "cost": "20",
    "note": "",
-   "spec": [],
+   "spec": ["DA CCW"],
    "swc": "0"
   }
  ],
  "cube": "X",
- "imp": "XX",
+ "imp": "X",
  "irr": "",
  "isc": "Oznat",
  "mov": "4-4",

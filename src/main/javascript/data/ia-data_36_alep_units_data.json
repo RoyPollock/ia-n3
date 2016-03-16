@@ -191,6 +191,102 @@
   "army": "Aleph",
   "wip": "15",
   "cbcode": [
+  ],
+  "bts": "6",
+  "isc": "Hector, Homeridae's Champion",
+  "name": "Hector",
+  "bs": "13",
+  "note": "",
+  "cube":"2",
+  "type": "HI",
+  "ph": "14",
+  "cc": "23",
+  "arm": "5",
+  "irr": "",
+  "w": "2",
+  "ava": "1",
+  "bsw": [
+   "Nanopulser", "Stun Grenades"
+  ],
+  "spec": [
+   "Tinbot A",
+   "X Visor",
+   "Martial Arts L4",
+   "Kinematika L2",
+   "Strategos L1",
+   "Fireteam: Enomotarchos",
+   "V: No Wound Incapacitation"
+  ],
+  "ccw": [
+   "EXP CCW",
+   "Heavy Pistol"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "71",
+    "codename": "Plasma",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Plasma Rifle"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Lieutenant",
+    "cost": "71",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+     "Lieutenant"
+    ],
+    "bsw": [
+     "Plasma Rifle"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Spitfire",
+    "cost": "70",
+    "codename": "",
+    "swc": "2",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Spitfire"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Spitfire Lt",
+    "cost": "70",
+    "codename": "",
+    "swc": "2",
+    "cbcode": [],
+    "spec": [
+     "Lieutenant"
+    ],
+    "bsw": [
+     "Spitfire"
+    ],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
+  "mov": "4-4",
+  "army": "Aleph",
+  "wip": "15",
+  "cbcode": [
    "280817-0304"
   ],
   "bts": "6",
