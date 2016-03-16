@@ -3724,13 +3724,13 @@
  {
 	 "altp":[{
 		"isc": "High Mobility Form",
-		"mov": "6-6",
+		"mov": "8-2",
 		"cc": "8",
-		"bs": "11",
+		"bs": "12",
      "ava":" ",
      "bsw":[],
     "ccw":[],
-    "spec":["Climbing Plus"]
+    "spec":["Climbing Plus", "Kinematika L2", "Multiterrain"]
 	 }],
   "mov": "4-2",
   "army": "Yu Jing",
@@ -3748,32 +3748,43 @@
   "type": "HI",
   "ph": "14",
   "cc": "16",
-  "arm": "4",
+  "arm": "5",
   "irr": "",
   "w": "2",
   "ava": "1",
   "bsw": [
-   "Spitfire",
    "Light Flamethrower",
    "Panzerfaust"
   ],
   "spec": [
    "Mechanical Transmutation",
-   "G: Remote Presence"
+   "G: Remote Presence",
+   "V: No Wound Incapacitation"
   ],
   "ccw": [
-   "Pistol",
-   "CCW"
+   "Heavy Pistol",
+   "Knife"
   ],
   "childs": [
    {
     "code": "Default",
-    "cost": "55",
-    "codename": "",
+    "cost": "59",
+    "codename": "Spitfire",
     "swc": "2",
     "cbcode": [],
     "spec": [],
-    "bsw": [],
+    "bsw": ["Spitfire"],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Shotgun",
+    "cost": "54",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": ["Heavy Shotgun"],
     "ccw": [],
     "note": ""
    }
