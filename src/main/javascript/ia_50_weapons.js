@@ -114,8 +114,6 @@ var weapons=ia.weapons={};
         weapon.type=weapon.canCc?'ccw':'bsw';
         weapon.getDisplay=function(attrName){
             return names.get(attrName=='name'?weapon.type:'weapon_'+attrName,weapon[attrName]);
-        //			var displayAttrName=utils.getDisplayAttrName(attrName),lang=messages.getLang(),defaultLang=messages.getDefaultLang();
-        //			return (weapon[displayAttrName]&&(weapon[displayAttrName][lang]||weapon[displayAttrName][defaultLang]))||weapon[attrName];
         }
         weapon.maxRange=maxRange;
         weapon.canBs=weapon.burst=='--'?0:1;
@@ -204,16 +202,16 @@ var weapons=ia.weapons={};
         +(Math.round(g)%256)+','
         +(Math.round(b)%256)+')';
     }
-    function buildWeaponRow(model,weapon,table){
+    function buildWeaponRow(model,weapon,weaponMode,table){
         var mods=getWeaponModsForRanges({
             ranges:rangesIn,
             model:model,
-            weapon:weapon
+            weapon:weaponMode
         });
         var row=$('<tr class="weaponDataRow"/>').appendTo(table);
         var wrappedRow=$('<tr  class="wrappedRow"/>').appendTo(table),wrappedCell=$('<td colspan="5" />').appendTo(wrappedRow),wrappedFakeTable=$('<div class="wrappedFakeTable" />').appendTo(wrappedCell);
-        $('<td class="weaponDisplayName" />').text(weapon.getDisplay('name')).appendTo(row);
-        $('<td class="weaponName"/>').text(weapon.name).hide().appendTo(row).clone().appendTo(wrappedFakeTable);
+        $('<td class="weaponDisplayName" />').text(weaponMode.getDisplay('name')).appendTo(row);
+        $('<td class="weaponName"/>').text(weaponMode.name).hide().appendTo(row).clone().appendTo(wrappedFakeTable);
         $.each(mods,function(index,mod){
             if(mod!="--"){
                 var color='background-color: '+getColor(model?mod:(11+mod));
@@ -226,21 +224,18 @@ var weapons=ia.weapons={};
         $('td.rangeMod:last',row).addClass('last');
         $('td.rangeMod:first',wrappedFakeTable).addClass('first');
         $('td.rangeMod:last',wrappedFakeTable).addClass('last');
-        var damage=weapon["damage"];
+        var damage=weaponMode["damage"];
         if(damage.match(/PH/) && model){
             damage=damage+" ("+(Number(model.get('ph'))+Number(damage.replace(/PH/,'')))+")";
         }
         $('<td />').text(damage).appendTo(row);
-        $('<td />').text(weapon["burst"]).appendTo(row);
-        $('<td />').text(names.get('ammo',weapon["ammo"])).appendTo(row);
+        $('<td />').text(weaponMode["burst"]).appendTo(row);
+        $('<td />').text(names.get('ammo',weaponMode["ammo"])).appendTo(row);
         var specs=[];
-        if(weapon['template']!='No'){
-            specs.push(names.get('template',weapon['template']));
+        if(weaponMode['template']!='No'){
+            specs.push(names.get('template',weaponMode['template']));
         }
-        if(weapon['em_vul']!='No'){
-            specs.push('E/M vul');
-        }
-        if(weapon['cc']!='No'){
+        if(weaponMode['cc']!='No'){
             specs.push('cc');
         }
         if(weapon['note']!=''){
@@ -271,7 +266,18 @@ var weapons=ia.weapons={};
         $.each(weaponList,function(index,weaponName){
             var weapon=weaponsByName[weaponName];
             if(weapon){
-                buildWeaponRow(model,weapon,table);
+	    	if(weapon.modes) {
+		    $.each(weapon.modes,function(index,weaponMode){
+			weaponMode.name = weapon.name + "(" + weaponMode.modename + ")";
+        		weaponMode.getDisplay=function(attrName){
+            			return names.get(attrName=='name'?weaponMode.type:'weapon_'+attrName,weaponMode[attrName]);
+        		}
+			buildWeaponRow(model,weapon,weaponMode,table);
+		    });
+		}
+		else {
+                    buildWeaponRow(model,weapon,weapon,table);
+		}
             }else{
                 log('weapon not found : ',weaponName);
                 $('<td />').text(weaponName).appendTo(table).wrap('<tr />');
