@@ -1819,6 +1819,50 @@
   "functions": []
  },
  {
+  "mov": "6-4",
+  "army": "Combined Army",
+  "wip": "13",
+  "cbcode": [
+  ],
+  "bts": "3",
+  "isc": "E-Drone",
+  "name": "E-Drone",
+  "bs": "11",
+  "note": "",
+  "cube": "R",
+  "type": "REM",
+  "ph": "10",
+  "cc": "8",
+  "arm": "0",
+  "irr": "",
+  "w": "1",
+  "ava": "2",
+  "bsw": [],
+  "spec": [
+   "G: Remote Presence",
+   "Multiterrain",
+   "EVO Repeater"
+  ],
+  "ccw": [
+   "Electric Pulse"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "20",
+    "codename": "EVO",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": [],
+    "bsw": ["Combi Rifle"],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": []
+ },
+ {
   "mov": "6-6",
   "army": "Combined Army",
   "wip": "13",

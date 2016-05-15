@@ -1638,6 +1638,24 @@
   "template": "No"
  },
  {
+  "ammo": "AP+DA",
+  "burst": "--",
+  "cc": "Yes",
+  "damage": "PH",
+  "em_vul": "No",
+  "long_dist": "--",
+  "long_mod": "--",
+  "max_dist": "--",
+  "max_mod": "--",
+  "medium_dist": "--",
+  "medium_mod": "--",
+  "name": "Templar CCW (Forge 2)",
+  "note": "Anti-materiel",
+  "short_dist": "--",
+  "short_mod": "--",
+  "template": "No"
+ },
+ {
   "ammo": "AP+Shock",
   "burst": "--",
   "cc": "Yes",
@@ -1649,7 +1667,7 @@
   "max_mod": "--",
   "medium_dist": "--",
   "medium_mod": "--",
-  "name": "Templar CCW",
+  "name": "Templar CCW (Forge 1)",
   "note": "",
   "short_dist": "--",
   "short_mod": "--",
@@ -1783,7 +1801,7 @@
   "template": "No"
  },
  {
-  "ammo": "Zero-V Smoke",
+  "ammo": "Eclipse",
   "burst": "1",
   "cc": "No",
   "damage": "--",
@@ -1794,7 +1812,7 @@
   "max_mod": "--",
   "medium_dist": "16",
   "medium_mod": "-3",
-  "name": "Zero-V Smoke Grenades",
+  "name": "Eclipse Grenades",
   "note": "",
   "short_dist": "8",
   "short_mod": "3",
@@ -1802,7 +1820,7 @@
   "attr":"PH"
  },
  {
-  "ammo": "Zero-V Smoke",
+  "ammo": "Eclipse",
   "burst": "1",
   "cc": "No",
   "damage": "--",
@@ -1813,7 +1831,7 @@
   "max_mod": "-6",
   "medium_dist": "16",
   "medium_mod": "3",
-  "name": "Zero-V Smoke LGL",
+  "name": "Eclipse LGL",
   "note": "",
   "short_dist": "8",
   "short_mod": "0",

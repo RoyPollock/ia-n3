@@ -1088,7 +1088,7 @@
     "isc": "Akalis"
    },
    {
-    "ava": "4",
+    "ava": "5",
     "isc": "Bagh-Mari",
     "linkable": true
    },
@@ -1096,6 +1096,10 @@
     "ava": "1",
     "isc": "Lieutenant Stephen Rao",
     "linkable": true
+   },
+   {
+    "ava": "3",
+    "isc": "Orc Troops"
    },
    {
     "ava": "4",
@@ -1123,7 +1127,15 @@
    },
    {
     "ava": "1",
-    "isc": "Toni Macayana, Tikbalangs Lieutenant"
+    "isc": "Lieutenant Stephen Rao"
+   },
+   {
+    "ava": "1",
+    "isc": "Drakios, Steel Phalanx's NCO"
+   },
+   {
+    "ava": "1",
+    "isc": "Scylla, Steel Phalanx's NCO"
    },
    {
     "ava": "1",
@@ -1138,11 +1150,11 @@
     "isc": "Clipper Dronbot"
    },
    {
-    "ava": "2",
+    "ava": "3",
     "isc": "Fugazi Dronbot"
    },
    {
-    "ava": "1",
+    "ava": "2",
     "isc": "Armbots: Bulleteers"
    },
    {
@@ -1174,8 +1186,16 @@
     "isc": "Auxbot GdA"
    },
    {
+    "ava": "T",
+    "isc": "Auxbot MD"
+   },
+   {
     "ava": "1",
     "isc": "Indigo Spec-Ops"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcor"
    }
   ]
  },
@@ -1188,8 +1208,8 @@
     "isc": "Auxilia"
    },
    {
-    "ava": "T",
-    "isc": "Neoterra Bolts",
+    "ava": "5",
+    "isc": "Fusiliers",
     "linkable": true
    },
    {
@@ -1198,13 +1218,21 @@
     "linkable": true
    },
    {
-    "ava": "5",
-    "isc": "Fusiliers",
+    "ava": "3",
+    "isc": "Hexas, Strategic Security Division"
+   },
+   {
+    "ava": "T",
+    "isc": "Neoterra Bolts",
     "linkable": true
    },
    {
+    "ava": "1",
+    "isc": "PanOceanian Black Friars"
+   },
+   {
     "ava": "3",
-    "isc": "Hexas, Strategic Security Division"
+    "isc": "Orc Troops"
    },
    {
     "ava": "3",
@@ -1221,6 +1249,10 @@
    {
     "ava": "2",
     "isc": "Clausewitz Uhlans"
+   },
+   {
+    "ava": "2",
+    "isc": "Locust, Clandestine Action Team"
    },
    {
     "ava": "2",
@@ -1276,6 +1308,10 @@
    },
    {
     "ava": "T",
+    "isc": "Auxbot MD"
+   },
+   {
+    "ava": "T",
     "isc": "Devabot"
    },
    {
@@ -1285,6 +1321,10 @@
    {
     "ava": "2",
     "isc": "Corporate Security Unit"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcor"
    }
   ]
  },
@@ -1314,20 +1354,21 @@
    },
    {
     "ava": "4",
+    "isc": "Crusader Brethren"
+   },
+   {
+    "ava": "2",
+    "isc": "PanOceanian Black Friars"
+   },
+   {
+    "ava": "4",
     "isc": "Knights Hospitaller",
     "linkable": true
    },
    {
-    "ava": "3",
-    "isc": "Father-Knights"
-   },
-   {
     "ava": "4",
-    "isc": "Knights of Montesa"
-   },
-   {
-    "ava": "4",
-    "isc": "Crusader Brethren"
+    "isc": "Knights of Montesa",
+    "linkale": true
    },
    {
     "ava": "4",
@@ -1336,12 +1377,17 @@
    },
    {
     "ava": "4",
-    "isc": "Knights of the Holy Sepulchre"
+    "isc": "Knights of the Holy Sepulchre",
+    "linkable": true
    },
    {
     "ava": "4",
     "isc": "Teutonic Knights",
     "linkable": true
+   },
+   {
+    "ava": "3",
+    "isc": "Father-Knights"
    },
    {
     "ava": "6",
@@ -1412,8 +1458,16 @@
     "isc": "Auxbot"
    },
    {
+    "ava": "T",
+    "isc": "Auxbot MD"
+   },
+   {
     "ava": "1",
     "isc": "Indigo Spec-Ops"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcor"
    }
   ],
   "functions": [ ]
