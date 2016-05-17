@@ -160,6 +160,9 @@
                 'Hacker':units.unitsByIsc['Alguaciles'].childsByCode['Hacker']
             };
         }
+	if(units.sectorialName==='Japanese Sectorial Army') {
+	    units.unitsByIsc['Keisotsu'].childsByCode['Lieutenant'].swc='1';
+	}
         if(units.factionName==='Yu Jing' && units.sectorialName!='Japanese Sectorial Army' && units.unitsByIsc['Kempeitai']){
             delete units.unitsByIsc['Kempeitai'].childsByCode['Chain Comm + Shotgun'];
             delete units.unitsByIsc['Kempeitai'].childsByCode['Chain Comm'];

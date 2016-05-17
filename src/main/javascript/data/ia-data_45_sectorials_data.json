@@ -583,14 +583,17 @@
     "linkable": true
    },
    {
-    "ava": "5",
-    "isc": "Imperial Agent, Pheasant Rank",
+    "ava": "4",
+    "isc": "Bao Troop",
     "linkable": true
    },
    {
-    "ava": "5",
-    "isc": "Zhanying Imperial Agents",
-    "linkable": true
+    "ava": "4",
+    "isc": "Zhanying Imperial Agents"
+   },
+   {
+    "ava": "4",
+    "isc": "Imperial Agent, Pheasant Rank"
    },
    {
     "ava": "5",
@@ -604,13 +607,7 @@
    },
    {
     "ava": "4",
-    "isc": "Hsien Warriors",
-    "linkable": true
-   },
-   {
-    "ava": "4",
-    "isc": "Bao Troop",
-    "linkable": true
+    "isc": "Hsien Warriors"
    },
    {
     "ava": "3",
@@ -619,6 +616,10 @@
    {
     "ava": "1",
     "isc": "Ninjas"
+   },
+   {
+    "ava": "3",
+    "isc": "Kanren Counter-Insurgency Group"
    },
    {
     "ava": "8",
@@ -686,8 +687,12 @@
     "isc": "Gui Feng Spec-Ops"
    },
    {
-    "ava": "3",
+    "ava": "2",
     "isc": "Authorized Bounty Hunters"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcor"
    }
   ]
  },
@@ -714,9 +719,12 @@
     "isc": "Aragoto Senkenbutai"
    },
    {
+    "ava": "4",
+    "isc": "Raiden Seibutai"
+   },
+   {
     "ava": "3",
-    "isc": "Karakuri Special Project",
-    "linkable": true
+    "isc": "Karakuri Special Project"
    },
    {
     "ava": "5",
@@ -729,12 +737,12 @@
     "linkable": true
    },
    {
-    "ava": "4",
-    "isc": "Raiden Seibutai"
+    "ava": "2",
+    "isc": "O-Yoroi Kidobutai"
    },
    {
     "ava": "2",
-    "isc": "O-Yoroi Kidobutai"
+    "isc": "Shikami"
    },
    {
     "ava": "0",
@@ -812,6 +820,10 @@
    {
     "ava": "1",
     "isc": "Gui Feng Spec-Ops"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcor"
    }
   ]
  },
