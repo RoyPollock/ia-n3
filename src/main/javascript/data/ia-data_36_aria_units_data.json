@@ -160,7 +160,7 @@
   "arm": "1",
   "irr": "",
   "w": "1",
-  "ava": "4",
+  "ava": "2",
   "bsw": [],
   "spec": ["Martial Arts L2","AD: Parachutist", "Kinematika L1", "Jungle Terrain"],
   "ccw": [
@@ -185,7 +185,7 @@
     "code": "Lieutenant",
     "cost": "20",
     "codename": "",
-    "swc": "0",
+    "swc": "1",
     "cbcode": [],
     "spec": [
      "Lieutenant"
@@ -563,7 +563,7 @@
     "code": "Missile",
     "cost": "29",
     "codename": "",
-    "swc": "0",
+    "swc": "1.5",
     "cbcode": [],
     "spec": [
     ],
@@ -669,23 +669,6 @@
   ],
   "childs": [
    {
-    "code": "Infiltrator",
-    "cost": "26",
-    "codename": "",
-    "swc": "0",
-    "cbcode": [],
-    "spec": [
-     "Infiltration"
-    ],
-    "bsw": [
-     "Rifle",
-     "E/Mauler",
-     "Light Shotgun"
-    ],
-    "ccw": [],
-    "note": ""
-   },
-   {
     "code": "Default",
     "cost": "21",
     "codename": "Rifle",
@@ -700,16 +683,74 @@
     "note": ""
    },
    {
-    "code": "Paramedic",
+    "code": "HMG",
+    "cost": "29",
+    "codename": "",
+    "swc": "1.5",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "HMG"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "AP Rifle",
     "cost": "23",
     "codename": "",
     "swc": "0",
     "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "AP Rifle",
+     "Light Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Panzerfaust",
+    "cost": "23",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Panzerfaust",
+     "Boarding Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Camo",
+    "cost": "23",
+    "codename": "Mimetism",
+    "swc": "0",
+    "cbcode": [],
     "spec": [
-     "MediKit"
+     "CH: Mimetism"
     ],
     "bsw": [
      "Rifle",
+     "Light Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Infiltrator",
+    "cost": "26",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+     "Infiltration"
+    ],
+    "bsw": [
+     "Rifle",
+     "E/Mauler",
      "Light Shotgun"
     ],
     "ccw": [],
@@ -729,6 +770,22 @@
      "Light Shotgun"
     ],
     "ccw": ["D-Charges"],
+    "note": ""
+   },
+   {
+    "code": "Paramedic",
+    "cost": "23",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+     "MediKit"
+    ],
+    "bsw": [
+     "Rifle",
+     "Light Shotgun"
+    ],
+    "ccw": [],
     "note": ""
    },
    {
@@ -763,58 +820,33 @@
     "note": ""
    },
    {
-    "code": "Camo",
-    "cost": "23",
-    "codename": "Mimetism",
+    "code": "InfiltratorDEP",
+    "cost": "30",
+    "codename": "",
     "swc": "0",
     "cbcode": [],
     "spec": [
-     "CH: Mimetism"
+     "Infiltration"
     ],
-    "bsw": [
-     "Rifle",
-     "Light Shotgun"
-    ],
-    "ccw": [],
-    "note": ""
-   },
-   {
-    "code": "Panzerfaust",
-    "cost": "23",
-    "codename": "",
-    "swc": "1",
-    "cbcode": [],
-    "spec": [],
-    "bsw": [
-     "Panzerfaust",
-     "Boarding Shotgun"
-    ],
-    "ccw": [],
-    "note": ""
-   },
-   {
-    "code": "AP Rifle",
-    "cost": "23",
-    "codename": "",
-    "swc": "0",
-    "cbcode": [],
-    "spec": [],
     "bsw": [
      "AP Rifle",
+     "D.E.P.",
      "Light Shotgun"
     ],
     "ccw": [],
     "note": ""
    },
    {
-    "code": "HMG",
-    "cost": "29",
+    "code": "Sapper",
+    "cost": "31",
     "codename": "",
-    "swc": "1.5",
+    "swc": "2",
     "cbcode": [],
-    "spec": [],
+    "spec": [
+     "Sapper"
+    ],
     "bsw": [
-     "HMG"
+      "HMG"
     ],
     "ccw": [],
     "note": ""
@@ -850,7 +882,7 @@
    "CH: Mimetism",
    "Not Hackable",
    "Shock Immunity",
-   "Veteran L2 (V: No Wound Incapacitation, Sixth Sense L2)"
+   "Veteran L2"
   ],
   "ccw": [
    "Knife",
@@ -1787,7 +1819,7 @@
   "cube": "",
   "type": "HI",
   "ph": "13",
-  "cc": "16",
+  "cc": "18",
   "arm": "3",
   "irr": "",
   "w": "1",
@@ -1833,7 +1865,7 @@
      "T2 Boarding Shotgun",
      "Grenades"
     ],
-    "ccw": [],
+    "ccw": ["D-Charges"],
     "note": ""
    },
    {
@@ -1957,6 +1989,19 @@
     ],
     "ccw": [],
     "note": ""
+   },
+   {
+    "code": "Haris",
+    "cost": "34",
+    "codename": "",
+    "swc": "1",
+    "cbcode": [],
+    "spec": ["Fireteam: Haris"],
+    "bsw": [
+     "T2 Rifle"
+    ],
+    "ccw": [],
+    "note": ""
    }
   ],
   "imp": "F",
@@ -2011,7 +2056,7 @@
    },
    {
     "code": "Lieutenant",
-    "cost": "32",
+    "cost": "33",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -2039,8 +2084,21 @@
     "note": ""
    },
    {
+    "code": "Haris",
+    "cost": "43",
+    "codename": "",
+    "swc": "2.5",
+    "cbcode": [],
+    "spec": ["Fireteam: Haris"],
+    "bsw": [
+     "AP HMG"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
     "code": "Default",
-    "cost": "32",
+    "cost": "33",
     "codename": "T2 Rifle",
     "swc": "0",
     "cbcode": [],
@@ -2437,7 +2495,7 @@
   "childs": [
    {
     "code": "T2 Sniper",
-    "cost": "21",
+    "cost": "24",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -2450,7 +2508,7 @@
    },
    {
     "code": "Default",
-    "cost": "20",
+    "cost": "21",
     "codename": "Sniper",
     "swc": "0.5",
     "cbcode": [],
@@ -2815,8 +2873,7 @@
    "Berserk",
    "Inspiring Leadership",
    "V: No Wound Incapacitation",
-   "Kinematika L1",
-   "Personality"
+   "Kinematika L1"
   ],
   "ccw": [
    "Pistol",
@@ -3053,8 +3110,7 @@
    "Shock Immunity",
    "Multiterrain",
    "Not Hackable",
-   "Companion: Duroc, Mirage-5",
-   "Personality"
+   "Companion: Duroc, Mirage-5"
   ],
   "ccw": [
    "Pistol",
@@ -3106,8 +3162,7 @@
    "Martial Arts L2",
    "Total Immunity",
    "Super-Jump",
-   "Companion: Margot Berthnier, Mirage-5",
-   "Personality"
+   "Companion: Margot Berthnier, Mirage-5"
   ],
   "ccw": [
    "AP CCW"
@@ -3198,6 +3253,125 @@
     "code": "Default",
     "note": "",
     "ccw": [],
+    "codename": "Rifle",
+    "cost": "21",
+    "spec": []
+   },
+   {
+    "bsw": [],
+    "swc": "0",
+    "cbcode": [],
+    "code": "LT",
+    "note": "",
+    "ccw": [],
+    "codename": "",
+    "cost": "21",
+    "spec": [
+     "Lieutenant"
+    ]
+   }
+  ],
+  "ccw": [
+   "Assault Pistol",
+   "AP CCW"
+  ],
+  "bsw": [
+   "Rifle"
+  ],
+  "ava": "1",
+  "irr": "",
+  "arm": "0",
+  "cbcode": [
+  ],
+  "bts": "0",
+  "army": "Ariadna",
+  "note": "",
+  "cube": "",
+  "bs": "11",
+  "cc": "18",
+  "imp": "",
+  "name": "Voronin",
+  "isc": "Colonel Yevgueni Vornonin",
+  "mov": "4-4",
+  "type": "LI",
+  "ph": "12",
+  "spec": [
+   "Guardian L1",
+   "Sixth Sense L2",
+   "Strategos L1"
+  ],
+  "w": "1",
+  "wip": "14"
+ },
+ {
+  "childs": [
+   {
+    "bsw": ["Rifle"],
+    "swc": "0",
+    "cbcode": [],
+    "code": "Default",
+    "note": "",
+    "ccw": [],
+    "codename": "Rifle",
+    "cost": "41",
+    "spec": ["Chain of Command"]
+   },
+   {
+    "bsw": ["Molotok"],
+    "swc": "1.5",
+    "cbcode": [],
+    "code": "Specialist",
+    "note": "",
+    "ccw": [],
+    "codename": "",
+    "cost": "47",
+    "spec": [
+     "Specialist Operative"
+    ]
+   }
+  ],
+  "ccw": [
+   "Heavy Pistol",
+   "T2 CCW", "Knife"
+  ],
+  "bsw": [
+  ],
+  "ava": "1",
+  "irr": "",
+  "arm": "0",
+  "cbcode": [
+  ],
+  "bts": "0",
+  "army": "Ariadna",
+  "note": "",
+  "cube": "",
+  "bs": "13",
+  "cc": "22",
+  "imp": "",
+  "name": "Unknown Ranger",
+  "isc": "The Unknown Ranger",
+  "mov": "4-4",
+  "type": "LI",
+  "ph": "13",
+  "spec": [
+   "Kinematika L1",
+   "CH: Mimetism",
+   "Natural Born Warrior",
+   "Scavenger",
+   "V:No Wound Incapacitation"
+  ],
+  "w": "1",
+  "wip": "13"
+ },
+ {
+  "childs": [
+   {
+    "bsw": [],
+    "swc": "0",
+    "cbcode": [],
+    "code": "Default",
+    "note": "",
+    "ccw": [],
     "codename": "",
     "cost": "0",
     "spec": []
@@ -3254,7 +3428,7 @@
   "ava": "2",
   "sharedAva":"Furries",
   "irr": "X",
-  "arm": "3",
+  "arm": "1",
   "cbcode": [
       "280169-0497",
    "280112-0054"
@@ -3278,7 +3452,7 @@
    "Transmutation"
   ],
   "w": "1",
-  "wip": "13",
+  "wip": "12",
   "altp": [
    {
     "ava": " ",
@@ -3290,7 +3464,8 @@
     "name": "Dog-Warrior",
     "isc": "Dog-Warrior",
     "ph": "16",
-    "w": "2"
+    "w": "2",
+    "arm": "3"
    }
   ]
  },
@@ -3369,7 +3544,7 @@
   },
   {
    "bsw": [
-    "Boarding Shotgun"
+    "Boarding Shotgun","Antipersonnel Mines"
    ],
    "cbcode": [],
    "ccw": [
@@ -3507,7 +3682,7 @@
    ],
    "code": "HRL",
    "codename": "",
-   "cost": "23",
+   "cost": "15",
    "note": "",
    "spec": [],
    "swc": "1.5"
@@ -3629,6 +3804,22 @@
   },
   {
    "bsw": [
+    "AP Marksman Rifle"
+   ],
+   "cbcode": [],
+   "ccw": [
+    "Pistol"
+   ],
+   "code": "Marksman",
+   "codename": "",
+   "cost": "27",
+   "note": "",
+   "spec": [
+   ],
+   "swc": "0"
+  },
+  {
+   "bsw": [
     "Missile Launcher"
    ],
    "cbcode": [],
@@ -3655,7 +3846,8 @@
  "ph": "12",
  "spec": [
   "V: Courage",
-    "CH: Camouflage"
+  "CH: Camouflage",
+  "Multiterrain"
  ],
  "type": "MI",
  "w": "1",
@@ -3684,9 +3876,9 @@
    ],
    "code": "Marksman",
    "codename": "",
-   "cost": "23",
+   "cost": "24",
    "note": "",
-   "spec": [],
+   "spec": ["Forward Observer"],
    "swc": "0"
   },
   {
@@ -3696,13 +3888,13 @@
    ],
    "cbcode": [],
    "ccw": [
-    "Pistol"
+    "Pistol","D-Charges"
    ],
    "code": "Default",
    "codename": "Smg",
-   "cost": "18",
+   "cost": "19",
    "note": "",
-   "spec": [],
+   "spec": ["Forward Observer"],
    "swc": "0"
   },
   {
@@ -3763,7 +3955,7 @@
  "note": "",
  "ph": "12",
  "spec": [
-  "V: Courage"
+  "V: Courage","Multiterrain","Fireteam: Duo"
  ],
  "type": "MI",
  "w": "1",
@@ -3805,7 +3997,7 @@
    "code": "Inf",
    "codename": "",
    "cost": "31",
-   "note": "",
+   "note": "Cannot form Fireteam",
    "spec": [
     "Inferior Infiltration"
    ],
@@ -3836,8 +4028,7 @@
  "spec": [
   "X Visor",
   "CH: Limited Camouflage",
-  "Multiterrain",
-   "Personality"
+  "Multiterrain"
  ],
  "type": "LI",
  "w": "1",
@@ -3856,7 +4047,7 @@
  "bts": "0",
  "cbcode": ["280107-0018","280157-0373"],
  "cc": "21",
- "ccw": [],
+ "ccw": ["AP CCW","Knife"],
  "childs": [
   {
    "bsw": [
@@ -3864,8 +4055,7 @@
    ],
    "cbcode": [],
    "ccw": [
-    "Pistol",
-    "AP CCW", "Knife"
+    "Pistol"
    ],
    "code": "Default",
    "codename": "Grenades",
@@ -3884,8 +4074,7 @@
    "cbcode": [],
    "ccw": [
     "D-Charges",
-    "Assault Pistol (2)",
-    "Knife"
+    "Assault Pistol (2)"
    ],
    "code": "SupInf",
    "codename": "",
@@ -3894,7 +4083,7 @@
    "spec": [
     "CH: Limited Camouflage",
     "Superior Infiltration",
-    "Specialist Troop"
+    "Specialist Operative"
    ],
    "swc": "0"
   }
@@ -3971,7 +4160,7 @@
  "isc": "Volunteer Intel Isobel McGregor",
  "mov": "4-4",
  "name": "Isobel McGregor",
- "note": "Special Spec-Op",
+ "note": "",
  "ph": "11",
  "spec": [
   "Hacker",
@@ -4270,7 +4459,7 @@
     "cube": "",
     "type": "SK",
     "ph": "13",
-    "cc": "13",
+    "cc": "14",
     "arm": "0",
     "irr": "X",
     "w": "1",
@@ -4410,6 +4599,75 @@
 },
 {
  "altp":[{
+     "isc":"(Battle Ravaged)",
+     "mov":"4-2",
+     "ava":" ",
+     "cc":"12",
+     "bs":"12",
+     "ph":"13",
+     "arm":"4",
+     "bts":"0"
+ }],
+  "mov": "4-2",
+  "army": "Ariadna",
+  "wip": "13",
+  "cbcode": [
+  ],
+  "bts": "3",
+  "isc": "Blackjacks",
+  "name": "Blackjack",
+  "bs": "13",
+  "note": "",
+  "cube": "",
+  "type": "HI",
+  "ph": "14",
+  "cc": "13",
+  "arm": "5",
+  "irr": "",
+  "w": "1",
+  "ava": "1",
+  "bsw": ["Chest Mines"],
+  "spec": [
+    "Heavyweight","V: Courage","Lo-Tech A"
+  ],
+  "ccw": [
+   "Heavy Pistol",
+   "CCW"
+  ],
+  "childs": [
+   {
+    "code": "Default",
+    "cost": "36",
+    "codename": "HMG",
+    "swc": "2",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "AP HM","D.E.P."
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Sniper",
+    "cost": "36",
+    "codename": "",
+    "swc": "1",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "T2 Sniper Rifle","Submachine gun"
+    ],
+    "ccw": [],
+    "note": ""
+   }
+  ],
+  "imp": "",
+  "functions": [
+    ]
+ },
+{
+ "altp":[{
      "isc":"(Dismounted)",
      "mov":"4-2",
      "ava":" ",
@@ -4438,7 +4696,7 @@
   "bsw": ["Smoke LGL"],
   "spec": [
    "Multispectral Visor L1",
-   "Motorcycle", "Kinematika L2"
+   "Motorcycle", "Kinematika L1"
   ],
   "ccw": [
    "Pistol",

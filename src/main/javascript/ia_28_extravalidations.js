@@ -160,6 +160,9 @@
                 'Hacker':units.unitsByIsc['Alguaciles'].childsByCode['Hacker']
             };
         }
+	if(units.sectorialName==='USAriadna Ranger Force') {
+	    units.unitsByIsc['USAriadna Grunts'].childsByCode['LGL LT'].swc='0';
+	}
 	if(units.sectorialName==='Japanese Sectorial Army') {
 	    units.unitsByIsc['Keisotsu'].childsByCode['Lieutenant'].swc='1';
 	}

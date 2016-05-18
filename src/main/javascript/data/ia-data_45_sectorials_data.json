@@ -440,7 +440,7 @@
     "linkable": true
    },
    {
-    "ava": "6",
+    "ava": "4",
     "isc": "Highlander Caterans"
    },
    {
@@ -472,10 +472,11 @@
    },
    {
     "ava": "T",
-    "isc": "45th Highlanders"
+    "isc": "45th Highlanders",
+    "linkable": true
    },
    {
-    "ava": "4",
+    "ava": "3",
     "isc": "2nd Irregular Cameronians Reg."
    },
    {
@@ -483,7 +484,7 @@
     "isc": "Traktor Mul, Artillery and Support Regiment"
    },
    {
-    "ava": "3",
+    "ava": "2",
     "isc": "112, Emergency Service"
    },
    {
@@ -496,7 +497,8 @@
    },
    {
     "ava": "1",
-    "isc": "William Wallace"
+    "isc": "William Wallace",
+    "linkable": "true"
    },
    {
     "ava": "1",
@@ -505,6 +507,14 @@
    {
     "ava": "1",
     "isc": "Intel Spec-Ops"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcor"
+   },
+   {
+    "ava": "1",
+    "isc": "Wardrivers"
    }
   ]
  },
@@ -513,21 +523,17 @@
   "name": "USAriadna Ranger Force",
   "units": [
    {
-    "ava": "2",
-    "isc": "112, Emergency Service"
-   },
-   {
-    "ava": "1",
-    "isc": "Dozers, Field Engineers"
-   },
-   {
-    "ava": "1",
-    "isc": "Van Zant"
-   },
-   {
     "ava": "T",
     "isc": "USAriadna Grunts",
     "linkable": true
+   },
+   {
+    "ava": "4",
+    "isc": "6th Airborne Rangers Reg."
+   },
+   {
+    "ava": "5",
+    "isc": "Mavericks"
    },
    {
     "ava": "5",
@@ -536,20 +542,12 @@
    },
    {
     "ava": "5",
-    "isc": "Mavericks"
-   },
-   {
-    "ava": "6",
-    "isc": "Desperadoes"
-   },
-   {
-    "ava": "5",
     "isc": "Minutemen",
     "linkable": true
    },
    {
-    "ava": "2",
-    "isc": "Traktor Mul, Artillery and Support Regiment"
+    "ava": "3",
+    "isc": "Blackjacks"
    },
    {
     "ava": "4",
@@ -566,6 +564,38 @@
    {
     "ava": "3",
     "isc": "K-9 Antipode"
+   },
+   {
+    "ava": "6",
+    "isc": "Desperadoes"
+   },
+   {
+    "ava": "2",
+    "isc": "112, Emergency Service"
+   },
+   {
+    "ava": "1",
+    "isc": "Dozers, Field Engineers"
+   },
+   {
+    "ava": "2",
+    "isc": "Traktor Mul, Artillery and Support Regiment"
+   },
+   {
+    "ava": "1",
+    "isc": "Van Zant"
+   },
+   {
+    "ava": "1",
+    "isc": "The Unknown Ranger"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcor"
+   },
+   {
+    "ava": "1",
+    "isc": "Wardrivers"
    },
    {
     "ava": "1",
@@ -1511,7 +1541,7 @@
     "isc": "Zouaves"
    },
    {
-    "ava": "5",
+    "ava": "4",
     "isc": "Moblots",
     "linkable": true
    },
@@ -1557,6 +1587,14 @@
    {
     "ava": "1",
     "isc": "Intel Spec-Ops"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcor"
+   },
+   {
+    "ava": "1",
+    "isc": "Wardrivers"
    }
   ]
  },
