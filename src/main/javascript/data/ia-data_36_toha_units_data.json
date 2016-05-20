@@ -619,7 +619,7 @@
     "note": "",
     "ccw": [],
     "codename": "Viral",
-    "cost": "49",
+    "cost": "43",
     "spec": []
    },
    {
@@ -632,7 +632,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "51",
+    "cost": "45",
     "spec": []
    },
    {
@@ -645,7 +645,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "44",
+    "cost": "38",
     "spec": []
    },
    {
@@ -658,7 +658,7 @@
     "note": "",
     "ccw": [],
     "codename": "",
-    "cost": "49",
+    "cost": "43",
     "spec": [
      "Lieutenant"
     ]
@@ -666,7 +666,7 @@
   ],
   "ccw": [
    "Pistol",
-   "CCW"
+   "Shock CCW"
   ],
   "bsw": [
    "Nanopulser"
@@ -683,7 +683,7 @@
   "note": "",
   "cube": "X",
   "bs": "13",
-  "cc": "17",
+  "cc": "19",
   "imp": "",
   "name": "Ectros",
   "isc": "Ectros Regiment",
@@ -693,33 +693,22 @@
   "spec": [
    "Symbiont Armour",
    "Fireteam: Triad",
-   "Poison"
+   "V: Courage",
+   "Kinematika L1"
   ],
   "w": "2",
   "wip": "13",
   "altp": [
    {
-    "cube": "X",
     "bs": "12",
-    "note": " ",
-    "ava": " ",
-    "irr": " ",
     "arm": "0",
     "bts": "0",
-    "cbcode": [],
     "mov": "4-4",
-    "cc": "17",
-    "name": "Ectros",
     "isc": "(Inactive Armour)",
-    "imp": "",
     "type": "LI",
     "ph": "11",
-    "spec": [],
     "w": "1",
-    "wip": "13",
-    "bsw":[],
-    "ccw":[],
-    "spec":[]
+    "spec":["Symbiont Armour", "Fireteam: Triad", "V: Courage"]
    }
   ]
  },
@@ -914,19 +903,6 @@
  {
   "childs": [
    {
-    "bsw": [],
-    "swc": "0",
-    "cbcode": [],
-    "code": "Civvie",
-    "note": "",
-    "ccw": [],
-    "codename": "",
-    "cost": "0",
-    "spec": [
-     "Civvie"
-    ]
-   },
-   {
     "bsw": [
      "Nanopulser",
      "Flash Pulse"
@@ -943,7 +919,7 @@
     "cost": "5",
     "spec": [
      "i-Kohl L1",
-     "Specialist Troop"
+     "Specialist Operative"
     ]
    }
   ],
@@ -1306,32 +1282,44 @@
 }
 ,
 {
- "arm": "6",
+ "arm": "7",
  "army": "Tohaa",
  "ava": "1",
  "bs": "14",
  "bsw": [
-  "Spitfire",
-    "Nanopulser",
-    "Flammenspeer (2)"
+  "AP Spitfire",
+  "Pulzar",
+  "Flammenspeer"
  ],
  "bts": "9",
  "cbcode": ["280914-0451"],
  "cc": "18",
  "ccw": [
-  "Viral CCW"
  ],
  "childs": [
   {
    "bsw": [
    ],
    "cbcode": [],
-   "ccw": [],
+   "ccw": ["Viral CCW"],
    "code": "Default",
-   "codename": "",
-   "cost": "74",
+   "codename": "ChaksaA",
+   "cost": "79",
    "note": "",
-   "spec": [],
+   "spec": ["Companion: Chaksa Peripheral A"],
+   "swc": "2"
+  }
+  ,
+  {
+   "bsw": [
+   ],
+   "cbcode": [],
+   "ccw": ["Shock CCW"],
+   "code": "ChaksaB",
+   "codename": "",
+   "cost": "78",
+   "note": "",
+   "spec": ["Companion: Chaksa Peripheral B"],
    "swc": "2"
   }
  ],
@@ -1346,8 +1334,8 @@
  "wtype":"w",
  "spec": [
   "Symbiont Armour",
-  "ECM",
-  "Companion: Chaksa Peripheral"
+  "Advanced ECM",
+  "Kinematika L1"
  ],
  "type": "TAG",
  "w": "3",
@@ -1359,12 +1347,12 @@
          "ph":"11",
          "bs":"12",
          "cc":"15",
-         "arm":"0",
+         "arm":"1",
          "bts":"0",
          "w":"1",
          "ava":" ",
-    "bsw":["Spitfire","Nanopulser"],
-    "spec":[]
+    "bsw":["Spitfire","Pulzar"],
+    "spec":["Symbiont Armour"]
  }]
 }
 ,
@@ -1375,7 +1363,7 @@
  "bs": "11",
  "bsw": [
   "Light Shotgun",
-  "Flash Grenades"
+  "Stun Grenades"
  ],
  "bts": "0",
  "cbcode": ["280914-0451"],
@@ -1400,9 +1388,9 @@
  "cube": "",
  "imp": "",
  "irr": "",
- "isc": "Chaksa Peripheral",
+ "isc": "Chaksa Peripheral A",
  "mov": "6-4",
- "name": "Periferical",
+ "name": "Chaksa",
  "note": "",
  "ph": "12",
  "spec": [
@@ -1411,7 +1399,52 @@
  ],
  "type": "LI",
  "w": "1",
- "wip": "13"
+ "wip": "11"
+}
+,
+{
+ "arm": "0",
+ "army": "Tohaa",
+ "ava": "1",
+ "bs": "11",
+ "bsw": [
+  "Pulzar"
+ ],
+ "bts": "0",
+ "cbcode": ["280914-0451"],
+ "cc": "12",
+ "ccw": [
+  "Pistol",
+  "Knife"
+ ],
+ "childs": [
+  {
+   "bsw": [],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Default",
+   "codename": "",
+   "cost": "4",
+   "note": "",
+   "spec": [],
+   "swc": "0"
+  }
+ ],
+ "cube": "",
+ "imp": "",
+ "irr": "",
+ "isc": "Chaksa Peripheral B",
+ "mov": "6-4",
+ "name": "Chaksa",
+ "note": "",
+ "ph": "12",
+ "spec": [
+  "CH: Mimetism",
+  "G: Synchronized"
+ ],
+ "type": "LI",
+ "w": "1",
+ "wip": "11"
 }
 ,
 {
@@ -1557,7 +1590,7 @@
  "ava": "6",
  "bs": "11",
  "bsw": [
-  "Zero-V Smoke Grenades"
+  "Eclipse Grenades"
  ],
  "bts": "3",
  "cbcode": [
@@ -1565,8 +1598,7 @@
  ],
  "cc": "22",
  "ccw": [
-  "Pistol",
-  "Viral CCW"
+  "Pistol"
  ],
  "childs": [
   {
@@ -1574,7 +1606,7 @@
     "Heavy Flamethrower"
    ],
    "cbcode": [],
-   "ccw": [],
+   "ccw": ["Viral CCW"],
    "code": "Default",
    "codename": "Flamer",
    "cost": "13",
@@ -1584,14 +1616,13 @@
   },
   {
    "bsw": [
-    "Heavy Flamethrower",
-    "Swarm Grenades"
+    "Heavy Flamethrower"
    ],
    "cbcode": [],
-   "ccw": [],
-   "code": "Swarm",
+   "ccw": ["DA CCW"],
+   "code": "DA",
    "codename": "",
-   "cost": "16",
+   "cost": "13",
    "note": "",
    "spec": [],
    "swc": "0"
@@ -1601,7 +1632,7 @@
     "Boarding Shotgun"
    ],
    "cbcode": [],
-   "ccw": [],
+   "ccw": ["Viral CCW"],
    "code": "BS",
    "codename": "",
    "cost": "19",
@@ -1614,7 +1645,7 @@
     "Combi Rifle"
    ],
    "cbcode": [],
-   "ccw": [],
+   "ccw": ["Viral CCW"],
    "code": "Combi",
    "codename": "",
    "cost": "20",
@@ -1677,11 +1708,12 @@
  "isc": "Kumotail",
  "mov": "4-4",
  "name": "Kumotail",
- "note": "Unusually, no MediKit",
+ "note": "",
  "ph": "11",
  "spec": [
   "Doctor",
   "Engineer",
+  "MediKit",
   "Fireteam: Triad"
  ],
  "type": "LI",
@@ -1814,45 +1846,65 @@
  "ava": "1",
  "bs": "13",
  "bsw": [
-  "Combi Rifle",
-  "Light Rocket Launcher",
   "Nanopulser"
  ],
  "bts": "9",
  "cbcode": ["280915-0462"],
  "cc": "21",
  "ccw": [
-  "Pistol",
-  "CCW"
+  "Viral Pistol",
+  "Shock CCW"
  ],
  "childs": [
   {
-   "bsw": [],
+   "bsw": ["Breaker Combi Rifle","Panzerfaust"],
    "cbcode": [],
    "ccw": [],
    "code": "Default",
-   "codename": "",
-   "cost": "42",
+   "codename": "Combi",
+   "cost": "41",
    "note": "",
    "spec": [],
-   "swc": "0.5"
+   "swc": "0"
   },
   {
-   "bsw": [],
+   "bsw": ["Spitfire"],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Spitfire",
+   "codename": "",
+   "cost": "43",
+   "note": "",
+   "spec": [
+   ],
+   "swc": "2"
+  },
+  {
+   "bsw": ["Breaker Combi Rifle","Panzerfaust"],
    "cbcode": [],
    "ccw": [],
    "code": "Lt",
    "codename": "",
-   "cost": "42",
+   "cost": "46",
+   "note": "",
+   "spec": ["Lieutenant","Advanced Command"],
+   "swc": "-1"
+  },
+  {
+   "bsw": ["Spitfire"],
+   "cbcode": [],
+   "ccw": [],
+   "code": "Spitfire Lt",
+   "codename": "",
+   "cost": "48",
    "note": "",
    "spec": [
-    "Lieutenant"
    ],
-   "swc": "0"
+   "swc": ".15"
   }
  ],
  "cube": "X",
- "imp": "XX",
+ "imp": "F",
  "irr": "",
  "isc": "Neema",
  "mov": "4-4",
@@ -1863,8 +1915,7 @@
   "Symbiont Armour",
   "Martial Arts L2",
   "Fireteam: Triad",
-  "Poison",
-   "Personality"
+  "Kinematika L1"
  ],
  "type": "HI",
  "w": "2",
@@ -1876,12 +1927,8 @@
          "bts":"0",
          "bs":"12",
          "ph":"12",
-	 "cc":"18",
          "w":"1",
-         "ava":" ",
-    "bsw":[],
-    "ccw":[],
-    "spec":[]
+    "spec":["Symbiont Armour","Fireteam: Triad", "Martial Arts L2"]
  }]
 },
 {
@@ -1974,7 +2021,7 @@
  "isc": "Hatail Aelis Keesan",
  "mov": "4-4",
  "name": "Keesan",
- "note": "Special Spec-Op",
+ "note": "",
  "ph": "12",
  "spec": [
   "Defensive Hacking Device",
