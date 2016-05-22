@@ -14,22 +14,17 @@
     "linkable": true
    },
    {
-    "ava": "5",
-    "isc": "KTS, Kaplan Tactical Services",
-    "linkable": true
-   },
-   {
-    "ava": "5",
-    "isc": "Sekban",
-    "linkable": true
-   },
-   {
     "ava": "4",
     "isc": "Bashi Bazouk"
    },
    {
     "ava": "4",
     "isc": "Hafza Unit",
+    "linkable": true
+   },
+   {
+    "ava": "5",
+    "isc": "Sekban",
     "linkable": true
    },
    {
@@ -56,8 +51,13 @@
     "isc": "Yuan Yuan"
    },
    {
-    "ava": "4",
+    "ava": "5",
     "isc": "Druze Shock Teams",
+    "linkable": true
+   },
+   {
+    "ava": "5",
+    "isc": "KTS, Kaplan Tactical Services",
     "linkable": true
    },
    {
@@ -110,6 +110,10 @@
    },
    {
     "ava": "1",
+    "isc": "Warcors"
+   },
+   {
+    "ava": "1",
     "isc": "Husam Spec-Ops"
    }
   ]
@@ -128,22 +132,17 @@
     "linkable": true
    },
    {
-    "ava": "3",
-    "isc": "Hassassin Farzans"
-   },
-   {
     "ava": "5",
     "isc": "Hassassin Govads",
     "linkable": true
    },
    {
-    "ava": "6",
-    "isc": "Hassassin Muyibs",
-    "linkable": true
+    "ava": "2",
+    "isc": "Hassassin Barid"
    },
    {
-    "ava": "1",
-    "isc": "Hassassin Husam Yasbir",
+    "ava": "6",
+    "isc": "Hassassin Muyibs",
     "linkable": true
    },
    {
@@ -157,16 +156,19 @@
    },
    {
     "ava": "4",
-    "isc": "Asawira Regiment",
-    "linkable": true
+    "isc": "Asawira Regiment"
+   },
+   {
+    "ava": "2",
+    "isc": "Hassassin Ayyar"
    },
    {
     "ava": "2",
     "isc": "Hassassin Fiday"
    },
    {
-    "ava": "2",
-    "isc": "Hassassin Barid"
+    "ava": "3",
+    "isc": "Hassassin Farzans"
    },
    {
     "ava": "4",
@@ -174,10 +176,19 @@
    },
    {
     "ava": "1",
+    "isc": "Hassassin Husam Yasbir",
+    "linkable": true
+   },
+   {
+    "ava": "1",
     "isc": "Hussein Al-Djabel"
    },
    {
     "ava": "1",
+    "isc": "Avicenna"
+   },
+   {
+    "ava": "2",
     "isc": "Rafiq Remote"
    },
    {
@@ -203,6 +214,10 @@
    {
     "ava": "1",
     "isc": "Najjarun Engineer"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcors"
    },
    {
     "ava": "1",

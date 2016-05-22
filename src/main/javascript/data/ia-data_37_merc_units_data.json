@@ -279,7 +279,7 @@
    "280709-0346",
    "280714-0469"
   ],
-  "bts": "0",
+  "bts": "3",
   "isc": "Druze Shock Teams",
   "name": "Shock",
   "bs": "12",
@@ -294,7 +294,7 @@
   "ava": "2",
   "bsw": [],
   "spec": [
-   "X Visor"
+   "Fireteam: Duo"
   ],
   "ccw": [
    "CCW",
@@ -307,12 +307,29 @@
     "codename": "Combi",
     "swc": "0",
     "cbcode": [],
-    "spec": [],
+    "spec": ["X Visor"],
     "bsw": [
      "Combi Rifle",
-     "D.E.P."
+     "D.E.P.",
+     "Chain-Colt"
     ],
     "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Killer",
+    "cost": "21",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [
+     "Hacker",
+     "Killer Hacking Device"
+    ],
+    "bsw": [
+     "Combi Rifle"
+    ],
+    "ccw": ["D-Charges'"],
     "note": ""
    },
    {
@@ -328,16 +345,16 @@
     "bsw": [
      "Combi Rifle"
     ],
-    "ccw": [],
+    "ccw": ["D-Charges'"],
     "note": ""
    },
    {
     "code": "LGL",
     "cost": "23",
     "codename": "",
-    "swc": "1.5",
+    "swc": "0.5",
     "cbcode": [],
-    "spec": [],
+    "spec": ["X Visor"],
     "bsw": [
      "Combi Rifle",
      "Light GL"
@@ -351,7 +368,7 @@
     "codename": "",
     "swc": "1.5",
     "cbcode": [],
-    "spec": [],
+    "spec": ["X Visor"],
     "bsw": [
      "Spitfire"
     ],
