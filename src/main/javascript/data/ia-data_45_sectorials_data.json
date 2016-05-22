@@ -882,23 +882,30 @@
     "linkable": true
    },
    {
-    "ava": "4",
+    "ava": "5",
     "isc": "Reverend Moiras",
     "linkable": true
    },
    {
     "ava": "3",
-    "isc": "Reverend Healers",
-    "linkable": true
+    "isc": "Reverend Healers"
    },
    {
     "ava": "3",
-    "isc": "Reverend Custodiers",
-    "linkable": true
+    "isc": "Reverend Custodiers"
    },
    {
     "ava": "3",
     "isc": "Sin-Eater Observants"
+   },
+   {
+    "ava": "5",
+    "isc": "Riot Grrls",
+    "linkable": true
+   },
+   {
+     "ava": "4",
+     "isc": "Taskmasters"
    },
    {
     "ava": "3",
@@ -990,9 +997,8 @@
     "isc": "Daktaris"
    },
    {
-    "ava": "5",
-    "isc": "Riot Grrls",
-    "linkable": true
+    "ava": "1",
+    "isc": "Warcors"
    },
    {
     "ava": "1",
@@ -1105,11 +1111,11 @@
     "isc": "Zondbots"
    },
    {
-    "ava": "2",
+    "ava": "1",
     "isc": "Salyut Zonds"
    },
    {
-    "ava": "1",
+    "ava": "2",
     "isc": "Clockmakers"
    },
    {
@@ -1117,13 +1123,17 @@
     "isc": "Daktaris"
    },
    {
-    "ava": "3",
+    "ava": "2",
     "isc": "Corregidor Bandits"
    },
    {
     "ava": "5",
     "isc": "Corregidor Jaguars",
     "linkable": true
+   },
+   {
+    "ava": "1",
+    "isc": "Warcors"
    },
    {
     "ava": "1",
