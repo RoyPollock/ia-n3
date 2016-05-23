@@ -235,11 +235,6 @@
     "linkable": true
    },
    {
-    "ava": "5",
-    "isc": "Rodok, Morat Armed Imposition Detachment",
-    "linkable": true
-   },
-   {
     "ava": "1",
     "isc": "Treitak Anyat",
     "linkable": true
@@ -254,8 +249,17 @@
     "linkable": true
    },
    {
+    "ava": "5",
+    "isc": "Rodok, Morat Armed Imposition Detachment",
+    "linkable": true
+   },
+   {
     "ava": "3",
     "isc": "Rasyat Diplomatic Division"
+   },
+   {
+    "ava": "2",
+    "isc": "Raktorak"
    },
    {
     "ava": "5",
@@ -264,17 +268,11 @@
    },
    {
     "ava": "3",
-    "isc": "Sogarat Tempest Regiment",
-    "linkable": true
+    "isc": "Sogarat Tempest Regiment"
    },
    {
     "ava": "2",
     "isc": "Raicho Armoured Brigade"
-   },
-   {
-    "ava": "2",
-    "isc": "Oznat",
-    "linkable": true
    },
    {
     "ava": "3",
@@ -286,26 +284,28 @@
     "linkable": true
    },
    {
-    "ava": "4",
-    "isc": "The Hungries: \"Gakis\""
-   },
-   {
-    "ava": "4",
-    "isc": "The Hungries: \"Pretas\""
-   },
-   {
-    "ava": "1",
-    "isc": "Med-Tech Obsidon Medchanoid"
-   },
-   {
     "ava": "2",
-    "isc": "Raktorak",
+    "isc": "Oznat",
     "linkable": true
    },
    {
     "ava": "1",
     "isc": "Kornak Gazarot",
     "linkable": true
+   },
+   {
+    "ava": "4",
+    "isc": "The Hungries: \"Gakis\"",
+    "linkable": true
+   },
+   {
+    "ava": "4",
+    "isc": "The Hungries: \"Pretas\"",
+    "linkable": true
+   },
+   {
+    "ava": "1",
+    "isc": "Med-Tech Obsidon Medchanoid"
    },
    {
     "ava": "2",
@@ -328,8 +328,16 @@
     "isc": "R-Drone"
    },
    {
+    "ava": "1",
+    "isc": "E-Drone"
+   },
+   {
     "ava": "2",
     "isc": "Slave Drones"
+   },
+   {
+     "ava": "3",
+     "isc": "Krakot Renegades"
    },
    {
     "ava": "1",
@@ -339,12 +347,105 @@
  },
  {
   "army": "Combined Army",
+  "name": "Onyx Contact Force",
+  "units": [
+   {
+    "ava": "T",
+    "isc": "Unidron Batroids",
+    "linkable": true
+   },
+   {
+    "ava": "3",
+    "isc": "Nexus Operatives",
+    "linkable": true
+   },
+   {
+    "ava": "3",
+    "isc": "Fraacta Drop Unit"
+   },
+   {
+    "ava": "2",
+    "isc": "Shasvastii Noctifers"
+   },
+   {
+    "ava": "5",
+    "isc": "Rodok, Morat Armed Imposition Detachment",
+    "linkable": true
+   },
+   {
+    "ava": "3",
+    "isc": "Umbra Legates",
+    "linkable": true
+   },
+   {
+    "ava": "3",
+    "isc": "Umbra Samaritans"
+   },
+   {
+    "ava": "2",
+    "isc": "Suryats"
+   },
+   {
+    "ava": "4",
+    "isc": "Xeodron Batroids"
+   },
+   {
+    "ava": "2",
+    "isc": "Overdron Batroids"
+   },
+   {
+    "ava": "1",
+    "isc": "Shasvastii Special Armoured Corp Sphinx"
+   },
+   {
+    "ava": "2",
+    "isc": "Malignos"
+   },
+   {
+    "ava": "1",
+    "isc": "Med-Tech Obsidon Medchanoid"
+   },
+   {
+    "ava": "2",
+    "isc": "M-Drone"
+   },
+   {
+    "ava": "1",
+    "isc": "Q-Drone"
+   },
+   {
+    "ava": "1",
+    "isc": "T-Drone"
+   },
+   {
+    "ava": "1",
+    "isc": "R-Drone"
+   },
+   {
+    "ava": "1",
+    "isc": "E-Drone"
+   },
+   {
+    "ava": "2",
+    "isc": "Slave Drones"
+   },
+   {
+    "ava": "2",
+    "isc": "Ikadron"
+   },
+   {
+    "ava": "2",
+    "isc": "Imetron"
+   }
+  ]
+ },
+ {
+  "army": "Combined Army",
   "name": "Shavastii Expeditionary Force",
   "units": [
    {
     "ava": "T",
-    "isc": "Shavastii Seed-Soldiers",
-    "linkable": true
+    "isc": "Shavastii Seed-Soldiers"
    },
    {
     "ava": "1",
@@ -368,7 +469,7 @@
     "isc": "Shasvastii Noctifers"
    },
    {
-    "ava": "4",
+    "ava": "5",
     "isc": "Shasvastii Gwailos",
     "linkable": true
    },
@@ -387,7 +488,7 @@
     "linkable": true
    },
    {
-    "ava": "3",
+    "ava": "4",
     "isc": "\"The Shrouded\""
    },
    {
@@ -423,6 +524,10 @@
     "isc": "R-Drone"
    },
    {
+    "ava": "1",
+    "isc": "E-Drone"
+   },
+   {
     "ava": "2",
     "isc": "Slave Drones"
    },
@@ -432,7 +537,8 @@
    },
    {
     "ava": "1",
-    "isc": "Cadmus-Naish Agent Sheskiin"
+    "isc": "Cadmus-Naish Agent Sheskiin",
+    "linkable": "true"
    },
    {
     "ava": "1",

@@ -123,8 +123,13 @@
         if(units.sectorialName==='Morat Aggression Force'){
             units.unitsByIsc['Yaogat Strike Infantry'].childsByCode['Lieutenant'].swc='0';
             units.unitsByIsc['Kornak Gazarot'].childsByCode['Lt'].swc='0';
+            units.unitsByIsc['Suryats'].childsByCode['Lt'].swc='0';
             units.unitsByIsc['Rodok, Morat Armed Imposition Detachment'].childsByCode['LT'].swc='0';
         }
+        if(units.sectorialName==='Onyx Contact Force'){
+	    units.unitsByIsc['Nexus Operatives'].childsByCode['LT'].swc='0';
+	    units.unitsByIsc['Umbra Samaritans'].childsByCode['LT'].swc='0';
+	}
         if(units.sectorialName==='Shavastii Expeditionary Force'){
             units.unitsByIsc['Shasvastii Aswuangs'].childsByCode['Lieutenant'].swc='0';
             units.unitsByIsc['Shasvastii Gwailos'].childsByCode['Lieutenant'].swc='0';
