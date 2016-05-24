@@ -199,6 +199,10 @@
         if(units.factionName==='Ariadna' && units.sectorialName!='Caledonian Highlander Army' && units.unitsByIsc['William Wallace']){
             delete units.unitsByIsc['William Wallace'].childsByCode['Lieutenant'];
         }
+        if(units.sectorialName!='Corregidor Jurisdictional Command' && units.unitsByIsc['Senor Massacre']){
+            delete units.unitsByIsc['Senor Massacre'].childsByCode['Haris'];
+            delete units.unitsByIsc['Senor Massacre'].childsByCode['Haris BS'];
+        }
     };
 
     plugins.registerPlugin('armylistExtras',{

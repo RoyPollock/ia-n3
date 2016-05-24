@@ -1,5 +1,4 @@
 {
-    "notFor":["Yu Jing"],
     "mov": "4-4",
     "army": "Mercenary",
     "wip": "13",
@@ -209,13 +208,12 @@
    "Holoprojector L2"
   ],
   "ccw": [
-   "Knife",
-   "Pistol"
+   "Knife"
   ],
   "childs": [
    {
     "code": "Default",
-    "cost": "15",
+    "cost": "16",
     "codename": "Rifle",
     "swc": "0",
     "cbcode": [],
@@ -224,12 +222,12 @@
      "Rifle",
      "Light Shotgun"
     ],
-    "ccw": [],
+    "ccw": ["Pistol"],
     "note": ""
    },
    {
     "code": "Shotgun",
-    "cost": "14",
+    "cost": "15",
     "codename": "BS",
     "swc": "0",
     "cbcode": [],
@@ -237,25 +235,25 @@
     "bsw": [
      "Boarding Shotgun"
     ],
-    "ccw": [],
+    "ccw": ["Pistol"],
     "note": ""
    },
    {
     "code": "AP Rifle",
-    "cost": "15",
+    "cost": "17",
     "codename": "",
-    "swc": "0.5",
+    "swc": "0",
     "cbcode": [],
     "spec": [],
     "bsw": [
      "AP Rifle"
     ],
-    "ccw": [],
+    "ccw": ["Breaker Pistol (2)"],
     "note": ""
    },
    {
     "code": "E/Mauler",
-    "cost": "16",
+    "cost": "17",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -264,7 +262,21 @@
      "Combi Rifle",
      "E/Mauler"
     ],
-    "ccw": [],
+    "ccw": ["Pistol"],
+    "note": ""
+   },
+   {
+    "code": "SMG",
+    "cost": "12",
+    "codename": "",
+    "swc": "0",
+    "cbcode": [],
+    "spec": [],
+    "bsw": [
+     "Submachine gun",
+     "Chain-Colt"
+    ],
+    "ccw": ["Pistol"],
     "note": ""
    }
   ],
@@ -412,7 +424,7 @@
   "childs": [
    {
     "code": "T2 Sniper",
-    "cost": "21",
+    "cost": "24",
     "codename": "",
     "swc": "1",
     "cbcode": [],
@@ -425,7 +437,7 @@
    },
    {
     "code": "Default",
-    "cost": "20",
+    "cost": "21",
     "codename": "Sniper",
     "swc": "0.5",
     "cbcode": [],
@@ -472,7 +484,7 @@
    "Super-Jump"
   ],
   "ccw": [
-   "DA Templar CCW"
+   "Templar CCW (Forge 2)"
   ],
   "childs": [
    {
@@ -506,7 +518,7 @@
   "cube": "X",
   "type": "LI",
   "ph": "10",
-  "cc": "14",
+  "cc": "15",
   "arm": "1",
   "irr": "",
   "w": "1",
@@ -558,7 +570,7 @@
  {
   "mov": "4-4",
   "army": "Mercenary",
-  "wip": "14",
+  "wip": "13",
   "cbcode": [
    "280704-0142"
   ],
@@ -658,20 +670,20 @@
   "functions": []
  },
  {
-  "mov": "6-4",
+  "mov": "6-2",
   "army": "Mercenary",
   "wip": "15",
   "cbcode": [
    "280705-0174"
   ],
-  "bts": "0",
+  "bts": "3",
   "isc": "Avicenna",
   "name": "Avicenna",
   "bs": "11",
   "note": "",
   "cube": "X",
   "type": "LI",
-  "ph": "13",
+  "ph": "11",
   "cc": "13",
   "arm": "2",
   "irr": "",
@@ -691,7 +703,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "29",
+    "cost": "27",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -734,13 +746,13 @@
    "X Visor"
   ],
   "ccw": [
-   "Pistol",
+   "Heavy Pistol",
    "Electric Pulse"
   ],
   "childs": [
    {
     "code": "Default",
-    "cost": "23",
+    "cost": "25",
     "codename": "",
     "swc": "0",
     "cbcode": [],
@@ -760,7 +772,7 @@
   "cbcode": [
    "280707-0298"
   ],
-  "bts": "0",
+  "bts": "3",
   "isc": "Senor Massacre",
   "name": "Señor Massacre",
   "bs": "12",
@@ -775,11 +787,12 @@
   "ava": "1",
   "bsw": [
    "E/M Grenades",
-   "Zero-V Smoke Grenades"
+   "Eclipse Grenades"
   ],
   "spec": [
    "Dual Wield",
    "Natural Born Warrior",
+   "Kinematika L2",
    "Regeneration"
   ],
   "ccw": [
@@ -790,24 +803,50 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "28",
+    "cost": "29",
     "codename": "",
     "swc": "0",
     "cbcode": [],
     "spec": [],
     "bsw": [
-     "Combi Rifle"
+     "Breaker Combi Rifle"
     ],
     "ccw": [],
     "note": ""
    },
    {
     "code": "Shotgun",
-    "cost": "27",
+    "cost": "26",
     "codename": "",
     "swc": "0",
     "cbcode": [],
     "spec": [],
+    "bsw": [
+     "Boarding Shotgun"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Haris",
+    "cost": "30",
+    "codename": "",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": ["Fireteam: Haris"],
+    "bsw": [
+     "Breaker Combi Rifle"
+    ],
+    "ccw": [],
+    "note": ""
+   },
+   {
+    "code": "Haris BS",
+    "cost": "27",
+    "codename": "",
+    "swc": "0.5",
+    "cbcode": [],
+    "spec": ["Fireteam: Haris"],
     "bsw": [
      "Boarding Shotgun"
     ],
@@ -840,11 +879,12 @@
   "ava": "1",
   "bsw": [
    "Combi Rifle",
-   "Marker"
+   "Pitcher"
   ],
   "spec": [
    "Hacker",
-   "Hacking Device"
+   "Hacking Device",
+   "Upgrade: Expel"
   ],
   "ccw": [
    "Pistol",
@@ -853,7 +893,7 @@
   "childs": [
    {
     "code": "Default",
-    "cost": "22",
+    "cost": "21",
     "codename": "",
     "swc": "0.5",
     "cbcode": [],
@@ -1009,17 +1049,17 @@
  "arm": "1",
  "army": "Mercenary",
  "ava": "1",
- "bs": "11",
+ "bs": "12",
  "bsw": [
   "Contender",
   "Nanopulser",
   "Smoke Grenades",
   "Smoke LGL",
-   "CrazyKoala (2)"
+  "CrazyKoala"
  ],
- "bts": "0",
+ "bts": "3",
  "cbcode": ["280716-0490"],
- "cc": "20",
+ "cc": "24",
  "ccw": [
   "Pistol",
   "DA CCW"
@@ -1030,14 +1070,14 @@
   "Contender",
   "Nanopulser",
   "Smoke Grenades",
-   "CrazyKoala (2)"],
+   "CrazyKoala"],
    "cbcode": [],
    "ccw": [],
    "code": "Default",
    "codename": "",
    "cost": "21",
    "note": "",
-   "spec": ["Kinematika L1","Martial Arts L4", "V: No Wound Incapacitation"],
+   "spec": [],
    "swc": "0"
   }
  ],
@@ -1059,20 +1099,11 @@
  "wip": "13",
   "altp": [
    {
-    "arm": "0",
-    "isc": "CrazyKoala",
-    "mov": "6-4 ",
-    "w": "1 ",
-    "cc":" ",
-    "bs":" ",
-    "type":" ",
-    "ph":" ",
-    "wip":" ",
-    "bts": "0",
-     "ava":" ",
-     "spec":["Super Jump"],
-     "bsw":[],
-     "ccw":[]
+    "isc": "Yojimbo (dismounted)",
+    "mov": "4-4",
+    "w": "1",
+    "spec":["Kinematika L1", "Martial Arts L4", "V: No Wound Incapacitation"],
+     "bsw":["Contender","Nanopulser","Smoke Grenades", "CrazyKoala"]
    }
   ]
 }
@@ -1088,9 +1119,9 @@
  ],
  "bts": "6",
  "cbcode": ["280710-0365"],
- "cc": "17",
+ "cc": "19",
  "ccw": [
-  "CCW"
+  "AP CCW"
  ],
  "childs": [
   {
@@ -1099,7 +1130,7 @@
    "ccw": [],
    "code": "Default",
    "codename": "",
-   "cost": "47",
+   "cost": "51",
    "note": "",
    "spec": [
    ],
@@ -1117,7 +1148,8 @@
  "spec": [
   "ECM",
   "V: Courage",
-    "Companion: Cordelia"
+  "Assault",
+  "Companion: Cordelia"
  ],
  "type": "TAG",
  "w": "3",
@@ -1147,7 +1179,7 @@
  "bs": "11",
  "bsw": [
   "Combi Rifle",
-  "Chain Colt"
+  "Chain-Colt"
  ],
  "bts": "3",
  "cbcode": ["280710-0365"],
@@ -1271,7 +1303,7 @@
    "codename": "",
    "cost": "17",
    "note": "",
-   "spec": [],
+   "spec": ["Hacker","Defensive Hacking Device"],
    "swc": "0.5"
   }
  ],
@@ -1487,7 +1519,7 @@
  "ph": "12",
  "spec": [
   "Forward Deployment L1",
-  "ODD",
+  "ODD: Optical Disruptor",
   "Symbiont Armor"
  ],
  "type": "MI",
@@ -1496,18 +1528,11 @@
  "altp":[{
   "mov": "4-4",
   "army": "Mercenary",
-  "wip": "13",
-  "cbcode": [],
-  "bts": "0",
   "isc": "Armand (Inactive Armor)",
   "name": "Armand (Inactive Armor)",
-  "bs": "13",
-  "note": "",
-  "cube": "X",
   "arm": "0",
   "w": "1",
-  "ava": " ",
-  "spec": []
+  "spec": ["Symbiont Armor"]
  }]
 }
 ,
@@ -1582,4 +1607,113 @@
    "Spitfire"
   ]
  }]
+},
+{
+    "mov": "4-4",
+    "army": "Mercenary",
+    "wip": "12",
+    "itsMerc": "X",
+    "cbcode": [
+    ],
+    "bts": "0",
+    "isc": "Krakot Renegades",
+    "name": "Krakot Renegade",
+    "bs": "11",
+    "note": "",
+    "cube": "",
+    "type": "LI",
+    "ph": "13",
+    "cc": "21",
+    "arm": "1",
+    "irr": "",
+    "w": "1",
+    "ava": "2",
+    "bsw": [
+    ],
+    "spec": [
+      "Beserk","Forward Deployment L1",
+      "Kinematika L1", "MetaChemistry L2", "Morat"
+    ],
+    "ccw": [
+    "Pistol"
+    ],
+    "childs": [
+    {
+        "code": "Default",
+        "cost": "17",
+        "codename": "DualSMG",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+         "Submachine gun (2)", "Chest Mines"
+        ],
+        "ccw": [
+        "Shock CCW"
+        ],
+        "note": ""
+    },
+    {
+        "code": "Shotgun",
+        "cost": "18",
+        "codename": "BS",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+        "Boarding Shotgun", "Chest Mines"
+        ],
+        "ccw": [
+        "Shock CCW"
+        ],
+        "note": ""
+    },
+    {
+        "code": "Dual Chain",
+        "cost": "14",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+          "Chain Rifle (2)", "Grenades"
+        ],
+        "ccw": [
+        "DA CCW"
+        ],
+        "note": ""
+    },
+    {
+        "code": "SMG",
+        "cost": "15",
+        "codename": "",
+        "swc": "0",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+          "Submachine gun", "Chest Mines"
+        ],
+        "ccw": [
+          "DA CCW"
+        ],
+        "note": ""
+    },
+    {
+        "code": "Fury",
+        "cost": "24",
+        "codename": "",
+        "swc": "1",
+        "cbcode": [],
+        "spec": [],
+        "bsw": [
+          "Red Fury", "Chest Mines"
+        ],
+        "ccw": [
+        "Shock CCW"
+        ],
+	"note": ""
+    }
+    ],
+    "imp": "X",
+    "functions": []
 }
