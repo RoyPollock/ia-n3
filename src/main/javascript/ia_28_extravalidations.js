@@ -98,7 +98,7 @@
     },function(){
         if(units.factionName==="Aleph"){
             log('testing proxy');
-            var proxy=["Posthumans Proxy Mk.1","Posthumans Proxy Mk.2","Posthumans Proxy Mk.3"];
+            var proxy=["Posthumans Proxy Mk.1","Posthumans Proxy Mk.2","Posthumans Proxy Mk.3","Posthumans Proxy Mk.4","Posthumans Proxy Mk.5"];
             var proxies=[];
             $.each(proxy,function(i,proxy){
                 if(armyList.listRecordsByIsc[proxy]){
@@ -107,6 +107,10 @@
             });
             if(proxies.length==1){
                 armyList.warnings.push('the minimum number of Posthuman Proxies is 2');
+                armyList.addWarning(proxies);
+            }
+            if(proxies.length>3){
+                armyList.warnings.push('the maximum number of Posthuman Proxies is 3');
                 armyList.addWarning(proxies);
             }
         }        

@@ -1734,56 +1734,28 @@
   "name": "Steel Phalanx",
   "units": [
    {
-    "ava": "4",
-    "isc": "Ekdromoi"
+    "ava": "T",
+    "isc": "Myrmidons"
    },
    {
     "ava": "4",
     "isc": "Dactyls"
    },
    {
-    "ava": "1",
-    "isc": "Acmon, Sergeant of Dactyls"
-   },
-   {
-    "ava": "1",
-    "isc": "Chandra Sergeant Thrasymedes"
-   },
-   {
-    "ava": "1",
-    "isc": "Diomedes"
-   },
-   {
-    "ava": "1",
-    "isc": "Thamyris"
-   },
-   {
-    "ava": "1",
-    "isc": "Scylla, Steel Phalanx's NCO"
-   },
-   {
-    "ava": "1",
-    "isc": "Drakios, Steel Phalanx's NCO"
-   },
-   {
     "ava": "6",
     "isc": "Throakitai"
+   },
+   {
+    "ava": "4",
+    "isc": "Ekdromoi"
    },
    {
     "ava": "2",
     "isc": "Agema Marksman"
    },
    {
-    "ava": "1",
-    "isc": "Nesaie Alke"
-   },
-   {
-    "ava": "1",
-    "isc": "Patroclus"
-   },
-   {
-    "ava": "1",
-    "isc": "Atlanta"
+    "ava": "3",
+    "isc": "Myrmidon Officer"
    },
    {
     "ava": "1",
@@ -1795,19 +1767,11 @@
    },
    {
     "ava": "1",
-    "isc": "Hector, Homeridae's Champion"
+    "isc": "Patroclus"
    },
    {
     "ava": "1",
-    "isc": "Ajax"
-   },
-   {
-    "ava": "T",
-    "isc": "Myrmidons"
-   },
-   {
-    "ava": "3",
-    "isc": "Myrmidon Officer"
+    "isc": "Nesaie Alke"
    },
    {
     "ava": "1",
@@ -1823,11 +1787,51 @@
    },
    {
     "ava": "1",
+    "isc": "Ajax"
+   },
+   {
+    "ava": "1",
+    "isc": "Atlanta"
+   },
+   {
+    "ava": "1",
+    "isc": "Diomedes"
+   },
+   {
+    "ava": "1",
     "isc": "Penthesilea"
    },
    {
     "ava": "1",
-    "isc": "Spotbot"
+    "isc": "Thamyris"
+   },
+   {
+    "ava": "1",
+    "isc": "Scylla, Steel Phalanx's NCO"
+   },
+   {
+    "ava": "1",
+    "isc": "Drakios, Steel Phalanx's NCO"
+   },
+   {
+    "ava": "1",
+    "isc": "Acmon, Sergeant of Dactyls"
+   },
+   {
+    "ava": "1",
+    "isc": "Teucer, Agema Warrant Officer"
+   },
+   {
+    "ava": "1",
+    "isc": "Andromeda"
+   },
+   {
+    "ava": "1",
+    "isc": "Chandra Sergeant Thrasymedes"
+   },
+   {
+    "ava": "1",
+    "isc": "Hector, Homeridae's Champion"
    },
    {
     "ava": "2",
@@ -1854,8 +1858,12 @@
     "isc": "Netrods"
    },
    {
-    "ava": "2",
+    "ava": "1",
     "isc": "Probots"
+   },
+   {
+    "ava": "1",
+    "isc": "Warcors"
    },
    {
     "ava": "1",
